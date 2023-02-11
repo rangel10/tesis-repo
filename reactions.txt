@@ -1,0 +1,250 @@
+
+-------- 34DHBA --------
+
+1. 2dda7p -> 3dhq <=> 3dhsk -> 34dhbz <=> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk -> 34dhbz
+* 34dhbz <=> 34dhbald
+
+2. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor -> 4hbz -> 34dhbz <=> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor -> 4hbz
+* 4hbz -> 34dhbz
+* 34dhbz <=> 34dhbald
+
+3. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor -> 4hbz <=> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor -> 4hbz
+* 4hbz <=> 4hbald
+* 4hbald -> 34dhbald
+
+4. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> 4cou -> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp <=> tyr__L
+* tyr__L -> 4cou
+* 4cou -> 4hbald
+* 4hbald -> 34dhbald
+
+5. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> 4cou -> 4hbald -> 34dhbald 
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn <=> Largn
+* Largn -> tyr__L
+* tyr__L -> 4cou
+* 4cou -> 4hbald
+* 4hbald -> 34dhbald
+
+6. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou -> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp -> 34hpl
+* 34hpl <=> 4cou
+* 4cou -> 4hbald
+* 4hbald -> 34dhbald
+
+7. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> 4cou -> caff <=> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp <=> tyr__L
+* tyr__L -> 4cou
+* 4cou -> caff
+* caff <=> caffcoa
+* caffcoa -> 34dhbald
+
+8. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> 4cou <=> coucoa -> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp <=> tyr__L
+* tyr__L -> 4cou
+* 4cou <=> coucoa
+* coucoa -> caffcoa
+* caffcoa -> 34dhbald
+
+9. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> 4cou <=> coucoa -> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp <=> tyr__L
+* tyr__L -> 4cou
+* 4cou <=> coucoa
+* coucoa -> 4hbald
+* 4hbald -> 34dhbald
+
+10. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> 4cou -> caff <=> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn <=> Largn
+* Largn -> tyr__L
+* tyr__L -> 4cou
+* 4cou -> caff
+* caff <=> caffcoa
+* caffcoa -> 34dhbald
+
+11. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> 4cou <=> coucoa -> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn <=> Largn
+* Largn -> tyr__L
+* tyr__L -> 4cou
+* 4cou <=> coucoa
+* coucoa -> caffcoa
+* caffcoa -> 34dhbald
+
+12. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> 4cou <=> coucoa -> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn <=> Largn
+* Largn -> tyr__L
+* tyr__L -> 4cou
+* 4cou <=> coucoa
+* coucoa -> 4hbald
+* 4hbald -> 34dhbald
+
+13. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou -> caff <=> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp -> 34hpl
+* 34hpl <=> 4cou
+* 4cou -> caff
+* caff <=> caffcoa
+* caffcoa -> 34dhbald
+
+14. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou <=> coucoa -> caffcoa -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp -> 34hpl
+* 34hpl <=> 4cou
+* 4cou <=> coucoa
+* coucoa -> caffcoa
+* caffcoa -> 34dhbald
+
+15. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou <=> coucoa -> 4hbald -> 34dhbald
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp -> 34hpl
+* 34hpl <=> 4cou
+* 4cou <=> coucoa
+* coucoa -> 4hbald
+* 4hbald -> 34dhbald
+
+-------- Tym --------
+
+16. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn -> 34hpp
+* 34hpp <=> tyr__L
+* tyr__L -> tym
+
+17. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
+
+* 2dda7p -> 3dhq
+* 3dhq <=> 3dhsk
+* 3dhsk <=> skm
+* skm -> skm3p
+* skm3p <=> 3psme
+* 3psme -> chor
+* chor <=> pphn
+* pphn <=> Largn
+* Largn -> tyr__L
+* tyr__L -> tym

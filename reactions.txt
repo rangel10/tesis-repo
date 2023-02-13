@@ -6,8 +6,8 @@ SACCHAROMYCES CEREVISIAE
 1. 2dda7p -> 3dhq <=> 3dhsk -> 34dhbz <=> 34dhbald
 
 * 2dda7p_c -> 3dhq_c + pi_c
-* 3dhq_c -> 3dhsk_C + h2o_c
-* 3dhsk -> 34dhbz     // No esta en modelo
+* 3dhq_c -> 3dhsk_c + h2o_c
+* 3dhsk_c -> 34dhbz_c + h2o_c     // No esta en modelo
 * 34dhbz <=> 34dhbald     // No esta en modelo 
 
 2. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor -> 4hbz -> 34dhbz <=> 34dhbald
@@ -62,22 +62,6 @@ SACCHAROMYCES CEREVISIAE
 * pphn <=> Largn     // No esta en modelo
 * Largn -> tyr__L     // No esta en modelo
 * tyr__L -> 4cou     // No esta en modelo
-* 4cou -> 4hbald     // No esta en modelo
-* 4hbald -> 34dhbald     // No esta en modelo
-
-6. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou -> 4hbald -> 34dhbald
-
-* 2dda7p_c -> 3dhq_c + pi_c
-* 3dhq_c -> 3dhsk_c + h2o_c
-* 3dhsk_c + h_c + nadph -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm5p_c
-* pep_c + skm5p_c -> 3psme_c + pi_c
-* 3psme_c -> chor_c + pi_c
-* chor_c -> pphn_c
-* nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
-* 34hpp_m + h_m + nadh_m -> 34hpl_m + nad_m
-*** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
-* 34hpl <=> 4cou     // No esta en modelo
 * 4cou -> 4hbald     // No esta en modelo
 * 4hbald -> 34dhbald     // No esta en modelo
 
@@ -180,60 +164,9 @@ SACCHAROMYCES CEREVISIAE
 * coucoa -> 4hbald     // No esta en modelo
 * 4hbald -> 34dhbald     // No esta en modelo
 
-13. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou -> caff <=> caffcoa -> 34dhbald
-
-* 2dda7p_c -> 3dhq_c + pi_c
-* 3dhq_c -> 3dhsk_c + h2o_c
-* 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm5p_c
-* pep_c + skm5p_c -> 3psme_c + pi_c
-* 3psme_c -> chor_c + pi_c
-* chor_c -> pphn_c
-* nad_c+ pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
-* 34hpp_m + h_m + nadh_m -> 34hpl_m + nad_m
-*** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
-* 34hpl <=> 4cou     // No esta en modelo
-* 4cou -> caff     // No esta en modelo
-* caff <=> caffcoa     // No esta en modelo
-* caffcoa -> 34dhbald     // No esta en modelo
-
-14. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou <=> coucoa -> caffcoa -> 34dhbald
-
-* 2dda7p_c -> 3dhq_c + pi_c
-* 3dhq_c -> 3dhsk_c + h2o_c
-* 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm5p_c
-* pep_c + skm5p_c -> 3psme_c + pi_c
-* 3psme_c -> chor_c + pi_c
-* chor_c -> pphn_c
-* nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
-* 34hpp_m + h_m + nadh_m -> 34hpl_m + nad_m
-*** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
-* 34hpl <=> 4cou     // No esta en modelo
-* 4cou <=> coucoa     // No esta en modelo
-* coucoa -> caffcoa     // No esta en modelo
-* caffcoa -> 34dhbald     // No esta en modelo
-
-15. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp -> 34hpl <=> 4cou <=> coucoa -> 4hbald -> 34dhbald
-
-* 2dda7p_c -> 3dhq_c + pi_c
-* 3dhq_c -> 3dhsk_c + h2o_c
-* 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm5p_c
-* pep_c + skm5p_c -> 3psme_c + pi_c
-* 3psme_c -> chor_c + pi_c
-* chor_c -> pphn_c
-* nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
-* 34hpp_m + h_m + nadh_m -> 34hpl_m + nad_m
-*** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
-* 34hpl <=> 4cou     // No esta en modelo
-* 4cou <=> coucoa     // No esta en modelo
-* coucoa -> 4hbald     // No esta en modelo
-* 4hbald -> 34dhbald     // No esta en modelo
-
 -------- Tym --------
 
-16. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym
+1. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym
 
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c -> 3dhsk_c + h2o_c
@@ -247,7 +180,7 @@ SACCHAROMYCES CEREVISIAE
 *** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
 * tyr__L -> tym     // No esta en modelo
 
-17. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
+2. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
 
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c -> 3dhsk_c + h2o_c

@@ -8,7 +8,7 @@ SACCHAROMYCES CEREVISIAE
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c -> 3dhsk_c + h2o_c
 * 3dhsk_c -> 34dhbz_c + h2o_c     // No esta en modelo
-* 34dhbz <=> 34dhbald     // No esta en modelo 
+* 34dhbz_c + atp_c + nadph_c + h_c <=> 34dhbzal_c + amp_c + nadp_c + ppi_c    // No esta en modelo 
 
 2. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor -> 4hbz -> 34dhbz <=> 34dhbald
 
@@ -19,7 +19,7 @@ SACCHAROMYCES CEREVISIAE
 * pep_c + skm5p_c -> 3psme_c + pi_c
 * 3psme_c -> chor_c + pi_c
 * chor_c -> 4hbz_c + pyr_c
-* 4hbz -> 34dhbz     // No esta en modelo
+* 4hbz_c + nadph_c + o2_c + h_c -> 34dhbz_c + nadp_c + h2o_c     // No esta en modelo
 * 34dhbz <=> 34dhbald     // No esta en modelo
 
 3. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor -> 4hbz <=> 4hbald -> 34dhbald

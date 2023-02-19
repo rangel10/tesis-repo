@@ -3,6 +3,7 @@ SACCHAROMYCES CEREVISIAE
 Notes:
 4cou=T4hcinnm
 caff=34dhcinm
+skm5p=skm3p
 
 -------- 34DHBA --------
 
@@ -18,8 +19,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p  
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p  
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c -> 4hbz_c + pyr_c
 * 4hbz_c + nadph_c + o2_c + h_c -> 34dhbz_c + nadp_c + h2o_c     // No esta en modelo
@@ -30,11 +31,11 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // sk5mp
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // sk5mp ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c -> 4hbz_c + pyr_c
-* 4hbz_c + atp_c + nadph_c + h_c <=> 4hbzal_c + amp_c + nadp_c + ppi_c     // No esta en modelo (?)
+* 4hbz_c + atp_c + nadph_c + h_c <=> 4hbald_c + amp_c + nadp_c + ppi_c     // No esta en modelo (?)
 * 4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c     // No esta en modelo (?)
 
 4. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> 4cou -> 4hbald -> 34dhbald
@@ -42,8 +43,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
@@ -58,8 +59,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo
@@ -73,8 +74,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
@@ -90,8 +91,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
@@ -107,8 +108,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo
@@ -123,8 +124,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo
@@ -141,8 +142,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * nad_c + pphn_c -> 34hpp_c + co2_c + nadh_c || pphn_c + nadp_c -> 34hpp_c + co2_c + nadph_c
@@ -155,8 +156,8 @@ caff=34dhcinm
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
 * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
-* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p 
-* pep_c + skm3p_c <=> 3psme_c + pi_c     // skm5p ->
+* atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+* pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c
 * chor_c <=> pphn_c     // ->
 * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo

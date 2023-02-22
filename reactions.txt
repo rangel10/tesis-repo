@@ -18,7 +18,7 @@ skm5p=skm3p
 
 * 2dda7p_c -> 3dhq_c + pi_c
 * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
-* 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
+* 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c 
 * atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p  
 * pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
 * 3psme_c -> chor_c + pi_c

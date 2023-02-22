@@ -1,6 +1,9 @@
 function [final_model] = addFixedRxns(model, tym_route)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
+    final_model = addReaction(model,'DHQTi','3dhq_c -> 3dhsk_c + h2o_c'); %*
+    final_model = addReaction(final_model,'PSCVT', 'pep_c + skm5p_c -> 3psme_c + pi_c'); %*
+    final_model = addReaction(final_model,'CHORM', 'chor_c -> pphn_c'); %*
     if tym_route=='1' % 3-(4-Hydroxyphenyl)pyruvate
         % 3.1) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym
         % 
@@ -15,12 +18,9 @@ function [final_model] = addFixedRxns(model, tym_route)
         % * 34hpp_c + glu__L_c <=> akg_c + tyr__L_c || 34hpp_m + glu__L_m <=> akg_m + tyr__L_m || 34hpp_x + glu__L_x <=> akg_x + tyr__L_x     // ->
         % *** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
         % * tyr__L_c + h_c -> tym_c + co2_c     // No esta en modelo
-        final_model = addReaction(model,'DHQTi','3dhq_c <=> 3dhsk_c + h2o_c');
-        final_model = addReaction(final_model,'PSCVT', 'pep_c + skm5p_c <=> 3psme_c + pi_c');
-        final_model = addReaction(final_model,'CHORM', 'chor_c <=> pphn_c');
-        final_model = addReaction(final_model,'TYRTAi', '34hpp_c + glu__L_c <=> akg_c + tyr__L_c');
-        final_model = addReaction(final_model,'TYRTAim', '34hpp_m + glu__L_m <=> akg_m + tyr__L_m');
-        final_model = addReaction(final_model,'TYRTAip', '34hpp_x + glu__L_x <=> akg_x + tyr__L_x');
+        final_model = addReaction(final_model,'TYRTAi', '34hpp_c + glu__L_c -> akg_c + tyr__L_c'); %*
+        final_model = addReaction(final_model,'TYRTAim', '34hpp_m + glu__L_m -> akg_m + tyr__L_m'); %*
+        final_model = addReaction(final_model,'TYRTAip', '34hpp_x + glu__L_x -> akg_x + tyr__L_x'); %*
         final_model = addReaction(final_model,'added_tyr__L_tym', 'tyr__L_c + h_c -> tym_c + co2_c');
     else % L-Arogenate
         % 3.2) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
@@ -35,9 +35,6 @@ function [final_model] = addFixedRxns(model, tym_route)
         % * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo
         % * Largn_c + nad_c -> tyr__L_c + co2_c + nadh_c || Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c     // No esta en modelo
         % * tyr__L_c + h_c -> tym_c + co2_c     // No esta en modelo
-        final_model = addReaction(model,'DHQTi','3dhq_c <=> 3dhsk_c + h2o_c');
-        final_model = addReaction(final_model,'PSCVT', 'pep_c + skm5p_c <=> 3psme_c + pi_c');
-        final_model = addReaction(final_model,'CHORM', 'chor_c <=> pphn_c');
         final_model = addReaction(final_model,'added_pphn_Largn', 'pphn_c + glu__L_c <=> Largn_c + akg_c');
         final_model = addReaction(final_model,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
         final_model = addReaction(final_model,'added_tyr__L_tym', 'tyr__L_c + h_c -> tym_c + co2_c');

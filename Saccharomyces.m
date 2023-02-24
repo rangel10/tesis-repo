@@ -15,7 +15,6 @@ sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 
 
 % Analisis modelo base con condiciones iniciales
-
 FBAsolution_b = optimizeCbModel(sacc_model_b,'max');
 F_b = FBAsolution_b.f;
 

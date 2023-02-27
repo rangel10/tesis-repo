@@ -70,5 +70,7 @@ function [final_model] = addFixedRxns(model, tym_route)
 
     % Cambiar funcion objetivo
     final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace','EX_4omet_e'},[0.5,0.5]);
+    %final_model = changeObjective(final_model,{'EX_4omet_e'});
+    %final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace'});
 end
 

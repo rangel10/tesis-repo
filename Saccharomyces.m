@@ -10,6 +10,7 @@ sacc_model = readCbModel('iMM904.mat');
 sacc_model_b = changeRxnBounds(sacc_model, 'EX_glc__D_e',-100,'l');
 sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 
+
 % Exportar xls de modelo con condiciones iniciales
 % outmodel = writeCbModel(sacc_model_a, 'xls','sacc_model_a.xls');
 

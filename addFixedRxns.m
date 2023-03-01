@@ -66,7 +66,7 @@ function [final_model] = addFixedRxns(model, tym_route)
         final_model = addReaction(final_model,'added_pphn_Largn', 'pphn_c + glu__L_c <=> Largn_c + akg_c');
         final_model = addReaction(final_model,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
     end
-
+    final_model = changeRxnBounds(final_model,'EX_4omet_e',1,'l');
     % Cambiar funcion objetivo
     final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace','EX_4omet_e'},[0.5,0.5]);
     %final_model = changeObjective(final_model,{'EX_4omet_e'});

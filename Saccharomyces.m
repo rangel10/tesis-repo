@@ -10,6 +10,9 @@ sacc_model = readCbModel('iMM904.mat');
 sacc_model_b = changeRxnBounds(sacc_model, 'EX_glc__D_e',-100,'l');
 sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 
+% ATP Maintenance
+% sacc_model_b = changeRxnBounds(sacc_model_b,'ATPM',0.1,'l');
+% sacc_model_b = changeRxnBounds(sacc_model_b,'ATPM',0.1,'u');
 
 % Exportar xls de modelo con condiciones iniciales
 % outmodel = writeCbModel(sacc_model_a, 'xls','sacc_model_a.xls');
@@ -322,7 +325,13 @@ F_05_02 = FBAsolution_05_02.f;
 
 % 2.7
 sacc_model_07_01 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
+%sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+
+% aux?
+% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fad','fad_m <=> fad_c');
+
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
 
@@ -390,8 +399,10 @@ F_07_02 = FBAsolution_07_02.f;
 
 % 2.9
 sacc_model_09_01 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
+%sacc_model_09_01 = addReaction(sacc_model_09_01,'added_T4hcinnm_coucoa','T4hcinnm_c + atp_c + coa_c -> coucoa_c + amp_c + ppi_c');
 sacc_model_09_01 = addReaction(sacc_model_09_01,'added_T4hcinnm_coucoa','T4hcinnm_c + atp_c + coa_c -> coucoa_c + amp_c + ppi_c');
-sacc_model_09_01 = addReaction(sacc_model_09_01,'added_coucoa_4hbald','coucoa_c + h2o_c → 4hbald_c + accoa_c');
+sacc_model_09_01 = addReaction(sacc_model_09_01,'added_coucoa_4hbald','coucoa_c + h2o_c -> 4hbald_c + accoa_c');
+%sacc_model_09_01 = addReaction(sacc_model_09_01,'added_4hbald_34dhbald','4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c');
 sacc_model_09_01 = addReaction(sacc_model_09_01,'added_4hbald_34dhbald','4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c');
 
 % 3.1 y finales
@@ -425,7 +436,7 @@ F_09_01 = FBAsolution_09_01.f;
 % 2.9
 sacc_model_09_02 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_09_02 = addReaction(sacc_model_09_02,'added_T4hcinnm_coucoa','T4hcinnm_c + atp_c + coa_c -> coucoa_c + amp_c + ppi_c');
-sacc_model_09_02 = addReaction(sacc_model_09_02,'added_coucoa_4hbald','coucoa_c + h2o_c → 4hbald_c + accoa_c');
+sacc_model_09_02 = addReaction(sacc_model_09_02,'added_coucoa_4hbald','coucoa_c + h2o_c -> 4hbald_c + accoa_c');
 sacc_model_09_02 = addReaction(sacc_model_09_02,'added_4hbald_34dhbald','4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c');
 
 % 3.2 y finales
@@ -528,7 +539,7 @@ sacc_model_12_01 = addReaction(sacc_model_b,'added_pphn_Largn', 'pphn_c + glu__L
 sacc_model_12_01 = addReaction(sacc_model_12_01,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
 sacc_model_12_01 = addReaction(sacc_model_12_01,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_12_01 = addReaction(sacc_model_12_01,'added_T4hcinnm_coucoa','T4hcinnm_c + atp_c + coa_c -> coucoa_c + amp_c + ppi_c');
-sacc_model_12_01 = addReaction(sacc_model_12_01,'added_coucoa_4hbald','coucoa_c + h2o_c → 4hbald_c + accoa_c');
+sacc_model_12_01 = addReaction(sacc_model_12_01,'added_coucoa_4hbald','coucoa_c + h2o_c -> 4hbald_c + accoa_c');
 sacc_model_12_01 = addReaction(sacc_model_12_01,'added_4hbald_34dhbald','4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c');
 
 % 3.1 y finales
@@ -561,7 +572,7 @@ F_12_01 = FBAsolution_12_01.f;
 % 2.12
 sacc_model_12_02 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_12_02 = addReaction(sacc_model_12_02,'added_T4hcinnm_coucoa','T4hcinnm_c + atp_c + coa_c -> coucoa_c + amp_c + ppi_c');
-sacc_model_12_02 = addReaction(sacc_model_12_02,'added_coucoa_4hbald','coucoa_c + h2o_c → 4hbald_c + accoa_c');
+sacc_model_12_02 = addReaction(sacc_model_12_02,'added_coucoa_4hbald','coucoa_c + h2o_c -> 4hbald_c + accoa_c');
 sacc_model_12_02 = addReaction(sacc_model_12_02,'added_4hbald_34dhbald','4hbald_c + nadph_c + o2_c + h_c -> 34dhbald_c + nadp_c + h2o_c');
 
 % 3.2 y finales

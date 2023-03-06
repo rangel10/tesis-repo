@@ -1,5 +1,7 @@
-function [final_model] = addFixedRxns(model, tym_route)
-%   Estas reacciones ya estan en el modelo, se estraba probando en doble sentido
+function [final_model] = addFixedRxns(model, tym_path)
+% tym_path determina si la ruta utiliza 3-(4-hydroxyphenyl)pyruvate ('1') o arogenato ('2')
+
+%   Estas reacciones ya estan en el modelo, se estaba probando en doble sentido
 %   final_model = addReaction(model,'DHQTi','3dhq_c -> 3dhsk_c + h2o_c');
 %   final_model = addReaction(final_model,'PSCVT', 'pep_c + skm5p_c -> 3psme_c + pi_c');
 %   final_model = addReaction(final_model,'CHORM', 'chor_c -> pphn_c'); 
@@ -28,7 +30,7 @@ function [final_model] = addFixedRxns(model, tym_route)
     final_model = addReaction(final_model,'added_norcrg_norbell','norcrg_c + nadph_c + h_c -> norbell_c + nadp_c');
     final_model = addReaction(final_model,'added_norbell_4omet','amet_c + norbell_c -> 4omet_c + ahcys_c + h_c');
     final_model = addReaction(final_model,'added_aux_4omet','4omet_c <=> 4omet_e');
-    final_model = addReaction(final_model,'EX_4omet_e','4omet_e -> ');
+    final_model = addReaction(final_model,'added_EX_4omet_e','4omet_e -> ');
 
 % 3-(4-Hydroxyphenyl)pyruvate
         % 3.1) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym
@@ -45,12 +47,12 @@ function [final_model] = addFixedRxns(model, tym_route)
         % *** 34hpp_c + h_c <=> 34hpp_m + h_m || 34hpp_c + h_c <=> 34hpp_x + h_x
         % * tyr__L_c + h_c -> tym_c + co2_c     // No esta en modelo
 %          
-%       Estas reacciones ya estan en el modelo, se estraba probando en doble sentido
+%       Estas reacciones ya estan en el modelo, se estaba probando en doble sentido
 %       final_model = addReaction(final_model,'TYRTAi', '34hpp_c + glu__L_c -> akg_c + tyr__L_c'); 
 %       final_model = addReaction(final_model,'TYRTAim', '34hpp_m + glu__L_m -> akg_m + tyr__L_m'); 
 %       final_model = addReaction(final_model,'TYRTAip', '34hpp_x + glu__L_x -> akg_x + tyr__L_x'); 
 
-    if tym_route == '2' % L-Arogenate
+    if tym_path == '2' % L-Arogenate
         % 3.2) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
         % 
         % * 2dda7p_c -> 3dhq_c + pi_c
@@ -65,11 +67,18 @@ function [final_model] = addFixedRxns(model, tym_route)
         % * tyr__L_c + h_c -> tym_c + co2_c     // No esta en modelo
         final_model = addReaction(final_model,'added_pphn_Largn', 'pphn_c + glu__L_c <=> Largn_c + akg_c');
         final_model = addReaction(final_model,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
+
+%       Suprimir 3-(4-Hydroxyphenyl)pyruvate para forzar flujo de arogenato
+%        final_model = changeRxnBounds(final_model,'TYRTAi',0,'u');
+%        final_model = changeRxnBounds(final_model,'TYRTAim',0,'u');
+%        final_model = changeRxnBounds(final_model,'TYRTAip',0,'u');
     end
-    final_model = changeRxnBounds(final_model,'EX_4omet_e',1,'l');
+    
+    % Restriccion de produccion minima de 4omet
+    final_model = changeRxnBounds(final_model,'added_EX_4omet_e',1,'l'); 
+
     % Cambiar funcion objetivo
-    final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace','EX_4omet_e'},[0.5,0.5]);
-    %final_model = changeObjective(final_model,{'EX_4omet_e'});
-    %final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace'});
+    final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace'},1);
+
 end
 

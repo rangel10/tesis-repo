@@ -69,9 +69,9 @@ function [final_model] = addFixedRxns(model, tym_path)
         final_model = addReaction(final_model,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
 
 %       Suprimir 3-(4-Hydroxyphenyl)pyruvate para forzar flujo de arogenato
-%        final_model = changeRxnBounds(final_model,'TYRTAi',0,'u');
-%        final_model = changeRxnBounds(final_model,'TYRTAim',0,'u');
-%        final_model = changeRxnBounds(final_model,'TYRTAip',0,'u');
+       final_model = changeRxnBounds(final_model,'TYRTAi',0,'u');
+       final_model = changeRxnBounds(final_model,'TYRTAim',0,'u');
+       final_model = changeRxnBounds(final_model,'TYRTAip',0,'u');
     end
     
     % Restriccion de produccion minima de 4omet

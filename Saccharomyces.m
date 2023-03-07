@@ -329,8 +329,8 @@ sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hci
 %sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
 
 % aux?
-% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
-% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fad','fad_m <=> fad_c');
+sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fad','fad_m <=> fad_c');
 
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
@@ -366,6 +366,12 @@ F_07_01 = FBAsolution_07_01.f;
 % 2.7
 sacc_model_07_02 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_07_02 = addReaction(sacc_model_07_02,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_07_02 = addReaction(sacc_model_07_02,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+
+% aux?
+sacc_model_07_02 = addReaction(sacc_model_07_02,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_07_02 = addReaction(sacc_model_07_02,'added_aux_fad','fad_m <=> fad_c');
+
 sacc_model_07_02 = addReaction(sacc_model_07_02,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_07_02 = addReaction(sacc_model_07_02,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
 
@@ -471,6 +477,12 @@ sacc_model_10_01 = addReaction(sacc_model_b,'added_pphn_Largn', 'pphn_c + glu__L
 sacc_model_10_01 = addReaction(sacc_model_10_01,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
 sacc_model_10_01 = addReaction(sacc_model_10_01,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_10_01 = addReaction(sacc_model_10_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_10_01 = addReaction(sacc_model_10_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+
+% aux?
+sacc_model_10_01 = addReaction(sacc_model_10_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_10_01 = addReaction(sacc_model_10_01,'added_aux_fad','fad_m <=> fad_c');
+
 sacc_model_10_01 = addReaction(sacc_model_10_01,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_10_01 = addReaction(sacc_model_10_01,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
 
@@ -504,6 +516,12 @@ F_10_01 = FBAsolution_10_01.f;
 % 2.10
 sacc_model_10_02 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
 sacc_model_10_02 = addReaction(sacc_model_10_02,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_10_02 = addReaction(sacc_model_10_02,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+
+% aux?
+sacc_model_10_02 = addReaction(sacc_model_10_02,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_10_02 = addReaction(sacc_model_10_02,'added_aux_fad','fad_m <=> fad_c');
+
 sacc_model_10_02 = addReaction(sacc_model_10_02,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_10_02 = addReaction(sacc_model_10_02,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
 

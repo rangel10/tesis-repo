@@ -3,7 +3,7 @@ Enzima: Dehydroshikimate dehydratase
 Organismo: Pseudomonas putida
 Kcat/Km: 494.3 [1/mMs⁻¹]
 req adicionales: Si
-cofactores: Mn⁺², Co²⁺
+cofactores: Mn⁺²
 Fuentes ------------------------------------
 https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=DHSHIKIMATE-DEHYDRO-RXN
 https://www.brenda-enzymes.org/enzyme.php?ecno=4.2.1.118#COFACTOR

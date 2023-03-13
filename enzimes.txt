@@ -1,0 +1,217 @@
+Reaccion: 3-Dehydropshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
+Enzima: Dehydroshikimate dehydratase
+Organismo: Pseudomonas putida
+Kcat/Km: 494.3 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: Mn⁺², Co²⁺
+Fuentes ------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=DHSHIKIMATE-DEHYDRO-RXN
+https://www.brenda-enzymes.org/enzyme.php?ecno=4.2.1.118#COFACTOR
+https://www.uniprot.org/uniprotkb/A0A379KX44/entry
+
+****************************************************************************************************************
+
+Reaccion: 3,4-Dihydroxybenzoate -> 3,4-Dihydroxybenzaldehyde
+Enzima: Carboxylic acid reductase
+Organismo: Tsukamurella paurometabola
+Kcat/Km: 2 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: pantetheine 4'-phosphate
+Fuentes -----------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=1.2.1.30-RXN
+https://www.brenda-enzymes.org/enzyme.php?ecno=1.2.1.30#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+https://www.uniprot.org/uniprotkb/Q6RKB1/entry
+
+****************************************************************************************************************
+
+Reaccion: L-Tyrosine -> Tyramine
+Enzima: tyrosine decarboxylase
+Organismo: Levilactobacillus brevis  
+Kcat/Km: 583 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: pyridoxal 5'-phosphate
+Fuentes -------------------------------
+https://www.brenda-enzymes.org/enzyme.php?ecno=4.1.1.25#COFACTOR
+https://www.uniprot.org/uniprotkb/J7GQ11/entry
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=TYROSINE-DECARBOXYLASE-RXN
+
+****************************************************************************************************************
+
+Reaccion: Prephenate -> L-Arogenate
+Enzima: aspartate - prephenate aminotransferase
+Organismo: Sinorhizobium meliloti
+Kcat/Km: 371.1 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: pyridoxal 5'-phosphate
+Fuentes ---------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=PREPHENATE-TRANSAMINE-RXN
+https://www.brenda-enzymes.org/enzyme.php?ecno=2.6.1.78#COFACTOR
+https://www.uniprot.org/uniprotkb/Q02635/entry
+
+****************************************************************************************************************
+
+Reaccion: L-arogenate -> L-Tyrosine
+Enzima: arogenate dehydrogenase
+Organismo: Sediminispirochaeta smaragdinae 
+Kcat/Km: 4 [1/mMs⁻¹]
+req adicionales: No (NADP -NAD)
+
+Fuentes ---------------------------------------
+https://www.brenda-enzymes.org/enzyme.php?ecno=1.3.1.79#COFACTOR
+https://metacyc.org/compound?orgid=META&id=CPD-659#tab=RXNS
+https://www.uniprot.org/uniprotkb/E1R5M5/entry
+
+****************************************************************************************************************
+
+Reaccion: 4-Hydroxybenzoate -> 3,4-Dihydroxybenzoate
+Enzima: 4-Hydroxybenzoate
+Organismo: Cupriavidus pinatubonensis 
+Kcat/Km: 410 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: FAD
+
+Fuentes ---------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN
+https://www.brenda-enzymes.org/enzyme.php?ecno=1.14.13.2#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+https://www.uniprot.org/uniprotkb/P20586/entry
+
+****************************************************************************************************************
+
+Reaccion: 4-Hydrozybenzoate -> 4-hydroxybenzaldehyde
+Enzima: Carboxylic acid reductase
+Organismo: Tsukamurella paurometabola
+Kcat/Km: 2 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: pantetheine 4'-phosphate
+Fuentes -----------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=1.2.1.30-RXN
+https://www.brenda-enzymes.org/enzyme.php?ecno=1.2.1.30#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+https://www.uniprot.org/uniprotkb/Q6RKB1/entry
+
+****************************************************************************************************************
+
+Reaccion: 4-hydroxybenzaldehyde -> 3,4-Dihydroxybenzaldehyde (Patent)
+Enzima: 
+Kcat/Km:
+req adicionales:
+
+Fuentes -----------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-8872
+
+****************************************************************************************************************
+
+Reaccion: L-Tyrosine -> 4-Coumarate
+Enzima: tyrosine ammonia-lyase
+Organismo: Rhodotorula glutinis
+Kcat/Km: 298 [1/mMs⁻¹]
+req adicionales: No
+
+Fuentes ---------------------------------
+https://www.brenda-enzymes.org/enzyme.php?ecno=4.3.1.23#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-9697
+https://www.uniprot.org/uniprotkb/U5TV35/entry
+
+****************************************************************************************************************
+
+Reaccion: 4-Coumarate -> 4-hydroxybenzaldehyde (Patent)
+Enzima: 
+Kcat/Km:
+req adicionales:
+
+Fuentes -------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-8871
+
+****************************************************************************************************************
+
+Reaccion: 4-Coumarate -> p-Coumaroyl-CoA
+Enzima: 4-coumarate-CoA ligase
+Organismo: Nicotiana tabacum 
+Kcat/Km: 2652 [1/mMs⁻¹]
+req adicionales: Si 
+cofactores: Mg²⁺
+
+Fuentes ------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=4-COUMARATE--COA-LIGASE-RXN
+https://www.uniprot.org/uniprotkb/O24146/entry
+https://www.brenda-enzymes.org/enzyme.php?ecno=6.2.1.12#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+
+****************************************************************************************************************
+
+Reaccion: p-Coumaroyl-CoA -> 4-Hydroxybenzaldehyde
+Enzima:
+Organismo:
+Kcat/Km:
+req adicionales:
+
+Fuentes -------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-21006
+
+****************************************************************************************************************
+
+Reaccion: 4-Coumarate -> Caffeate
+Enzima:
+Kcat/Km:
+req adicionales:
+
+Fuentes ------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-14988
+
+****************************************************************************************************************
+
+Reaccion: Caffeate -> Caffeoyl-CoA
+Enzima: 4-coumarate-CoA ligase
+Organismo: Nicotiana tabacum 
+Kcat/Km: 2652 [1/mMs⁻¹]
+req adicionales: Si 
+cofactores: Mg²⁺
+
+Fuentes -----------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-1126
+https://www.uniprot.org/uniprotkb/O24146/entry
+https://www.brenda-enzymes.org/enzyme.php?ecno=6.2.1.12#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+
+****************************************************************************************************************
+
+Reaccion: Caffeoyl-Coa -> 3,4-Dihydroxybenzaldehyde
+Enzima:
+Kcat/Km:
+req adicionales:
+
+Fuentes -------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-21005
+
+****************************************************************************************************************
+
+Reaccion: 3,4-Dihydroxybenzaldehyde + Tyramine -> Norcraugsodine
+Enzima:
+Kcat/Km:
+req adicionales:
+
+Fuentes ------------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-18120
+
+****************************************************************************************************************
+
+Reaccion: Norcraugsodine -> Norbelladine
+Enzima:
+Kcat/Km:
+req adicionales:
+
+Fuentes ----------------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-18121
+
+****************************************************************************************************************
+
+Reaccion: Norbelladine -> 4'-O-methylnorbelladine
+Enzima: norbelladine O-methyltransferase
+organismo: Narcissus aff. pseudonarcissus MK-2014
+Kcat/Km: 13.3 [1/mMs⁻¹]
+req adicionales: Si
+cofactores: Mg²⁺
+
+Fuentes -------------------------------------
+https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-18122
+https://www.uniprot.org/uniprotkb/A0A077EWA5/entry
+https://www.brenda-enzymes.org/enzyme.php?ecno=2.1.1.336#kcat/KM%20VALUE%20[1/mMs%3Csup%3E-1%3C/sup%3E]
+
+****************************************************************************************************************

@@ -65,6 +65,8 @@ function [final_model] = addFixedRxns(model, tym_path)
         % * pphn_c + glu__L_c <=> Largn_c + akg_c || pphn_c + asp__L_c <=> Largn_c + oaa_c     // No esta en modelo
         % * Largn_c + nad_c -> tyr__L_c + co2_c + nadh_c || Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c     // No esta en modelo
         % * tyr__L_c + h_c -> tym_c + co2_c     // No esta en modelo
+        
+        %final_model = addReaction(final_model,'added_pphn_Largn', 'pphn_c + asp__L_c <=> Largn_c + oaa_c');
         final_model = addReaction(final_model,'added_pphn_Largn', 'pphn_c + glu__L_c <=> Largn_c + akg_c');
         final_model = addReaction(final_model,'added_Largn_tyr__L', 'Largn_c + nadp_c -> tyr__L_c + co2_c + nadph_c');
 

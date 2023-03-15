@@ -1,0 +1,16 @@
+Reaccion: 3-Dehydropshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
+Enzima: Dehydroshikimate dehydratase
+Reportada:
+Fuentes: 
+
+**********************************************************************************
+
+Reaccion:
+Enzima:
+Reportada:
+Fuentes:
+
+********************************************************************************
+
+
+grbgetkey 6dc4eb02-c364-11ed-abdf-0242ac120002

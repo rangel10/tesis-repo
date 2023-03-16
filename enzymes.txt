@@ -12,7 +12,7 @@ https://www.uniprot.org/uniprotkb/A0A379KX44/entry
 ****************************************************************************************************************
 
 Reaccion: 3,4-Dihydroxybenzoate -> 3,4-Dihydroxybenzaldehyde
-Enzima: Carboxylic acid reductase
+Enzima: Carboxylic acid reductase (NO)
 Organismo: Tsukamurella paurometabola
 Kcat/Km: 2 [1/mMs⁻¹]
 req adicionales: Si
@@ -79,7 +79,7 @@ https://www.uniprot.org/uniprotkb/P20586/entry
 ****************************************************************************************************************
 
 Reaccion: 4-Hydrozybenzoate -> 4-hydroxybenzaldehyde
-Enzima: Carboxylic acid reductase
+Enzima: Carboxylic acid reductase (NO)
 Organismo: Tsukamurella paurometabola
 Kcat/Km: 2 [1/mMs⁻¹]
 req adicionales: Si

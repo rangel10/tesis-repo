@@ -1,14 +1,15 @@
 Reaccion: 3-Dehydropshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
 Enzima: Dehydroshikimate dehydratase
-Reportada:
+Reportada: No
 Fuentes: 
 
 **********************************************************************************
 
-Reaccion:
-Enzima:
-Reportada:
+Reaccion: L-Tyrosine -> Tyramine
+Enzima: tyrosine decarboxylase
+Reportada: Si
 Fuentes:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4440718/
 
 ********************************************************************************
 

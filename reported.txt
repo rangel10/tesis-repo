@@ -34,3 +34,24 @@ Enzima: arogenate dehydrogenase
 Reportada: No
 Fuentes:
 
+********************************************************************************
+
+Reaccion: 4-Hydroxybenzoate -> 3,4-Dihydroxybenzoate
+Enzima: 4-hydroxybenzoate 3-monooxygenase
+Reportada: No
+Fuentes:
+
+******************************************************************************
+
+Reaccion: 
+Enzima: 
+Reportada: 
+Fuentes:
+
+******************************************************************************
+
+Reaccion: 
+Enzima: 
+Reportada: 
+Fuentes:
+

@@ -13,19 +13,24 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4440718/
 
 ********************************************************************************
 
-Reaccion: 
-Enzima: 
-Reportada: 
+Reaccion: 3,4-Dihydroxybenzoate -> 3,4-Dihydroxybenzaldehyde
+Enzima: Carboxylic acid reductase
+Reportada: Si
+Fuentes: 
+https://www.pnas.org/doi/10.1073/pnas.2010521117
+https://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-018-1149-1
+
+********************************************************************************
+
+Reaccion: Prephenate -> L-Arogenate
+Enzima: aspartate/glutamate - prephenate aminotransferase
+Reportada: No
 Fuentes: 
 
 ********************************************************************************
 
-Reaccion: 
-Enzima:
-Reportada: 
-Fuentes: 
+Reaccion: L-arogenate -> L-Tyrosine
+Enzima: arogenate dehydrogenase
+Reportada: No
+Fuentes:
 
-********************************************************************************
-
-
-grbgetkey 6dc4eb02-c364-11ed-abdf-0242ac120002

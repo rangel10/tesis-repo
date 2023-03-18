@@ -1,7 +1,8 @@
 Reaccion: 3-Dehydropshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
 Enzima: Dehydroshikimate dehydratase
-Reportada: No
+Reportada: Si
 Fuentes: 
+https://www.sciencedirect.com/science/article/abs/pii/S1096717612001139
 
 **********************************************************************************
 
@@ -43,15 +44,62 @@ Fuentes:
 
 ******************************************************************************
 
-Reaccion: 
-Enzima: 
-Reportada: 
+Reaccion: 4-Hydrozybenzoate -> 4-hydroxybenzaldehyde
+Enzima: Carboxylic acid reductase
+Reportada: Si
+Fuentes:
+Fuentes: 
+https://www.pnas.org/doi/10.1073/pnas.2010521117
+https://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-018-1149-1
+
+******************************************************************************
+
+Reaccion: 4-hydroxybenzaldehyde -> 3,4-Dihydroxybenzaldehyde (Patent)
+Enzima: P450-MO
+Reportada: No
 Fuentes:
 
 ******************************************************************************
 
-Reaccion: 
-Enzima: 
-Reportada: 
+Reaccion: L-Tyrosine -> 4-Coumarate
+Enzima: tyrosine ammonia-lyase
+Reportada: Si
+Fuentes:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4475877/
+https://microbialcellfactories.biomedcentral.com/articles/10.1186/s12934-023-02055-9
+
+******************************************************************************
+
+Reaccion: 4-Coumarate -> 4-hydroxybenzaldehyde (Patent)
+Enzima: 4HBS
+Reportada: No
 Fuentes:
 
+******************************************************************************
+
+Reaccion: 4-Coumarate -> p-Coumaroyl-CoA
+Enzima: 4-coumarate-CoA ligase
+Reportada: Si
+Fuentes:
+https://www.sciencedirect.com/science/article/abs/pii/S0141022912001123
+
+******************************************************************************
+
+Reaccion: Caffeate -> Caffeoyl-CoA
+Enzima: 4-coumarate-CoA ligase
+Reportada: Si
+Fuentes:
+https://www.sciencedirect.com/science/article/abs/pii/S0141022912001123
+
+******************************************************************************
+
+Reaccion: Norbelladine -> 4'-O-methylnorbelladine
+Enzima: norbelladine O-methyltransferase
+Reportada: No
+Fuentes:
+
+
+******************************************************************************
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9313318/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8286646/

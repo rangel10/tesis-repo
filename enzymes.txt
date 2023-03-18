@@ -92,7 +92,7 @@ https://www.uniprot.org/uniprotkb/Q6RKB1/entry
 ****************************************************************************************************************
 
 Reaccion: 4-hydroxybenzaldehyde -> 3,4-Dihydroxybenzaldehyde (Patent)
-Enzima: 
+Enzima: P450-MO
 Kcat/Km:
 req adicionales:
 
@@ -116,7 +116,7 @@ https://www.uniprot.org/uniprotkb/U5TV35/entry
 ****************************************************************************************************************
 
 Reaccion: 4-Coumarate -> 4-hydroxybenzaldehyde (Patent)
-Enzima: 
+Enzima: 4HBS
 Kcat/Km:
 req adicionales:
 
@@ -140,7 +140,7 @@ https://www.brenda-enzymes.org/enzyme.php?ecno=6.2.1.12#kcat/KM%20VALUE%20[1/mMs
 ****************************************************************************************************************
 
 Reaccion: p-Coumaroyl-CoA -> 4-Hydroxybenzaldehyde
-Enzima:
+Enzima: 4-coumaroyl-CoA hydratase/aldolase - feruloyl-CoA hydratase/lyase
 Organismo:
 Kcat/Km:
 req adicionales:
@@ -151,7 +151,7 @@ https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-21006
 ****************************************************************************************************************
 
 Reaccion: 4-Coumarate -> Caffeate
-Enzima:
+Enzima: 4-coumarate 3-monooxygenase
 Kcat/Km:
 req adicionales:
 
@@ -175,7 +175,7 @@ https://www.brenda-enzymes.org/enzyme.php?ecno=6.2.1.12#kcat/KM%20VALUE%20[1/mMs
 ****************************************************************************************************************
 
 Reaccion: Caffeoyl-Coa -> 3,4-Dihydroxybenzaldehyde
-Enzima:
+Enzima: feruloyl-CoA hydratase/lyase
 Kcat/Km:
 req adicionales:
 
@@ -195,7 +195,7 @@ https://metacyc.org/META/NEW-IMAGE?type=REACTION&object=RXN-18120
 ****************************************************************************************************************
 
 Reaccion: Norcraugsodine -> Norbelladine
-Enzima:
+Enzima: noroxomaritidine reductase
 Kcat/Km:
 req adicionales:
 

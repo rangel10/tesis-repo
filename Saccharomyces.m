@@ -325,14 +325,14 @@ F_05_02 = FBAsolution_05_02.f;
 
 % 2.7
 sacc_model_07_01 = addReaction(sacc_model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
-%sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
 %sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
 
-sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + nadph_c + o2_c -> 34dhcinm_c + nadp_c + h2o_c');
+%sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + nadph_c + o2_c -> 34dhcinm_c + nadp_c + h2o_c');
 
 % aux?
-% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
-% sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fad','fad_m <=> fad_c');
+sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_07_01 = addReaction(sacc_model_07_01,'added_aux_fad','fad_m <=> fad_c');
 
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
 sacc_model_07_01 = addReaction(sacc_model_07_01,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');

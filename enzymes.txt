@@ -1,4 +1,4 @@
-Reaccion: 3-Dehydropshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
+Reaccion: 3-Dehydroshikimate -> 3,4-Dihydroxybenzoate (protocatechuate)
 Enzima: Dehydroshikimate dehydratase
 Organismo: Pseudomonas putida
 Kcat/Km: 494.3 [1/mMs⁻¹]

@@ -52,7 +52,7 @@ function [final_model] = addFixedRxns(model, tym_path)
 %       final_model = addReaction(final_model,'TYRTAim', '34hpp_m + glu__L_m -> akg_m + tyr__L_m'); 
 %       final_model = addReaction(final_model,'TYRTAip', '34hpp_x + glu__L_x -> akg_x + tyr__L_x'); 
 
-    if tym_path == '2' % L-Arogenate
+    if strcmp(tym_path,'2') % L-Arogenate
         % 3.2) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn <=> Largn -> tyr__L -> tym
         % 
         % * 2dda7p_c -> 3dhq_c + pi_c
@@ -80,7 +80,7 @@ function [final_model] = addFixedRxns(model, tym_path)
     final_model = changeRxnBounds(final_model,'added_EX_4omet_e',1,'l'); 
 
     % Cambiar funcion objetivo
-    final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace'},1);
+    final_model = changeObjective(final_model,{'BIOMASS_SC5_notrace'});
     
 end
 

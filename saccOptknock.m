@@ -1,13 +1,79 @@
 % Optknock para mejores rutas de Saccharomyces cerevisiae 4OMET
+% para rutas 01_01, 07_01 y 02_01
 
 % solver gurobi
 changeCobraSolver('gurobi','all');
-model = readCbModel('iMM904.mat');
-biomass = 'BIOMASS_SC5_notrace';
-threshold = 5;
+
+% modelo base
+model_b = readCbModel('iMM904.mat');
+biomass = 'BIOMASS_SC5_notrace'; % celda 1521
+ex4omet = 'added_EX_4omet_e';
 
 % condiciones iniciales: -100 glucosa y -1000 oxigeno
-model = changeRxnBounds(model, 'EX_glc__D_e',-100,'l');
-model = changeRxnBounds(model,'EX_o2_e',-1000,'l');
+model_b = changeRxnBounds(model_b, 'EX_glc__D_e',-100,'l');
+model_b = changeRxnBounds(model_b,'EX_o2_e',-1000,'l');
+
+% ruta 01_01
+model_01_01 = addReaction(model_b,'added_3dhsk_34dhbz','3dhsk_c -> 34dhbz_c + h2o_c');
+model_01_01 = addReaction(model_01_01,'added_34dhbz_34dhbald','34dhbz_c + atp_c + nadph_c + h_c <=> 34dhbald_c + amp_c + nadp_c + ppi_c');
+model_01_01 = addFixedRxns(model_01_01,'1');
+
+% ruta 07_01
+model_07_01 = addReaction(model_b,'added_tyr__L_T4hcinnm','tyr__L_c -> T4hcinnm_c + nh4_c');
+model_07_01 = addReaction(model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_07_01 = addReaction(sacc_model_07_01,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+model_07_01 = addReaction(model_07_01,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+model_07_01 = addReaction(model_07_01,'added_aux_fad','fad_m <=> fad_c');
+model_07_01 = addReaction(model_07_01,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
+model_07_01 = addReaction(model_07_01,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
+model_07_01 = addFixedRxns(model_07_01,'1');
+
+% ruta 02_01
+model_02_01 = addReaction(model_b,'added_4hbz_34dhbz','4hbz_c + nadph_c + o2_c + h_c -> 34dhbz_c + nadp_c + h2o_c');
+model_02_01 = addReaction(model_02_01,'added_34dhbz_34dhbald','34dhbz_c + atp_c + nadph_c + h_c <=> 34dhbald_c + amp_c + nadp_c + ppi_c');
+model_02_01 = addFixedRxns(model_02_01,'1');
 
 
+%model_01_01 = changeRxnBounds(model_01_01,'added_EX_4omet_e',0,'l');
+
+
+% parametros
+threshold = 5;
+numDel = 2;
+percent = 0.95;
+
+model_test = model_01_01;
+fba = optimizeCbModel(model_test,'max');
+fluxb = fba.f;
+rxns = model_01_01.rxns;
+options = struct('targetRxn','added_EX_4omet_e','numDel',numDel);
+constrOpt = struct('rxnList', {{biomass}},'values', fluxb*percent, 'sense', 'G');
+
+% abrir archivo de resultados
+fid = fopen('results.txt','w');
+
+% Optknock
+fprintf(fid,'\n\n**********************Resultados 01_01: %i del, %g fluxb********************\n\n',numDel, percent);
+previousResult = cell(threshold,1);
+contprev = 1;
+for i=1:threshold
+    fprintf(fid,'\n---------------------Resultado %i------------------------\n',i);
+    if isempty(previousResult{1})
+        result = OptKnock(model_test,rxns,options,constrOpt);
+    else
+        result = OptKnock(model_test,rxns,options,constrOpt,previousResult,false);
+    end
+    solset = result.rxnList;
+    if ~isempty(solset)
+        previousResult{contprev} = solset;
+        contprev = contprev + 1;
+    end
+    
+    fprintf(fid,'Rxns: ');
+    fprintf(fid,'%s ',result.rxnList{:});
+    fprintf(fid,'\nObj: %f',result.obj);
+    fprintf(fid,'\nBiomass: %f',result.fluxes(1521));
+end
+
+% cerrar archivo de resultados
+fclose(fid);

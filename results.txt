@@ -1,25 +1,6 @@
 
 
-**********************Resultados 01_01: 2 del, 0.95 fluxb********************
+**********************Resultados 01_01: 3 del, 0.9 fluxb********************
 
 
 ---------------------Resultado 1------------------------
-Rxns: DAGPYP_SC ACACT1m 
-Obj: 0.002804
-Biomass: 9.800487
----------------------Resultado 2------------------------
-Rxns: ACOAO8p MDHm 
-Obj: 2.372621
-Biomass: 8.979942
----------------------Resultado 3------------------------
-Rxns: ADCL TMPPP 
-Obj: 0.222771
-Biomass: 8.979942
----------------------Resultado 4------------------------
-Rxns: FBA3 PTPATi 
-Obj: 0.008115
-Biomass: 9.803677
----------------------Resultado 5------------------------
-Rxns: ADCS THIORDXp 
-Obj: 0.031326
-Biomass: 8.979942

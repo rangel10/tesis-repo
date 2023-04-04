@@ -38,9 +38,9 @@ model_02_01 = addFixedRxns(model_02_01,'1');
 
 
 % parametros
-threshold = 5;
+threshold = 1;
 numDel = 2;
-percent = 0.95;
+percent = 0.9;
 
 model_test = model_01_01;
 fba = optimizeCbModel(model_test,'max');
@@ -74,6 +74,9 @@ for i=1:threshold
     fprintf(fid,'\nObj: %f',result.obj);
     fprintf(fid,'\nBiomass: %f',result.fluxes(1521));
 end
+disp('out')
+[type, maxGrowth, maxProd, minProd] = analyzeOptKnock(model_test, result.rxnList, 'added_EX_4omet_e');
+singleProductionEnvelope(model_test,result.rxnList,'added_EX_4omet_e',biomass,showPlot=true);
 
 % cerrar archivo de resultados
 fclose(fid);

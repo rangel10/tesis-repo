@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.8 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: PSERDm_SC 
+Obj: 0.021466
+Biomass: 9.797105
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.450710
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: EX_2mbald_e 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: CLPNSm_SC 
+Obj: 0.001249
+Biomass: 9.806061
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: NADH2_u6m 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: MTHFC 
+Obj: 0.000026
+Biomass: 9.709665
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.359603
+Type: growth coupled

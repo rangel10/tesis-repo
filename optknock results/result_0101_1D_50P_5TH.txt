@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.5 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: AASAD2 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACACT1m 
+Obj: 0.000000
+Biomass: 9.802208
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.448434
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: OBDHm 
+Obj: 0.007706
+Biomass: 9.803819
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: added_EX_4omet_e 
+Obj: -0.000000
+Biomass: 9.806499
+Max prod: -0.000000
+Min prod: 0.000000
+Max growth: 9.800731
+Type: not growth coupled
+---------------------Resultado 5------------------------
+Rxns: SUCOASm 
+Obj: 0.003919
+Biomass: 9.361369
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.020168
+Type: growth coupled

@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.9 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ADCS CITtam 
+Obj: 2.959542
+Biomass: 8.507314
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.351577
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: HEX1 G3PD1ir 
+Obj: 0.220478
+Biomass: 9.729819
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: PIt2m THIORDXp 
+Obj: 1.376349
+Biomass: 8.507314
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.690384
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: H2Otm ICDHym 
+Obj: 0.003229
+Biomass: 9.777167
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.425375
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: AHCYStm PIt2m 
+Obj: 1.578007
+Biomass: 8.507314
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.690384
+Type: growth coupled

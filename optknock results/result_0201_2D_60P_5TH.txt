@@ -1,0 +1,45 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.6 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: CITtam GAPD 
+Obj: 0.987334
+Biomass: 7.552758
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.541719
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: MTHFD PGK 
+Obj: 0.390109
+Biomass: 7.805826
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.562641
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: FUMm PPM 
+Obj: 0.000101
+Biomass: 9.362650
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.993641
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: PCDAGAT 
+Obj: 0.000050
+Biomass: 9.806481
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.428054
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: PIt2m 
+Obj: 0.080781
+Biomass: 8.990237
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.667839
+Type: growth coupled

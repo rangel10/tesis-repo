@@ -1,0 +1,45 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.5 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS 
+Obj: 4.220990
+Biomass: 8.261872
+Max prod: 4.218606
+Min prod: 4.218606
+Max growth: 8.257204
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: G3PDm 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: HMBS 
+Obj: 0.003515
+Biomass: 9.805231
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: PSERSm_SC 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: NADS1 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

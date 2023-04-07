@@ -1,0 +1,45 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.5 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS PC 
+Obj: 13.422391
+Biomass: 4.719796
+Max prod: 12.533719
+Min prod: 12.533719
+Max growth: 5.065562
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS 3C3HMPtm 
+Obj: 6.115348
+Biomass: 7.542204
+Max prod: 6.091678
+Min prod: 6.091678
+Max growth: 7.545743
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACS IPPSm 
+Obj: 6.095216
+Biomass: 7.549973
+Max prod: 6.091678
+Min prod: 6.091678
+Max growth: 7.545743
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ACS COAtim 
+Obj: 4.491449
+Biomass: 8.158842
+Max prod: 4.488906
+Min prod: 4.488906
+Max growth: 8.154235
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ACS ACACT1m 
+Obj: 4.491445
+Biomass: 8.158843
+Max prod: 4.488906
+Min prod: 4.488906
+Max growth: 8.154235
+Type: growth coupled

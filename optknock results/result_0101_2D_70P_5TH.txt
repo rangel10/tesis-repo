@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.7 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: GLYC3Ptm GAPD 
+Obj: 0.633308
+Biomass: 7.731868
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.595089
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: FAS80_L PIt2p 
+Obj: 0.000013
+Biomass: 9.806495
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: DAGPYP_SC H2Otm 
+Obj: 0.004727
+Biomass: 9.804109
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.451851
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: DAGPYP_SC GAPD 
+Obj: 0.712124
+Biomass: 7.703169
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.594470
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ICL RNTR1 
+Obj: 0.195528
+Biomass: 9.733714
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

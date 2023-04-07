@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.6 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: FAS100 PIt2m 
+Obj: 0.000147
+Biomass: 9.017921
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.690384
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: D_LACt2m ECOAH11p 
+Obj: 0.505093
+Biomass: 9.630827
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: MIP2CS126_SC PIt2m 
+Obj: 0.118113
+Biomass: 8.980083
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.690384
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: PIt2m VALt2m 
+Obj: 0.045301
+Biomass: 9.003438
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.690384
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: AHCYStm SBTR 
+Obj: 0.032450
+Biomass: 9.795214
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

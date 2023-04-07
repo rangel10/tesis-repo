@@ -1,0 +1,45 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.8 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: COAtim H2Otm 
+Obj: 0.005807
+Biomass: 9.800047
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.423927
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: PIt2m THIORDXp 
+Obj: 0.002848
+Biomass: 8.962129
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.667839
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: MTHFD PIt2m 
+Obj: 0.267000
+Biomass: 8.923149
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.664771
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: IPPSm MDHm 
+Obj: 0.009550
+Biomass: 9.773700
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.399927
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: 3DSPHR 
+Obj: 4.021877
+Biomass: 7.542443
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.428054
+Type: growth coupled

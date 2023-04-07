@@ -1,0 +1,45 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.8 biomass, 5 runs********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS 
+Obj: 4.222434
+Biomass: 8.261324
+Max prod: 4.218606
+Min prod: 4.218606
+Max growth: 8.257204
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CSNATr 
+Obj: 0.000519
+Biomass: 9.806310
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: TALA 
+Obj: 0.000001
+Biomass: 9.805210
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: AP4AH 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: PGI 
+Obj: 0.000000
+Biomass: 9.806499
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

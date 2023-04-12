@@ -38,11 +38,11 @@ model_02_01 = addFixedRxns(model_02_01,'1');
 
 
 % parametros
-threshold = 1;
-numDel = 3;
-percent = 0.9;
+threshold = 5;
+numDel = 2;
+percent = 0.8;
 
-model_test = model_01_01;
+model_test = model_02_01;
 fba = optimizeCbModel(model_test,'max');
 fluxb = fba.f;
 rxns = model_test.rxns;
@@ -50,10 +50,10 @@ options = struct('targetRxn',ex4omet,'numDel',numDel);
 constrOpt = struct('rxnList', {{biomass}},'values', fluxb*percent, 'sense', 'G');
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_0101_3D_90P_1TH.txt','w');
+fid = fopen('optknock results/result_0201_2D_80P_5TH.txt','w');
 
 % Optknock
-fprintf(fid,'\n\n**********************Resultados 07_01: %i deletions, %g biomass, %i runs********************\n\n',numDel, percent, threshold);
+fprintf(fid,'\n\n**********************Resultados 02_01: %i deletions, %g biomass, %i runs********************\n\n',numDel, percent, threshold);
 previousResult = cell(threshold,1);
 contprev = 1;
 for i=1:threshold

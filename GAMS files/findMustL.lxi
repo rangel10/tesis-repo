@@ -1,0 +1,30 @@
+B 3 C o m p i l a t i o n
+B 3160 Include File Summary
+B 3175 Equation Listing    SOLVE bilevel_down Using MIP From line 3137
+D 3178 primal_dual_down
+D 3187 bilevel_obj_down
+D 3192 bilevelcon0_down
+D 3197 bilevelcon1
+D 6370 bilevelcon2
+D 9543 bilevelcon3
+D 12716 bilevelcon4
+D 15889 bilevelcon5
+D 15894 primal1
+D 18363 primal2
+D 21530 primal3
+D 24697 primal4
+D 24706 dualcon1
+D 27873 dualcon2
+D 27882 must_bin
+D 27887 blocked_bin
+B 27893 Column Listing      SOLVE bilevel_down Using MIP From line 3137
+E 27896 v
+E 45541 lambda
+E 55793 mu
+E 55810 w
+E 69715 z
+E 69723 thetam
+E 76555 thetap
+E 84464 y
+B 100252 Range Statistics    SOLVE bilevel_down Using MIP From line 3137
+B 100263 Model Statistics    SOLVE bilevel_down Using MIP From line 3137

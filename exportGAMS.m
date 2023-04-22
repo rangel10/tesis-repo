@@ -54,24 +54,26 @@ constrMT = struct('rxnList', {{biomass, ex4omet}},'rxnValues', [biomassMinValue,
 [minFluxesW, maxFluxesW, minFluxesM, maxFluxesM, ~, ~] = FVAOptForce(model_test, constrWT, constrMT);
 
 % Constraint de optimizacion
-constrOpt = struct('rxnList', {{glucose, o2, biomass, ex4omet}}, 'values', [-100, -1000, biomassMinValue, max4ometValue]);
+%constrOpt = struct('rxnList', {{glucose, o2, biomass, ex4omet}}, 'values', [-100, -1000, biomassMinValue, max4ometValue]);
+constrOpt = struct('rxnList', {{glucose, biomass, ex4omet}}, 'values', [-100, biomassMinValue, max4ometValue]);
 
-exportSetToGAMS(model_test.rxns, 'GAMS/Reactions.txt');
+%exportSetToGAMS(model_test.rxns, 'GAMS/Reactions.txt');
 
-exportInputsMustToGAMS(model_test, minFluxesW, maxFluxesW, constrOpt, 'GAMS/MustToGAMS');
+exportInputsMustToGAMS(model_test, minFluxesW, maxFluxesW, constrOpt, 'GAMS files/MustToGAMS');
 
 % Excluir los resultados de las reacciones de primer orden y tambien las reacciones de intercambio
-constrOpt = struct('rxnList', {{glucose, o2, biomass, ex4omet}}, 'values', [-100, -1000, biomassMinValue, max4ometValue]);
-exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')) == 0);
-excludedRxns = unique([mustUSet; mustLSet; exchangeRxns]);
-
-exportInputsMustOrder2ToGAMS(model_test, minFluxesW, maxFluxesW, constrOpt, excludedRxns,inputFolder='GAMS/MustOrder2ToGAMS');
+%constrOpt = struct('rxnList', {{glucose, o2, biomass, ex4omet}}, 'values', [-100, -1000, biomassMinValue, max4ometValue]);
+% constrOpt = struct('rxnList', {{glucose, biomass, ex4omet}}, 'values', [-100, biomassMinValue, max4ometValue]);
+% exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')) == 0);
+% excludedRxns = unique([mustUSet; mustLSet; exchangeRxns]);
+% 
+% exportInputsMustOrder2ToGAMS(model_test, minFluxesW, maxFluxesW, constrOpt, excludedRxns,inputFolder='GAMS/MustOrder2ToGAMS');
 
 % OptForce
-targetRxn = ex4omet;
-biomassRxn = biomass;
-k = 1;
-nSets = 1;
-constrOpt = struct('rxnList', {{glucose, o2, biomass}}, 'values', [-100, -1000, biomassMinValue]);
+% targetRxn = ex4omet;
+% biomassRxn = biomass;
+% k = 1;
+% nSets = 1;
+% constrOpt = struct('rxnList', {{glucose, o2, biomass}}, 'values', [-100, -1000, biomassMinValue]);
 
 %exportInputsOptForceToGAMS(model_test, targetRxn);

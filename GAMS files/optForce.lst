@@ -1,0 +1,532 @@
+GAMS 42.5.0  cf11b917 Mar 30, 2023          LEX-LEG x86 64bit/Linux - 04/22/23 15:04:23 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  ******* OptForce code *******************************************
+   2  *       Notes:                                                  *
+   3  *       This GAMS code identifies "K" number of metabolic       *
+   4  *       interventions that must be actively performed in the    *
+   5  *       wild-type strain to FORCE the organism to produce       *
+   6  *       the target biochemical at the desired yield.            *
+   7  *                                                               *
+   8  *       Author: Sridhar Ranganathan
+   9  *       Date: August 16th, 2011
+  10  *       Contribution: Creator
+  11  *
+  12  *       Author: Sebastian Mendoza
+  13  *       Date: May 23th, 2017
+  14  *       Contribution:
+  15  *                   1) The function was modificated to make it general in order
+  16  *                      to recibe external inputs such as reactions and metabolites IDs,
+  17  *                      stoichiometrix matrix S, reactions with contraints, lower
+  18  *                      and upper bounds and results from FVA.
+  19  *                   2) Insertion of the package GDXMRW to read inputs from MATLAB
+  20  *                   3) Innecesary lines were removed
+  21  *****************************************************************
+  22   
+  23  ******************** List of Variables **************************
+  24  *       v(j) = flux value for the reaction j                    *
+  25  *       z = objective value                                     *
+  26  *       yu(j) = binary variable that pinpoint upregulations     *
+  27  *       yl(j) = binary variable that pinpoint downregulations   *
+  28  *       y0(j) = binary variable that pinpoint knockouts         *
+  29  *       ** Note **                                              *
+  30  *               The following code does not consider any        *
+  31  *       reaction knockouts. But it can be custom-made to        *
+  32  *       identify knockouts as well.                             *
+  33  *                                                               *
+  34  *       Other variables are used for linearizing purposes       *
+  35  *****************************************************************
+  36   
+  37  ******************** List of Parameters *************************
+  38  *       s(i,j) = stoichiometric index of metabolite i in rxn j  *
+  39  *       LB(j)/UB(j) = Lower / Upper Bounds for fluxes           *
+  40  *       basemin(j) = min flux value of reaction j in WT         *
+  41  *       basemax(j) = max flux value of reaction j in WT         *
+  42  *****************************************************************
+  43   
+  44  options
+  45          limrow = 10000
+  46          limcol = 10000
+  47          optCR = 1E-9
+  48          optCA = 0.0
+  49          iterlim = 100000
+  50          decimals = 8
+  51          reslim = 100000
+  52          work = 50000000
+****                        $913
+**** 913  Option "work" is invalid - use command line parameter or 
+****         model attribute "workSpace" instead
+  53          sysout = off
+  54          solprint = on;
+  55   
+  56  sets
+  57   
+  58  ******************************** SET DEFINITIONS ***************************************
+  59  *
+  60  *       i               = set of all metabolites
+  61  *       j               = set of all reactions
+  62  *       constraint(j) = set of reactions in the constraints of inner problem
+  63  *       must1(j)        = set of reactions from MustU + MustL sets
+  64  *       mustu(j), mustl(j) = set of reactions in the MustU and MustL sets, resp., identified using the previous steps
+  65  *****************************************************************************************
+  66   
+  67  i metabolites
+  68  $include "%myroot%Metabolites.txt"
+****                                   $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  69   
+  70  j reactions
+  71  $include "%myroot%Reactions.txt"
+****                                 $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  72   
+  74   
+  75  constraint(j)
+  76  $include "%myroot%Constraints.txt"
+****                                   $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  77   
+  78  excluded_U(j)
+  79  $include "%myroot%Excluded_U.txt"
+****                                  $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  80   
+  81  excluded_L(j)
+  82  $include "%myroot%Excluded_L.txt"
+****                                  $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  83   
+  84  excluded_K(j)
+  85  $include "%myroot%Excluded_K.txt"
+****                                  $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  86   
+  87   
+  88  index /1*500/
+  89   
+  91   
+  92  mustl(j)
+  93  $include "%myroot%MustL.txt"
+****                             $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  94   
+  95  mustu(j)
+  96  $include "%myroot%MustU.txt"
+****                             $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+  97   
+  98  target(j)
+  99  $include "%myroot%TargetRxn.txt"
+****                                 $282
+**** 282  Unable to open include file
+****         Hint: Does the filename need to be quoted?
+ 100   
+ 101  ;
+ 102   
+ 103  ****************************** PARAMETRIC CONSTANTS USED ********************************
+ 104  *
+ 105  *       s(i,j)          = Stoichiometry of metabolite i in reaction j
+ 106  *       rxntype(j)      = Specified whether a reaction is irreversible (0), reversible
+ 107  *                         (1 - forward, 2 - backward reaction), pseudo reactions (3), or
+ 108  *                         exchange reactions (4)
+ 109  *       basemin(j)      = Stores the value for the minimum flux of reaction j in WT strain
+ 110  *       basemax(j)      = Stores the value for the maximum flux of reaction j in WT strain
+ 111  *       phenomin(j)     = Stored the value for the minimum flux of reaction j in overproducing strain
+ 112  *       phenomax(j)     = Stores the value for the maximum flux of reaction j in overproducing strain
+ 113  *       LB(j)/UB(j)     = Stores the lower and upper bounds for each reaction j
+ 114  *       n               = counter
+ 115  *       epsilon         = error value
+ 116  *       LB(j)/UB(j)     = Global lower and upper bounds for reaction j
+ 117  *       k               = Number of Interventions allowed in the metabolism
+ 118  *       bigM            = Large real number used for linearizing constraints
+ 119  *
+ 120  *****************************************************************************************
+ 121   
+ 122  parameter
+ 123   
+ 124  s(i,j)
+ 125  basemin(j)
+ 126  basemax(j)
+ 127  b(j)
+ 128  LB(j)
+ 129  UB(j)
+ 130  phenomin(j)
+ 131  phenomax(j)
+ 132   
+ 133  matrix1(index, j)
+ 134  matrix2(index, j)
+ 135  matrix3(index, j)
+ 136   
+ 137  matrix1_flux(index, j)
+ 138  matrix2_flux(index, j)
+ 139  matrix3_flux(index, j)
+ 140   
+ 141  objective(index)
+ 142   
+ 143  epsilon
+ 144  k
+ 145  nMax
+ 146  bigM
+ 147  LB(j)
+ 148  UB(j)
+ 149  optforce
+ 150  ;
+ 151   
+**** File: /home/tato/Documentos/GitHub/tesis-repo/GAMS files/%myroot%MtoGOF.gdx
+**** Msg : No such file or directory
+ 153  $GDXIN %myroot%MtoGOF
+****                      $510
+**** 510  Unable to open gdx file for $GDXIN
+ 154  $LOAD k nMax s basemin basemax b lb ub phenomin phenomax
+****      $502
+**** 502  GDXIN  file not open - ignore rest of line
+ 156   
+ 157  matrix1(index, j) = 0;
+****                 $352
+**** 352  Set has not been initialized
+ 158  matrix2(index, j) = 0;
+****                 $352
+**** 352  Set has not been initialized
+ 159  matrix3(index, j) = 0;
+****                 $352
+**** 352  Set has not been initialized
+ 160   
+ 161  matrix1_flux(index, j) = 0;
+****                      $352
+**** 352  Set has not been initialized
+ 162  matrix2_flux(index, j) = 0;
+****                      $352
+**** 352  Set has not been initialized
+ 163  matrix3_flux(index, j) = 0;
+****                      $352
+**** 352  Set has not been initialized
+ 164   
+ 165  objective(index) = 0;
+ 166  optforce = 1;
+ 167   
+ 168  ***************************** VARIABLE DEFINITIONS **************************************
+ 169  *
+ 170  *       v(j)            = Flux of a reaction j (+/-)
+ 171  *       zdual           = Objective value for the dual problem (+/-)
+ 172  *       zprimal         = Objective value for the primal problem (+/-)
+ 173  *       lambda, mu      = Dual variables (+/-)
+ 174  *       w               = Linearizing variable (Outer Problem) (+/-)
+ 175  *       z               = Objective value of the outer problem (+/-)
+ 176  *       glc             = Dual variable for glucose uptake constraint (+/-)
+ 177  *       deltam/deltap
+ 178  *       thetam/thetap   = Dual variables for binding constraints (+)
+ 179  *       wdeltap/wdeltam
+ 180  *       wtheta / wphi   = Linearing variables (Outer Problem) (+/-)
+ 181  *
+ 182  *       yu(j), yl(j)    = Binary variables pertaining to up-regulations and down-regulations
+ 183  *                         If yu(j) = 1, then reaction must be actively upregulated
+ 184  *                                  = 0, Otherwise
+ 185  *       theta, phi      = Dual variables (Inner Problem)
+ 186  *
+ 187  *****************************************************************************************
+ 188   
+ 189  variables
+ 190  v(j)
+ 191  mu(j)
+ 192  lambda(i)
+ 193  z
+ 194  wtheta(j), wphi(j), wdeltap(j), wdeltam(j)
+ 195  ;
+ 196   
+ 197  positive variables
+ 198  theta(j), phi(j), deltam(j), deltap(j)
+ 199  ;
+ 200   
+ 201  binary variables
+ 202  yu(j), yl(j), y0(j)
+ 203  ;
+ 204   
+ 205  **************** INITIALIZING PARAMETRIC VARIABLES AND SETS ****************************
+ 206   
+ 207  bigM = 1000;
+ 208  epsilon = 0.0001;
+ 209   
+ 210  scalar counter /0/;
+ 211   
+ 212  ****************************************************************************************
+ 213   
+ 214  ******************* DEFINITION OF EQUATIONS *********************************************
+ 215  *** OUTER PROBLEM                                                                       *
+ 216  ***     outer = Outer objective - Maximize V(product)                                   *
+ 217  ***     outer1 = Sum of all interventions should not exceed k                           *
+ 218  ***     outer2 = Each reaction can be considered for only one of Up Regulation          *
+ 219  ***              Down regulation or Knockout                                            *
+ 220  ***     outer3 = Equating the Inner Primal and Dual objective functions                 *
+ 221  ***     outer4 -                                                                        *
+ 222  ***     outer19 = Linearinzing constraints (using bigM method)                          *
+ 223  *************************************************************************************************
+ 224  *********** INNER PROBLEM (PRIMAL)                                                              *
+ 225  ***********     primal = Primal objective function (Minimize V(product))                        *
+ 226  ***********     primal1 = Stoichiometric Constraint                                             *
+ 227  ***********     primal2 = Constraint that imparts the up-regulations                            *
+ 228  ***********     primal3 = Constraint that imparts the down-regulations                          *
+ 229  ***********     primal4 = Global upper bound for the fluxes                                     *
+ 230  ***********     primal5 = Global lower bound for the fluxes                                     *
+ 231  ***********     primal6 = Contrained reactions                                                  *
+ 232  *************************************************************************************************
+ 233  *********** INNER PROBLEM (DUAL)                                                                *
+ 234  ***********     dual = Dual objective function                                                  *
+ 235  ***********     dual1 = Dual constraint corr. to not constrained variables in primal problem    *
+ 236  ***********     dual2 = Dual constraint corr. to constrained variable in primal problem         *
+ 237  ***********     dual1 = Dual constraint corr. to V(target) variable in primal problem           *
+ 238  *************************************************************************************************
+ 239   
+ 240  equations
+ 241   
+ 242  primal1
+ 243  primal2
+ 244  primal3
+ 245  primal4
+ 246  primal5
+ 247  primal6
+ 248  primal
+ 249   
+ 250  dual
+ 251  dual1
+ 252  dual2
+ 253  dual3
+ 254   
+ 255  outer
+ 256  outer1
+ 257  outer2
+ 258  outer3
+ 259  outer4
+ 260  outer5
+ 261  outer6
+ 262  outer7
+ 263  outer8
+ 264  outer9
+ 265  outer10
+ 266  outer11
+ 267  outer12
+ 268  outer13
+ 269  outer14
+ 270  outer15
+ 271  outer16
+ 272  outer17
+ 273  outer18
+ 274  outer19
+ 275  outer20
+ 276  outer21
+ 277  outer22
+ 278  outer23
+ 279  ;
+ 280   
+ 281  ************************ OUTER PROBLEM **********************************************
+ 282   
+ 283  outer..                                 z - sum(j$(target(j)), v(j)) =e= 0;
+ 284   
+ 285  outer1..                                sum(j, yu(j) + yl(j) + y0(j) ) =e= k;
+ 286  outer2(j)..                             yu(j) + yl(j) + y0(j) =l= 1;
+ 287  outer3..                                sum(j$(target(j)), v(j)) =e= sum(j$(constraint(j) and not target(j)),b(j)*mu(j)) + sum(j, wtheta(j)*phenomin(j) + theta(j)*LB(j) - wtheta(j)*LB(j) )
+ 288                                          - sum(j, wphi(j)*phenomax(j) + phi(j)*UB(j) - wphi(j)*UB(j) ) + sum(j, deltap(j)*LB(j) - wdeltap(j)*LB(j) - deltam(j)*UB(j) + wdeltam(j)*UB(j) );
+ 289   
+ 290  outer4(j)..                             wtheta(j) =l= bigM*yu(j);
+ 291  outer5(j)..                             wtheta(j) =g= -bigM*yu(j);
+ 292  outer6(j)..                             wtheta(j) =l= theta(j) + bigM*(1-yu(j) );
+ 293  outer7(j)..                             wtheta(j) =g= theta(j) - bigM*(1-yu(j) );
+ 294   
+ 295  outer8(j)..                             wphi(j) =l= bigM*yl(j);
+ 296  outer9(j)..                             wphi(j) =g= -bigM*yl(j);
+ 297  outer10(j)..                            wphi(j) =l= phi(j) + bigM*(1-yl(j) );
+ 298  outer11(j)..                            wphi(j) =g= phi(j) - bigM*(1-yl(j) );
+ 299   
+ 300  outer12(j)..                            wdeltap(j) =l= bigM*y0(j);
+ 301  outer13(j)..                            wdeltap(j) =g= -bigM*y0(j);
+ 302  outer14(j)..                            wdeltap(j) =l= deltap(j) + bigM*(1-y0(j) );
+ 303  outer15(j)..                            wdeltap(j) =g= deltap(j) - bigM*(1-y0(j) );
+ 304   
+ 305  outer16(j)..                            wdeltam(j) =l= bigM*y0(j);
+ 306  outer17(j)..                            wdeltam(j) =g= -bigM*y0(j);
+ 307  outer18(j)..                            wdeltam(j) =l= deltam(j) + bigM*(1-y0(j) );
+ 308  outer19(j)..                            wdeltam(j) =g= deltam(j) - bigM*(1-y0(j) );
+ 309   
+ 310  outer20(index)..                        sum(j, matrix1(index, j)*yu(j)) + sum(j, matrix2(index, j)*yl(j)) + sum(j, matrix3(index, j)*y0(j)) =l= k - 1;
+ 311  outer21(j)$(excluded_U(j))..            yu(j) =e= 0;
+ 312  outer22(j)$(excluded_L(j))..            yl(j) =e= 0;
+ 313  outer23(j)$(excluded_K(j))..            y0(j) =e= 0;
+ 314   
+ 315  *************************************************************************************
+ 316  ********************* PRIMAL PROBLEM (INNER) ****************************************
+ 317   
+ 318          primal1(i)..                                     sum(j, (S(i,j)*v(j))) =e= 0;
+ 319          primal2(j)..                                     v(j) =g= phenomin(j)*yu(j) + LB(j)*(1-yu(j) );
+ 320          primal3(j)..                                     v(j) =l= phenomax(j)*yl(j) + UB(j)*(1-yl(j) );
+ 321          primal4(j)..                                     v(j) =g= LB(j)*(1-y0(j) );
+ 322          primal5(j)..                                     v(j) =l= UB(j)*(1-y0(j) );
+ 323          primal6(j)$(constraint(j) and not target(j))..   v(j) =e= b(j);
+ 324   
+ 325  *************************************************************************************
+ 326  ********************* DUAL PROBLEM (INNER) ******************************************
+ 327   
+ 328          dual1(j)$(not constraint(j) and not target(j))..                          sum(i, lambda(i)*S(i,j) ) + theta(j) - phi(j) + deltap(j) - deltam(j) =e= 0;
+ 329          dual2(j)$(constraint(j) and not target(j))..             sum(i, lambda(i)*S(i, j)) + mu(j) + theta(j) - phi(j) + deltap(j) - deltam(j) =e= 0;
+ 330          dual3(j)$(target(j))..                                   sum(i, lambda(i)*S(i, j)) + theta(j) - phi(j) + deltap(j) - deltam(j) =e= 1;
+ 331  *************************************************************************************
+ 332   
+ 333  ************ GLOBAL UPPER AND LOWER BOUNDS ******************************************
+ 334   
+ 335   
+ 336  v.lo(j) = LB(j);
+****       $352  $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 337  v.up(j) = UB(j);
+****       $352  $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 338   
+ 339  ********************************
+ 340  yu.fx(j)$(not mustu(j) ) = 0;
+****        $352        $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 341  yl.fx(j)$(not mustl(j) ) = 0;
+****        $352        $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 342  *************************************************************************************
+ 343   
+ 344  model bilevel
+ 345  /
+ 346  primal1
+ 347  primal2
+ 348  primal3
+ 349  primal4
+ 350  primal5
+ 351  primal6
+ 352   
+ 353  dual1
+ 354  dual2
+ 355  dual3
+ 356   
+ 357  outer
+ 358  outer1
+ 359  outer2
+ 360  outer3
+ 361  outer4
+ 362  outer5
+ 363  outer6
+ 364  outer7
+ 365  outer8
+ 366  outer9
+ 367  outer10
+ 368  outer11
+ 369  outer12
+ 370  outer13
+ 371  outer14
+ 372  outer15
+ 373  outer16
+ 374  outer17
+ 375  outer18
+ 376  outer19
+ 377  outer20
+ 378  outer21
+ 379  outer22
+ 380  outer23
+ 381  /
+ 382  ;
+ 383   
+ 384   
+ 385  *solve primalproblem using lp minimizing zprimal;
+ 386   
+ 387  *solve dualproblem using lp maximizing zdual;
+ 388   
+ 389  options iterlim = 1000000;
+ 390  bilevel.optfile = 1;
+ 391  z.l = 0;
+ 392   
+ 393  counter = 0;
+ 394  while((counter lt nMax),
+****                       $141
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+ 395   
+ 396  solve bilevel using mip maximizing z;
+****                                      $257
+**** 257  Solve statement not checked because of previous errors
+ 397           if (bilevel.modelstat eq 1,
+ 398                   counter = counter + 1;
+ 399                   matrix1(index, j)$(ord(index) = counter and yu.l(j) gt 0.99) = 1;
+****                                  $352                              $352
+**** 352  Set has not been initialized
+ 400                   matrix2(index, j)$(ord(index) = counter and yl.l(j) gt 0.99) = 1;
+****                                  $352                              $352
+**** 352  Set has not been initialized
+ 401                   matrix3(index, j)$(ord(index) = counter and y0.l(j) gt 0.99) = 1;
+****                                  $352                            $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 402   
+ 403                   matrix1_flux(index, j)$(ord(index) = counter and yu.l(j) gt 0.99) = v.l(j);
+****                                       $352                              $352              $352
+**** 352  Set has not been initialized
+ 404                   matrix2_flux(index, j)$(ord(index) = counter and yl.l(j) gt 0.99) = v.l(j);
+****                                       $352                              $352              $352
+**** 352  Set has not been initialized
+ 405                   matrix3_flux(index, j)$(ord(index) = counter and y0.l(j) gt 0.99) = v.l(j);
+****                                       $352                              $352              $352
+**** 352  Set has not been initialized
+ 406   
+ 407                   objective(index)$(ord(index) = counter) = z.l;
+ 408   
+ 409           );
+ 410          if (bilevel.modelstat ne 1,
+ 411                  counter = nMax;
+ 412          );
+ 413  );
+
+**** 48 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.003 SECONDS      3 MB  42.5.0 cf11b917 LEX-LEG
+
+
+USER: GAMS Demo license for Ricardo Angel            G230419|0002CO-GEN
+      Universidad de los Andes, Colombia                       DL090448
+
+
+**** FILE SUMMARY
+
+Input      /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+Output     /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.lst
+
+**** USER ERROR(S) ENCOUNTERED

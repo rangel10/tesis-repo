@@ -1,0 +1,187 @@
+--- Job optForce.gms Start 04/22/23 15:04:23 42.5.0 cf11b917 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /home/tato/GAMS/gams42.5_linux_x64_64_sfx/gmsprmun.txt
+--- GAMS Parameters defined
+    Input "/home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms"
+    PageSize 0
+    ScrDir "/home/tato/Documentos/GitHub/tesis-repo/GAMS files/225a/"
+    SysDir /home/tato/GAMS/gams42.5_linux_x64_64_sfx/
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Demo license for Ricardo Angel            G230419|0002CO-GEN
+          Universidad de los Andes, Colombia                       DL090448
+          /home/tato/GAMS/gams42.5_linux_x64_64_sfx/gamslice.txt
+          ra.angel10@uniandes.edu.co, Ricardo Angel                        
+          Demo license for demonstration and instructional purposes only
+Processor information: 1 socket(s), 8 core(s), and 16 thread(s) available
+GAMS 42.5.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
+--- Starting compilation
+--- optForce.gms(52) 2 Mb 1 Error
+*** Error 913 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Option "work" is invalid - use command line parameter or 
+       model attribute "workSpace" instead
+--- optForce.gms(68) 2 Mb 2 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(71) 2 Mb 3 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(76) 2 Mb 4 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(79) 2 Mb 5 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(82) 2 Mb 6 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(85) 2 Mb 7 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(93) 3 Mb 8 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(96) 3 Mb 9 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(99) 3 Mb 10 Errors
+*** Error 282 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open include file
+       Hint: Does the filename need to be quoted?
+--- optForce.gms(153) 3 Mb
+*** GDXIN failed /home/tato/Documentos/GitHub/tesis-repo/GAMS files/%myroot%MtoGOF.gdx
+*** Msg: No such file or directory
+--- optForce.gms(153) 3 Mb 11 Errors
+*** Error 510 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Unable to open gdx file for $GDXIN
+--- optForce.gms(154) 3 Mb 12 Errors
+*** Error 502 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    GDXIN  file not open - ignore rest of line
+--- optForce.gms(157) 3 Mb 13 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(158) 3 Mb 14 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(159) 3 Mb 15 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(161) 3 Mb 16 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(162) 3 Mb 17 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(163) 3 Mb 18 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(336) 3 Mb 21 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(337) 3 Mb 24 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(340) 3 Mb 27 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(341) 3 Mb 30 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(394) 3 Mb 31 Errors
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- optForce.gms(396) 3 Mb 32 Errors
+*** Error 257 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Solve statement not checked because of previous errors
+--- optForce.gms(399) 3 Mb 34 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(400) 3 Mb 36 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(401) 3 Mb 39 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 141 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(403) 3 Mb 42 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(404) 3 Mb 45 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(405) 3 Mb 48 Errors
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+*** Error 352 in /home/tato/Documentos/GitHub/tesis-repo/GAMS files/optForce.gms
+    Set has not been initialized
+--- optForce.gms(413) 3 Mb 48 Errors
+*** Status: Compilation error(s)
+--- Job optForce.gms Stop 04/22/23 15:04:23 elapsed 0:00:00.004

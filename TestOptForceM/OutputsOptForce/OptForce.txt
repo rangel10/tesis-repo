@@ -1,0 +1,2 @@
+Number of interventions	Set number	Force Set	Type of regulation	Min Flux in Wild-type(mmol/gDW hr)	Max Flux in Wild-type (mmol/gDW hr)	Min Flux in Mutant (mmol/gDW hr)	Max Flux in Mutant (mmol/gDW hr)	Achieved flux (mmol/gDW hr)	Objective function (mmol/gDW hr)	Minimum guaranteed for target (mmol/gDW hr)	Maximum guaranteed for target (mmol/gDW hr)	Maximum growth rate (1/hr)
+1	1	{SUCt}	{upregulation}	{0}	{105.423}	{155.55}	{155.55}	{155.55}	155.5500	155.5500	155.5500	0.0021

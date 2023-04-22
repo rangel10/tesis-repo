@@ -38,31 +38,32 @@ model_02_01 = addFixedRxns(model_02_01,'1');
 
 
 % parametros
-threshold = 5;
-numDel = 2;
-percent = 0.8;
+threshold = 1;
+numDel = 3;
+percent = 0.5;
 
-model_test = model_02_01;
+model_test = model_01_01;
 fba = optimizeCbModel(model_test,'max');
 fluxb = fba.f;
 rxns = model_test.rxns;
 options = struct('targetRxn',ex4omet,'numDel',numDel);
-constrOpt = struct('rxnList', {{biomass}},'values', fluxb*percent, 'sense', 'G');
+constrOpt = struct('rxnList', {{biomass, ex4omet}},'values', [fluxb*percent, 1.2], 'sense', ['G', 'G']);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_0201_2D_80P_5TH.txt','w');
+fid = fopen('optknock results/result_0101_3D_50P_1TH.txt','a');
 
 % Optknock
-fprintf(fid,'\n\n**********************Resultados 02_01: %i deletions, %g biomass, %i runs********************\n\n',numDel, percent, threshold);
+fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs********************\n\n',numDel, percent, threshold);
 previousResult = cell(threshold,1);
 contprev = 1;
 for i=1:threshold
     fprintf(fid,'\n---------------------Resultado %i------------------------\n',i);
-    if isempty(previousResult{1})
-        result = OptKnock(model_test,rxns,options,constrOpt);
-    else
-        result = OptKnock(model_test,rxns,options,constrOpt,previousResult,false);
-    end
+%     if isempty(previousResult{1})
+%         result = OptKnock(model_test,rxns,options,constrOpt,previousResult,true);
+%     else
+%         result = OptKnock(model_test,rxns,options,constrOpt,previousResult,true);
+%     end
+    result = OptKnock(model_test,rxns,options,constrOpt,previousResult,false);
     solset = result.rxnList;
     if ~isempty(solset)
         previousResult{contprev} = solset;

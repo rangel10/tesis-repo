@@ -4,42 +4,42 @@
 
 
 ---------------------Resultado 1------------------------
-Rxns: COAtim H2Otm 
-Obj: 0.005807
-Biomass: 9.800047
-Max prod: 1.000000
-Min prod: 1.000000
-Max growth: 9.423927
-Type: growth coupled
----------------------Resultado 2------------------------
-Rxns: PIt2m THIORDXp 
-Obj: 0.002848
-Biomass: 8.962129
-Max prod: 1.000000
-Min prod: 1.000000
-Max growth: 8.667839
-Type: growth coupled
----------------------Resultado 3------------------------
-Rxns: MTHFD PIt2m 
-Obj: 0.267000
-Biomass: 8.923149
-Max prod: 1.000000
-Min prod: 1.000000
-Max growth: 8.664771
-Type: growth coupled
----------------------Resultado 4------------------------
-Rxns: IPPSm MDHm 
-Obj: 0.009550
-Biomass: 9.773700
-Max prod: 1.000000
-Min prod: 1.000000
-Max growth: 9.399927
-Type: growth coupled
----------------------Resultado 5------------------------
-Rxns: 3DSPHR 
-Obj: 4.021877
+Rxns: CITtap GAPD 
+Obj: 1.067882
 Biomass: 7.542443
 Max prod: 1.000000
 Min prod: 1.000000
-Max growth: 9.428054
+Max growth: 7.562641
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: GLUDy PYK 
+Obj: 0.365198
+Biomass: 7.918412
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.712664
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: PIt2m RPE 
+Obj: 0.006604
+Biomass: 8.949801
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.638558
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ENO PIt2m 
+Obj: 0.001749
+Biomass: 7.566452
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.188544
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: GLUt7m MTHFD 
+Obj: 0.037555
+Biomass: 9.704045
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.334239
 Type: growth coupled

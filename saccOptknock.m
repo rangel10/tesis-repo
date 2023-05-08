@@ -38,26 +38,28 @@ model_02_01 = addFixedRxns(model_02_01,'1');
 
 
 % parametros
-threshold = 1;
-numDel = 3;
-percent = 0.5;
+threshold = 25;
+numDel = 2;
+percent = 0.6;
+minObj = 2;
 
 model_test = model_01_01;
 fba = optimizeCbModel(model_test,'max');
 fluxb = fba.f;
-rxns = model_test.rxns;
+%rxns = model_test.rxns;
 options = struct('targetRxn',ex4omet,'numDel',numDel);
-constrOpt = struct('rxnList', {{biomass, ex4omet}},'values', [fluxb*percent, 1.2], 'sense', ['G', 'G']);
+constrOpt = struct('rxnList', {{biomass, ex4omet}},'values', [fluxb*percent, minObj], 'sense', ['G', 'G']);
+exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')) == 0);
+rxns = setdiff(model_test.rxns, exchangeRxns);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_0101_3D_50P_1TH.txt','a');
+fid = fopen('optknock results/result_0101_2D_60P_25TH_2MO.txt','w');
 
 % Optknock
-fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs********************\n\n',numDel, percent, threshold);
+fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs, %g min objective********************\n\n',numDel, percent, threshold, minObj);
 previousResult = cell(threshold,1);
 contprev = 1;
 for i=1:threshold
-    fprintf(fid,'\n---------------------Resultado %i------------------------\n',i);
 %     if isempty(previousResult{1})
 %         result = OptKnock(model_test,rxns,options,constrOpt,previousResult,true);
 %     else
@@ -66,18 +68,22 @@ for i=1:threshold
     result = OptKnock(model_test,rxns,options,constrOpt,previousResult,false);
     solset = result.rxnList;
     if ~isempty(solset)
+        fprintf(fid,'\n---------------------Resultado %i------------------------\n',i);
+        [type, maxGrowth, maxProd, minProd] = analyzeOptKnock(model_test, result.rxnList, ex4omet);
+        fprintf(fid,'Rxns: ');
+        fprintf(fid,'%s ',result.rxnList{:});
+        fprintf(fid,'\nObj: %f',result.obj);
+        fprintf(fid,'\nBiomass: %f',result.fluxes(1521));
+        fprintf(fid,'\nMax prod: %f',maxProd);
+        fprintf(fid,'\nMin prod: %f',minProd);
+        fprintf(fid,'\nMax growth: %f',maxGrowth);
+        fprintf(fid,'\nType: %s',type);
         previousResult{contprev} = solset;
         contprev = contprev + 1;
+    else 
+        break;
     end
-    [type, maxGrowth, maxProd, minProd] = analyzeOptKnock(model_test, result.rxnList, ex4omet);
-    fprintf(fid,'Rxns: ');
-    fprintf(fid,'%s ',result.rxnList{:});
-    fprintf(fid,'\nObj: %f',result.obj);
-    fprintf(fid,'\nBiomass: %f',result.fluxes(1521));
-    fprintf(fid,'\nMax prod: %f',maxProd);
-    fprintf(fid,'\nMin prod: %f',minProd);
-    fprintf(fid,'\nMax growth: %f',maxGrowth);
-    fprintf(fid,'\nType: %s',type);
+    
 end
 
 %singleProductionEnvelope(model_test,result.rxnList,'added_EX_4omet_e',biomass,showPlot=true);

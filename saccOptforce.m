@@ -75,10 +75,11 @@ constrOpt = struct('rxnList', {{glucose, biomass, ex4omet}}, 'values', [-100, bi
 constrOpt = struct('rxnList', {{glucose, biomass, ex4omet}}, 'values', [-100, biomassMinValue, max4ometValue]);
 exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')) == 0);
 excludedRxns = unique([mustUSet; mustLSet; exchangeRxns]);
+rxns = setdiff(model_test.rxns,exchangeRxns);
 
 % MustUU set: Reacciones de segundo orden que deben aumentar
-[mustUU, pos_mustUU, mustUU_linear, pos_mustUU_linear] = findMustUU(model_test, minFluxesW, maxFluxesW, 'excludedRxns', excludedRxns, 'constrOpt', constrOpt, 'runID', runID, 'outputFolder', 'OutputsFindMustUU', 'outputFilename', 'MustUU', ...
-    'printExcel', true, 'printText', true, 'printReport', true, 'keepInputs', true, 'verbose', false);
+% [mustUU, pos_mustUU, mustUU_linear, pos_mustUU_linear] = findMustUU(model_test, minFluxesW, maxFluxesW, 'excludedRxns', excludedRxns, 'constrOpt', constrOpt, 'runID', runID, 'outputFolder', 'OutputsFindMustUU', 'outputFilename', 'MustUU', ...
+%     'printExcel', true, 'printText', true, 'printReport', true, 'keepInputs', true, 'verbose', false);
 
 % MustLL set: Reacciones de segundo orden que deben disminuir 
 % [mustLL, pos_mustLL, mustLL_linear, pos_mustLL_linear] = findMustLL(model_test, minFluxesW, maxFluxesW, 'excludedRxns', excludedRxns, 'constrOpt', constrOpt, 'runID', runID, 'outputFolder', 'OutputsFindMustLL', 'outputFilename', 'MustLL', ...

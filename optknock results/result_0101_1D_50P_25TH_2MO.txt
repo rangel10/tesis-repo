@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.5 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: AHSERL2 
+Obj: 2.000000
+Biomass: 9.104139
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.446685
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CTPS1 
+Obj: 2.000000
+Biomass: 9.107463
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.450134
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: SUCD2_u6m 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: NH4ti 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: GAPD 
+Obj: 2.000000
+Biomass: 7.245117
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.595089
+Type: growth coupled

@@ -1,0 +1,13 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.6 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ASPt2m 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

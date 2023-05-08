@@ -1,0 +1,13 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.8 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: SLFAT 
+Obj: 2.000000
+Biomass: 9.106801
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.449447
+Type: growth coupled

@@ -1,0 +1,1227 @@
+Abbreviation,Description,Charged formula,Charge,Compartment
+2dr5p_c[u],2-Deoxy-D-ribose 5-phosphate,C5H9O7P,-2,Unknown
+2hb_c[u],2 Hydroxybutyrate C4H7O3,C4H7O3,-1,Unknown
+2hb_e[u],2 Hydroxybutyrate C4H7O3,C4H7O3,-1,Unknown
+2hhxdal_c[u],2 Hydroxy hexadecanal C16H32O2,C16H32O2,0,Unknown
+2hp6mbq_m[u],2 Hexaprenyl 6 methoxy 1 4 benzoquinone C37H54O3,C37H54O3,0,Unknown
+2hp6mp_m[u],2 Hexaprenyl 6 methoxyphenol C37H56O2,C37H56O2,0,Unknown
+2hpmhmbq_m[u],2 hexaprenyl 3 methyl 5 hydroxy 6 methoxy 1 4 benzoquinone C38H56O4,C38H56O4,0,Unknown
+2hpmmbq_m[u],2 hexaprenyl 3 methyl 6 methoxy 1 4 benzoquinone C38H56O3,C38H56O3,0,Unknown
+2ippm_c[u],2-Isopropylmaleate,C7H8O4,-2,Unknown
+2kmb_c[u],2-keto-4-methylthiobutyrate,C5H7O3S,-1,Unknown
+2mahmp_c[u],2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate,C6H8N3O7P2,-3,Unknown
+2mbac_c[u],2 methylbutyl acetate C7H14O2,C7H14O2,0,Unknown
+2mbac_e[u],2 methylbutyl acetate C7H14O2,C7H14O2,0,Unknown
+2mbald_c[u],2 methylbutyraldehyde C5H10O,C5H10O,0,Unknown
+2mbald_e[u],2 methylbutyraldehyde C5H10O,C5H10O,0,Unknown
+2mbald_m[u],2 methylbutyraldehyde C5H10O,C5H10O,0,Unknown
+2mbtoh_c[u],2 methyl 1 butanol C5H12O,C5H12O,0,Unknown
+2mbtoh_e[u],2 methyl 1 butanol C5H12O,C5H12O,0,Unknown
+2mbtoh_m[u],2 methyl 1 butanol C5H12O,C5H12O,0,Unknown
+2mcit_m[u],2-Methylcitrate,C7H7O7,-3,Unknown
+2mppal_c[u],2 methylpropanal C4H8O,C4H8O,0,Unknown
+2mppal_e[u],2 methylpropanal C4H8O,C4H8O,0,Unknown
+2mppal_m[u],2 methylpropanal C4H8O,C4H8O,0,Unknown
+2obut_c[u],2-Oxobutanoate,C4H5O3,-1,Unknown
+2obut_m[u],2-Oxobutanoate,C4H5O3,-1,Unknown
+2oxoadp_c[u],2 Oxoadipate C6H6O5,C6H6O5,-2,Unknown
+2oxoadp_m[u],2 Oxoadipate C6H6O5,C6H6O5,-2,Unknown
+2pg_c[u],D-Glycerate 2-phosphate,C3H4O7P,-3,Unknown
+2phetoh_c[u],2 phenylethanol C8H10O,C8H10O,0,Unknown
+2phetoh_e[u],2 phenylethanol C8H10O,C8H10O,0,Unknown
+2phetoh_m[u],2 phenylethanol C8H10O,C8H10O,0,Unknown
+10fthf_c[u],10-Formyltetrahydrofolate,C20H21N7O7,-2,Unknown
+34hpl_m[u],3  4 Hydroxyphenyl lactate C9H9O4,C9H9O4,-1,Unknown
+34hpp_c[u],3-(4-Hydroxyphenyl)pyruvate,C9H7O4,-1,Unknown
+34hpp_m[u],3-(4-Hydroxyphenyl)pyruvate,C9H7O4,-1,Unknown
+10fthf_m[u],10-Formyltetrahydrofolate,C20H21N7O7,-2,Unknown
+4fumacac_c[u],4 Fumarylacetoacetate C8H6O6,C8H6O6,-2,Unknown
+34hpp_x[u],3-(4-Hydroxyphenyl)pyruvate,C9H7O4,-1,Unknown
+35ccmp_c[u],3  5  Cyclic CMP C9H11N3O7P,C9H11N3O7P,-1,Unknown
+4gudbd_c[u],4 Guanidinobutanamide C5H13N4O,C5H13N4O,1,Unknown
+12dgr_SC_c[u],1 2 Diacylglycerol  yeast specific C3540H6644O500,C3540H6644O500,0,Unknown
+35cdamp_c[u],3  5  Cyclic dAMP C10H11N5O5P,C10H11N5O5P,-1,Unknown
+13BDglcn_c[u],1 3 beta D Glucan C6H10O5,C6H10O5,0,Unknown
+4gudbutn_c[u],4 Guanidinobutanoate C5H11N3O2,C5H11N3O2,0,Unknown
+35cgmp_c[u],"3',5'-Cyclic GMP",C10H11N5O7P,-1,Unknown
+4h2oglt_c[u],4 Hydroxy 2 oxoglutarate C5H4O6,C5H4O6,-2,Unknown
+13BDglcn_e[u],1 3 beta D Glucan C6H10O5,C6H10O5,0,Unknown
+35cimp_c[u],3  5  Cyclic IMP C10H10N4O7P,C10H10N4O7P,-1,Unknown
+13dampp_c[u],1 3 Diaminopropane C3H12N2,C3H12N2,2,Unknown
+13dpg_c[u],3-Phospho-D-glyceroyl phosphate,C3H4O10P2,-4,Unknown
+4h2oglt_m[u],4 Hydroxy 2 oxoglutarate C5H4O6,C5H4O6,-2,Unknown
+4h2oglt_x[u],4 Hydroxy 2 oxoglutarate C5H4O6,C5H4O6,-2,Unknown
+3c2hmp_c[u],3-Carboxy-2-hydroxy-4-methylpentanoate,C7H10O5,-2,Unknown
+14glun_c[u], 1 4 alpha D Glucosyl n C6H12O6,C6H12O6,0,Unknown
+3c3hmp_c[u],3-Carboxy-3-hydroxy-4-methylpentanoate,C7H10O5,-2,Unknown
+16BDglcn_c[u],1 6 beta D Glucan C6H10O5,C6H10O5,0,Unknown
+3c3hmp_e[u],3-Carboxy-3-hydroxy-4-methylpentanoate,C7H10O5,-2,Unknown
+1Dgali_c[u],1 alpha D Galactosyl myo inositol C12H22O11,C12H22O11,0,Unknown
+4hbz_c[u],4-Hydroxybenzoate,C7H5O3,-1,Unknown
+3c3hmp_m[u],3-Carboxy-3-hydroxy-4-methylpentanoate,C7H10O5,-2,Unknown
+4hbz_m[u],4-Hydroxybenzoate,C7H5O3,-1,Unknown
+1ag3p_SC_c[u],1 Acyl sn glycerol 3 phosphate C1920H3622O700P100,C1920H3622O700P100,-200,Unknown
+4hbzcoa_m[u],4 hydroxybenoyl CoA C28H36N7O18P3S,C28H36N7O18P3S,-4,Unknown
+3c4mop_c[u],3-Carboxy-4-methyl-2-oxopentanoate,C7H8O5,-2,Unknown
+4hglusa_m[u],L 4 Hydroxyglutamate semialdehyde C5H9NO4,C5H9NO4,0,Unknown
+1agly3p_SC_c[u],1 Acyl glycerone 3 phosphate  yeast specific C1920H3422O700P100,C1920H3422O700P100,-200,Unknown
+1agpc_SC_c[u],1 Acyl sn glycerol 3 phosphocholine  yeast specific C2420H4922N100O700P100,C2420H4922N100O700P100,0,Unknown
+3c4mop_m[u],3-Carboxy-4-methyl-2-oxopentanoate,C7H8O5,-2,Unknown
+1mncam_c[u],1 Methylnicotinamide C7H9N2O,C7H9N2O,1,Unknown
+4hpro_LT_c[u],Trans 4 Hydroxy L proline C5H9NO3,C5H9NO3,0,Unknown
+3dh5hpb_c[u],3 Hexaprenyl 4 5 dihydroxybenzoate C37H53O4,C37H53O4,-1,Unknown
+4hpro_LT_m[u],Trans 4 Hydroxy L proline C5H9NO3,C5H9NO3,0,Unknown
+1p3h5c_c[u],L 1 Pyrroline 3 hydroxy 5 carboxylate C5H6NO3,C5H6NO3,-1,Unknown
+3dh5hpb_m[u],3 Hexaprenyl 4 5 dihydroxybenzoate C37H53O4,C37H53O4,-1,Unknown
+1p3h5c_m[u],L 1 Pyrroline 3 hydroxy 5 carboxylate C5H6NO3,C5H6NO3,-1,Unknown
+4hthr_c[u],4-Hydroxy-L-threonine,C4H9NO4,0,Unknown
+3dhq_c[u],3-Dehydroquinate,C7H9O6,-1,Unknown
+4mhetz_c[u],4-Methyl-5-(2-hydroxyethyl)-thiazole,C6H9NOS,0,Unknown
+4mlacac_c[u],4 Maleylacetoacetate C8H6O6,C8H6O6,-2,Unknown
+1pyr5c_c[u],1-Pyrroline-5-carboxylate,C5H6NO2,-1,Unknown
+3dhsk_c[u],3-Dehydroshikimate,C7H7O5,-1,Unknown
+1pyr5c_m[u],1-Pyrroline-5-carboxylate,C5H6NO2,-1,Unknown
+4mop_c[u],4-Methyl-2-oxopentanoate,C6H9O3,-1,Unknown
+3dsphgn_c[u],3 Dehydrosphinganine C18H38NO2,C18H38NO2,1,Unknown
+4mop_m[u],4-Methyl-2-oxopentanoate,C6H9O3,-1,Unknown
+3hanthrn_c[u],3 Hydroxyanthranilate C7H7NO3,C7H7NO3,0,Unknown
+4mpetz_c[u],4-Methyl-5-(2-phosphoethyl)-thiazole,C6H8NO4PS,-2,Unknown
+3hdcoa_x[u],(S)-3-Hydroxydecanoyl-CoA,C31H50N7O18P3S,-4,Unknown
+4mzym_c[u],4 methylzymosterol C28H46O,C28H46O,0,Unknown
+23camp_c[u],"2',3'-Cyclic AMP",C10H11N5O6P,-1,Unknown
+3hddcoa_x[u],(S)-3-Hydroxydodecanoyl-CoA,C33H54N7O18P3S,-4,Unknown
+4mzym_int1_c[u],4 Methylzymosterol intermediate 1 C29H46O3,C29H46O3,0,Unknown
+4mzym_int2_c[u],4 Methylzymosterol intermediate 2 C28H44O,C28H44O,0,Unknown
+4pasp_c[u],4-Phospho-L-aspartate,C4H6NO7P,-2,Unknown
+4ppan_c[u],D-4'-Phosphopantothenate,C9H15NO8P,-3,Unknown
+4ppcys_c[u],N-((R)-4-Phosphopantothenoyl)-L-cysteine,C12H20N2O9PS,-3,Unknown
+4r5au_c[u],4-(1-D-Ribitylamino)-5-aminouracil,C9H16N4O6,0,Unknown
+23dhmb_m[u],"(R)-2,3-Dihydroxy-3-methylbutanoate",C5H9O4,-1,Unknown
+3hhdcoa_x[u],(S)-3-Hydroxyhexadecanoyl-CoA,C37H62N7O18P3S,-4,Unknown
+23dhmp_m[u],"(R)-2,3-Dihydroxy-3-methylpentanoate",C6H11O4,-1,Unknown
+5aizc_c[u],5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate,C9H11N3O9P,-3,Unknown
+5aop_c[u],5-Amino-4-oxopentanoate,C5H9NO3,0,Unknown
+3hodcoa_x[u],(S)-3-Hydroxyoctadecanoyl-CoA,C39H66N7O18P3S,-4,Unknown
+5aop_e[u],5-Amino-4-oxopentanoate,C5H9NO3,0,Unknown
+23dpg_c[u],2 3 Disphospho D glycerate C3H3O10P2,C3H3O10P2,-5,Unknown
+25aics_c[u],(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate,C13H15N4O12P,-4,Unknown
+5aop_m[u],5-Amino-4-oxopentanoate,C5H9NO3,0,Unknown
+3hph5mb_m[u],3 Hexaprenyl 4 hydroxy 5 methoxybenzoate C38H55O4,C38H55O4,-1,Unknown
+5aprbu_c[u],5-Amino-6-(5'-phosphoribitylamino)uracil,C9H15N4O9P,-2,Unknown
+25dhpp_c[u],2 5 Diamino 6 hydroxy 4  5  phosphoribosylamino  pyrimidine C9H14N5O8P,C9H14N5O8P,-2,Unknown
+3htdcoa_x[u],(S)-3-Hydroxytetradecanoyl-CoA,C35H58N7O18P3S,-4,Unknown
+25dthpp_c[u],2 5 diamino 6 ribitylamino 4 3H  pyrimidinone 5  phosphate C9H16N5O8P,C9H16N5O8P,-2,Unknown
+5dpmev_c[u], R  5 Diphosphomevalonate C6H10O10P2,C6H10O10P2,-4,Unknown
+3hxccoa_x[u], S  3 Hydroxyhexacosyl CoA C47H82N7O18P3S,C47H82N7O18P3S,-4,Unknown
+5fthf_c[u],5-Formyltetrahydrofolate,C20H21N7O7,-2,Unknown
+2ahbut_m[u],(S)-2-Aceto-2-hydroxybutanoate,C6H9O4,-1,Unknown
+3ig3p_c[u],C'-(3-Indolyl)-glycerol 3-phosphate,C11H12NO6P,-2,Unknown
+2ahhmd_m[u],2 Amino 4 hydroxy 6 hydroxymethyl 7 8 dihydropteridine diphosphate C7H8N5O8P2,C7H8N5O8P2,-3,Unknown
+5fthf_m[u],5-Formyltetrahydrofolate,C20H21N7O7,-2,Unknown
+3ipmmest_c[u],3 isopropylmalate methyl ester C8H13O5,C8H13O5,-1,Unknown
+2ahhmp_m[u],2 Amino 4 hydroxy 6 hydroxymethyl 7 8 dihydropteridine C7H9N5O2,C7H9N5O2,0,Unknown
+3mbald_c[u],3 Methylbutanal C5H10O,C5H10O,0,Unknown
+2amsa_c[u],2-Aminomalonate semialdehyde,C3H5NO3,0,Unknown
+3mbald_e[u],3 Methylbutanal C5H10O,C5H10O,0,Unknown
+2aobut_c[u],L-2-Amino-3-oxobutanoate,C4H7NO3,0,Unknown
+5mdr1p_c[u],5-Methylthio-5-deoxy-D-ribose 1-phosphate,C6H11O7PS,-2,Unknown
+3mbald_m[u],3 Methylbutanal C5H10O,C5H10O,0,Unknown
+5mdru1p_c[u],5-Methylthio-5-deoxy-D-ribulose 1-phosphate,C6H11O7PS,-2,Unknown
+2cpr5p_c[u],1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate,C12H13NO9P,-3,Unknown
+2dda7p_c[u],2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C7H10O10P,-3,Unknown
+3mob_c[u],3-Methyl-2-oxobutanoate,C5H7O3,-1,Unknown
+2dda7p_m[u],2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C7H10O10P,-3,Unknown
+5mta_c[u],5-Methylthioadenosine,C11H15N5O3S,0,Unknown
+5mthf_c[u],5-Methyltetrahydrofolate,C20H24N7O6,-1,Unknown
+3mob_m[u],3-Methyl-2-oxobutanoate,C5H7O3,-1,Unknown
+5pmev_c[u], R  5 Phosphomevalonate C6H10O7P,C6H10O7P,-3,Unknown
+2dglc_c[u],2 Deoxy D glucose C6H12O5,C6H12O5,0,Unknown
+3mop_c[u],(S)-3-Methyl-2-oxopentanoate,C6H9O3,-1,Unknown
+2dhp_c[u],2-Dehydropantoate,C6H9O4,-1,Unknown
+6dg_c[u],D Gal alpha 1 6D Glucose C12H22O11,C12H22O11,0,Unknown
+3mop_e[u],(S)-3-Methyl-2-oxopentanoate,C6H9O3,-1,Unknown
+2dhp_m[u],2-Dehydropantoate,C6H9O4,-1,Unknown
+3mop_m[u],(S)-3-Methyl-2-oxopentanoate,C6H9O3,-1,Unknown
+2doxg6p_c[u],2 Deoxy D glucose 6 phosphate C6H11O8P,C6H11O8P,-2,Unknown
+6pgc_c[u],6-Phospho-D-gluconate,C6H10O10P,-3,Unknown
+3odcoa_x[u],3-Oxodecanoyl-CoA,C31H48N7O18P3S,-4,Unknown
+6pgl_c[u],"6-phospho-D-glucono-1,5-lactone",C6H9O9P,-2,Unknown
+2dr1p_c[u],2-Deoxy-D-ribose 1-phosphate,C5H9O7P,-2,Unknown
+3oddcoa_x[u],3-Oxododecanoyl-CoA,C33H52N7O18P3S,-4,Unknown
+6pgl_r[u],"6-phospho-D-glucono-1,5-lactone",C6H9O9P,-2,Unknown
+3ohdcoa_x[u],3-Oxohexadecanoyl-CoA,C37H60N7O18P3S,-4,Unknown
+8aonn_c[u],8-Amino-7-oxononanoate,C9H17NO3,0,Unknown
+3ohodcoa_x[u],3-Oxooctadecanoyl-CoA,C39H64N7O18P3S,-4,Unknown
+8aonn_e[u],8-Amino-7-oxononanoate,C9H17NO3,0,Unknown
+acon_T_c[u],Trans-Aconitate,C6H3O6,-3,Unknown
+3ohxccoa_x[u],3 Oxohexacosyl CoA C47H80N7O18P3S,C47H80N7O18P3S,-4,Unknown
+ACP_c[u],Acyl carrier protein,C11H21N2O7PRS,-1,Unknown
+3ophb_5_c[u],3 Hexaprenyl 4 hydroxybenzoate C37H53O3,C37H53O3,-1,Unknown
+ACP_m[u],Acyl carrier protein,C11H21N2O7PRS,-1,Unknown
+acorn_m[u],N2-Acetyl-L-ornithine,C7H14N2O3,0,Unknown
+Dara14lac_c[u],D Arabinono 1 4 lactone C5H8O5,C5H8O5,0,Unknown
+3ophb_5_m[u],3 Hexaprenyl 4 hydroxybenzoate C37H53O3,C37H53O3,-1,Unknown
+acrn_c[u],O Acetylcarnitine C9H17NO4,C9H17NO4,0,Unknown
+3otdcoa_x[u],3-Oxotetradecanoyl-CoA,C35H56N7O18P3S,-4,Unknown
+acrn_m[u],O Acetylcarnitine C9H17NO4,C9H17NO4,0,Unknown
+L2aadp6sa_c[u],L 2 Aminoadipate 6 semialdehyde C6H11NO3,C6H11NO3,0,Unknown
+L2aadp_c[u],L 2 Aminoadipate C6H10NO4,C6H10NO4,-1,Unknown
+3pg_c[u],3-Phospho-D-glycerate,C3H4O7P,-3,Unknown
+cysi__L_c[u],L Cystine C6H12N2O4S2,C6H12N2O4S2,0,Unknown
+acrn_x[u],O Acetylcarnitine C9H17NO4,C9H17NO4,0,Unknown
+3php_c[u],3-Phosphohydroxypyruvate,C3H2O7P,-3,Unknown
+acser_c[u],O-Acetyl-L-serine,C5H9NO4,0,Unknown
+cysi__L_v[u],L Cystine C6H12N2O4S2,C6H12N2O4S2,0,Unknown
+3psme_c[u],5-O-(1-Carboxyvinyl)-3-phosphoshikimate,C10H9O10P,-4,Unknown
+Lfmkynr_c[u],L Formylkynurenine C11H12N2O4,C11H12N2O4,0,Unknown
+actn__R_c[u], R  Acetoin C4H8O2,C4H8O2,0,Unknown
+44mctr_c[u],4 4 dimethylcholesta 8 14 24 trienol C29H46O,C29H46O,0,Unknown
+acybut_c[u],Gamma Amino gamma cyanobutanoate C5H8N2O2,C5H8N2O2,0,Unknown
+Lkynr_c[u],L Kynurenine C10H12N2O3,C10H12N2O3,0,Unknown
+44mzym_c[u],4 4 dimethylzymosterol C29H48O,C29H48O,0,Unknown
+N1aspmd_c[u],N1-Acetylspermidine,C9H23N3O,2,Unknown
+ade_c[u],Adenine,C5H5N5,0,Unknown
+4aabutn_c[u],4 Acetamidobutanoate C6H10NO3,C6H10NO3,-1,Unknown
+ade_e[u],Adenine,C5H5N5,0,Unknown
+N1sprm_c[u],N1 Acetylspermine C12H31N4O,C12H31N4O,3,Unknown
+4abut_c[u],4-Aminobutanoate,C4H9NO2,0,Unknown
+NPmehis_c[u],N pai  Methyl L histidine C7H11N3O2,C7H11N3O2,0,Unknown
+Nbfortyr_c[u],N N bisformyl dityrosine C20H22N2O8,C20H22N2O8,-2,Unknown
+Nbfortyr_e[u],N N bisformyl dityrosine C20H22N2O8,C20H22N2O8,-2,Unknown
+ade_m[u],Adenine,C5H5N5,0,Unknown
+adn_c[u],Adenosine,C10H13N5O4,0,Unknown
+adn_e[u],Adenosine,C10H13N5O4,0,Unknown
+4abut_e[u],4-Aminobutanoate,C4H9NO2,0,Unknown
+adn_m[u],Adenosine,C10H13N5O4,0,Unknown
+Nfortyr_c[u],N Formyl L tyrosine C10H10NO4,C10H10NO4,-1,Unknown
+Sfglutth_c[u],S-Formylglutathione,C11H16N3O7S,-1,Unknown
+4abut_m[u],4-Aminobutanoate,C4H9NO2,0,Unknown
+Ssq23epx_c[u], S  Squalene 2 3 epoxide C30H50O,C30H50O,0,Unknown
+adp_c[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+4abutn_c[u],4-Aminobutanal,C4H10NO,1,Unknown
+adp_g[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+adp_m[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+Ssq23epx_r[u], S  Squalene 2 3 epoxide C30H50O,C30H50O,0,Unknown
+T4hcinnm_m[u],Trans 4 Hydroxycinnamate C9H7O3,C9H7O3,-1,Unknown
+4abutn_m[u],4-Aminobutanal,C4H10NO,1,Unknown
+aacald_c[u],Aminoacetaldehyde,C2H6NO,1,Unknown
+adp_n[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+4abz_c[u],4-Aminobenzoate,C7H6NO2,-1,Unknown
+adp_v[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+aacoa_c[u],Acetoacetyl-CoA,C25H36N7O18P3S,-4,Unknown
+4abz_e[u],4-Aminobenzoate,C7H6NO2,-1,Unknown
+aacoa_m[u],Acetoacetyl-CoA,C25H36N7O18P3S,-4,Unknown
+adp_x[u],ADP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+4abz_m[u],4-Aminobenzoate,C7H6NO2,-1,Unknown
+adprib_c[u],ADPribose C15H21N5O14P2,C15H21N5O14P2,-2,Unknown
+aact_c[u],Aminoacetone,C3H8NO,1,Unknown
+4adcho_c[u],4-amino-4-deoxychorismate,C10H10NO5,-1,Unknown
+abt_c[u],L Arabinitol C5H12O5,C5H12O5,0,Unknown
+adprib_m[u],ADPribose C15H21N5O14P2,C15H21N5O14P2,-2,Unknown
+ahcys_c[u],S-Adenosyl-L-homocysteine,C14H20N6O5S,0,Unknown
+abt_e[u],L Arabinitol C5H12O5,C5H12O5,0,Unknown
+4ahmmp_c[u],4-Amino-5-hydroxymethyl-2-methylpyrimidine,C6H9N3O,0,Unknown
+ahcys_m[u],S-Adenosyl-L-homocysteine,C14H20N6O5S,0,Unknown
+4ampm_c[u],4-Amino-2-methyl-5-phosphomethylpyrimidine,C6H8N3O4P,-2,Unknown
+ahdt_c[u],"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate",C9H12N5O13P3,-4,Unknown
+acACP_c[u],Acetyl-ACP,C13H23N2O8PRS,-1,Unknown
+atp_n[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+acACP_m[u],Acetyl-ACP,C13H23N2O8PRS,-1,Unknown
+ac_c[u],Acetate,C2H3O2,-1,Unknown
+ac_e[u],Acetate,C2H3O2,-1,Unknown
+aicar_c[u],5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide,C9H13N4O8P,-2,Unknown
+air_c[u],5-amino-1-(5-phospho-D-ribosyl)imidazole,C8H12N3O7P,-2,Unknown
+akg_c[u],2-Oxoglutarate,C5H4O5,-2,Unknown
+akg_e[u],2-Oxoglutarate,C5H4O5,-2,Unknown
+akg_m[u],2-Oxoglutarate,C5H4O5,-2,Unknown
+atp_v[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+akg_n[u],2-Oxoglutarate,C5H4O5,-2,Unknown
+ac_m[u],Acetate,C2H3O2,-1,Unknown
+ac_x[u],Acetate,C2H3O2,-1,Unknown
+atp_x[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+acac_c[u],Acetoacetate,C4H5O3,-1,Unknown
+b124tc_m[u],But 1 ene 1 2 4 tricarboxylate C7H5O6,C7H5O6,-3,Unknown
+acald_c[u],Acetaldehyde,C2H4O,0,Unknown
+akg_x[u],2-Oxoglutarate,C5H4O5,-2,Unknown
+ala_B_c[u],Beta-Alanine,C3H7NO2,0,Unknown
+btamp_c[u],Biotinyl 5  AMP C20H27N7O9PS,C20H27N7O9PS,-1,Unknown
+ala__L_c[u],L-Alanine,C3H7NO2,0,Unknown
+acald_e[u],Acetaldehyde,C2H4O,0,Unknown
+acald_m[u],Acetaldehyde,C2H4O,0,Unknown
+btd_RR_c[u], R R  2 3 Butanediol C4H10O2,C4H10O2,0,Unknown
+accoa_c[u],Acetyl-CoA,C23H34N7O17P3S,-4,Unknown
+ala__L_e[u],L-Alanine,C3H7NO2,0,Unknown
+btd_RR_e[u], R R  2 3 Butanediol C4H10O2,C4H10O2,0,Unknown
+ala__L_m[u],L-Alanine,C3H7NO2,0,Unknown
+accoa_m[u],Acetyl-CoA,C23H34N7O17P3S,-4,Unknown
+btn_c[u],Biotin,C10H15N2O3S,-1,Unknown
+accoa_n[u],Acetyl-CoA,C23H34N7O17P3S,-4,Unknown
+alac__S_m[u],(S)-2-Acetolactate,C5H7O4,-1,Unknown
+alatrna_c[u],L-Alanyl-tRNA(Ala),C3H6NOR,1,Unknown
+btn_e[u],Biotin,C10H15N2O3S,-1,Unknown
+allphn_c[u],Allophanate C2H3N2O3,C2H3N2O3,-1,Unknown
+alltn_c[u],Allantoin,C4H6N4O3,0,Unknown
+accoa_x[u],Acetyl-CoA,C23H34N7O17P3S,-4,Unknown
+aces_c[u],Acetic ester C4H8O2,C4H8O2,0,Unknown
+aces_e[u],Acetic ester C4H8O2,C4H8O2,0,Unknown
+camp_c[u],CAMP C10H11N5O6P,C10H11N5O6P,-1,Unknown
+acg5p_m[u],N-Acetyl-L-glutamyl 5-phosphate,C7H9NO8P,-3,Unknown
+alltn_e[u],Allantoin,C4H6N4O3,0,Unknown
+caphis_c[u],2  3 Carboxy 3 aminopropyl  L histidine C10H16N4O4,C10H16N4O4,0,Unknown
+alltt_c[u],Allantoate,C4H7N4O4,-1,Unknown
+acg5sa_m[u],N-Acetyl-L-glutamate 5-semialdehyde,C7H10NO4,-1,Unknown
+cbasp_c[u],N-Carbamoyl-L-aspartate,C5H6N2O5,-2,Unknown
+acgam1p_c[u],N-Acetyl-D-glucosamine 1-phosphate,C8H14NO9P,-2,Unknown
+alltt_e[u],Allantoate,C4H7N4O4,-1,Unknown
+alpam_m[u],S aminomethyldihydrolipoamide C9H21N2OS2,C9H21N2OS2,1,Unknown
+cbasp_n[u],N-Carbamoyl-L-aspartate,C5H6N2O5,-2,Unknown
+alpro_m[u],S Aminomethyldihydrolipoylprotein CH6NS2X,CH6NS2X,1,Unknown
+acgam6p_c[u],N-Acetyl-D-glucosamine 6-phosphate,C8H14NO9P,-2,Unknown
+acglu_m[u],N-Acetyl-L-glutamate,C7H9NO5,-2,Unknown
+cbp_c[u],Carbamoyl phosphate,CH2NO5P,-2,Unknown
+achms_c[u],O Acetyl L homoserine C6H11NO4,C6H11NO4,0,Unknown
+amet_c[u],S-Adenosyl-L-methionine,C15H23N6O5S,1,Unknown
+cbp_n[u],Carbamoyl phosphate,CH2NO5P,-2,Unknown
+amet_e[u],S-Adenosyl-L-methionine,C15H23N6O5S,1,Unknown
+acon5m_c[u],E 3 carboxyl 2 pentenedioate 5 methyl ester C7H6O6,C7H6O6,-2,Unknown
+cdp_c[u],CDP C9H12N3O11P2,C9H12N3O11P2,-3,Unknown
+amet_m[u],S-Adenosyl-L-methionine,C15H23N6O5S,1,Unknown
+cdp_n[u],CDP C9H12N3O11P2,C9H12N3O11P2,-3,Unknown
+ametam_c[u],S-Adenosylmethioninamine,C14H24N6O3S,2,Unknown
+cdpchol_c[u],CDPcholine C14H25N4O11P2,C14H25N4O11P2,-1,Unknown
+amob_c[u],S-Adenosyl-4-methylthio-2-oxobutanoate,C15H19N5O6S,0,Unknown
+amp2p_c[u],Adenosine 2  phosphate C10H14N5O7P,C10H14N5O7P,0,Unknown
+cdpdag_SC_c[u],CDPdiacylglycerol  yeast specific C4440H7744N300O1500P200,C4440H7744N300O1500P200,-200,Unknown
+amp_c[u],AMP C10H12N5O7P,C10H12N5O7P,-2,Unknown
+cdpdag_SC_m[u],CDPdiacylglycerol  yeast specific C4440H7744N300O1500P200,C4440H7744N300O1500P200,-200,Unknown
+amp_m[u],AMP C10H12N5O7P,C10H12N5O7P,-2,Unknown
+amp_n[u],AMP C10H12N5O7P,C10H12N5O7P,-2,Unknown
+amp_x[u],AMP C10H12N5O7P,C10H12N5O7P,-2,Unknown
+cdpea_c[u],CDPethanolamine C11H19N4O11P2,C11H19N4O11P2,-1,Unknown
+anth_c[u],Anthranilate,C7H6NO2,-1,Unknown
+cer1_24_c[u],Ceramide 1  Sphinganinen C240  C42H85NO3,C42H85NO3,0,Unknown
+ap4a_c[u],"P1,P4-Bis(5'-adenosyl) tetraphosphate",C20H24N10O19P4,-4,Unknown
+ap4g_c[u],P1  5  adenosyl  P4  5  guanosyl  tetraphosphate C20H24N10O20P4,C20H24N10O20P4,-4,Unknown
+apep_c[u],Nalpha Acetylpeptide C6H7N2O4R2,C6H7N2O4R2,-1,Unknown
+dca_e[u],Decanoate (n-C10:0),C10H19O2,-1,Unknown
+cer1_24_r[u],Ceramide 1  Sphinganinen C240  C42H85NO3,C42H85NO3,0,Unknown
+aproa_c[u],3 Aminopropanal C3H8NO,C3H8NO,1,Unknown
+cer1_26_c[u],Ceramide 1  Sphinganinen C260  C44H89NO3,C44H89NO3,0,Unknown
+aprop_c[u],Alpha Aminopropiononitrile C3H7N2,C3H7N2,1,Unknown
+cer1_26_r[u],Ceramide 1  Sphinganinen C260  C44H89NO3,C44H89NO3,0,Unknown
+aprut_c[u],N Acetylputrescine C6H15N2O,C6H15N2O,1,Unknown
+cer2_24_c[u],Ceramide 2  Phytosphingosinen C240  C42H85NO4,C42H85NO4,0,Unknown
+aps_c[u],Adenosine 5'-phosphosulfate,C10H12N5O10PS,-2,Unknown
+arab__D_c[u],D Arabinose C5H10O5,C5H10O5,0,Unknown
+cer2_24_r[u],Ceramide 2  Phytosphingosinen C240  C42H85NO4,C42H85NO4,0,Unknown
+dca_x[u],Decanoate (n-C10:0),C10H19O2,-1,Unknown
+cer2_26_c[u],Ceramide 2  Phytosphingosinen C260  C44H89NO4,C44H89NO4,0,Unknown
+arab__D_e[u],D Arabinose C5H10O5,C5H10O5,0,Unknown
+arab__L_c[u],L-Arabinose,C5H10O5,0,Unknown
+cer2_26_r[u],Ceramide 2  Phytosphingosinen C260  C44H89NO4,C44H89NO4,0,Unknown
+arab__L_e[u],L-Arabinose,C5H10O5,0,Unknown
+cer3_24_c[u],Ceramide 3  Phytosphingosinen C240OH  C42H85NO5,C42H85NO5,0,Unknown
+arg__L_c[u],L-Arginine,C6H15N4O2,1,Unknown
+cer3_26_c[u],Ceramide 3  Phytosphingosinen C260OH  C44H89NO5,C44H89NO5,0,Unknown
+arg__L_e[u],L-Arginine,C6H15N4O2,1,Unknown
+cgly_c[u],Cys Gly C5H10N2O3S,C5H10N2O3S,0,Unknown
+arg__L_m[u],L-Arginine,C6H15N4O2,1,Unknown
+arg__L_v[u],L-Arginine,C6H15N4O2,1,Unknown
+dcacoa_c[u],Decanoyl-CoA (n-C10:0CoA),C31H50N7O17P3S,-4,Unknown
+ch4s_c[u],Methanethiol CH4S,CH4S,0,Unknown
+dcacoa_x[u],Decanoyl-CoA (n-C10:0CoA),C31H50N7O17P3S,-4,Unknown
+argsuc_c[u],N(omega)-(L-Arginino)succinate,C10H17N4O6,-1,Unknown
+chitin_c[u],Chitin  monomer  C8H13NO5,C8H13NO5,0,Unknown
+argtrna_c[u],L-Arginyl-tRNA(Arg),C6H14N4OR,2,Unknown
+dcamp_c[u],"N6-(1,2-Dicarboxyethyl)-AMP",C14H14N5O11P,-4,Unknown
+chitos_c[u],Chitosan C6H11NO4,C6H11NO4,0,Unknown
+dcdp_c[u],DCDP C9H12N3O10P2,C9H12N3O10P2,-3,Unknown
+argtrna_m[u],L-Arginyl-tRNA(Arg),C6H14N4OR,2,Unknown
+chol_c[u],Choline C5H14NO,C5H14NO,1,Unknown
+asn__L_c[u],L-Asparagine,C4H8N2O3,0,Unknown
+dcdp_n[u],DCDP C9H12N3O10P2,C9H12N3O10P2,-3,Unknown
+dcmp_c[u],DCMP C9H12N3O7P,C9H12N3O7P,-2,Unknown
+chol_e[u],Choline C5H14NO,C5H14NO,1,Unknown
+dctp_c[u],DCTP C9H12N3O13P3,C9H12N3O13P3,-4,Unknown
+asn__L_e[u],L-Asparagine,C4H8N2O3,0,Unknown
+asn__L_m[u],L-Asparagine,C4H8N2O3,0,Unknown
+cholp_c[u],Choline phosphate C5H13NO4P,C5H13NO4P,-1,Unknown
+dcyt_c[u],Deoxycytidine,C9H13N3O4,0,Unknown
+asn__L_v[u],L-Asparagine,C4H8N2O3,0,Unknown
+dcyt_e[u],Deoxycytidine,C9H13N3O4,0,Unknown
+chor_c[u],Chorismate,C10H8O6,-2,Unknown
+dd2coa_x[u],Trans-Dodec-2-enoyl-CoA,C33H52N7O17P3S,-4,Unknown
+asntrna_c[u],L-Asparaginyl-tRNA(Asn),C14H23N2O12PR2,1,Unknown
+cit_c[u],Citrate,C6H5O7,-3,Unknown
+asntrna_m[u],L-Asparaginyl-tRNA(Asn),C14H23N2O12PR2,1,Unknown
+ddcaACP_c[u],Dodecanoyl-ACP (n-C12:0ACP),C23H43N2O8PRS,-1,Unknown
+cit_e[u],Citrate,C6H5O7,-3,Unknown
+ddcaACP_m[u],Dodecanoyl-ACP (n-C12:0ACP),C23H43N2O8PRS,-1,Unknown
+asp__L_c[u],L-Aspartate,C4H6NO4,-1,Unknown
+cit_m[u],Citrate,C6H5O7,-3,Unknown
+asp__L_e[u],L-Aspartate,C4H6NO4,-1,Unknown
+ddca_c[u],Dodecanoate (n-C12:0),C12H23O2,-1,Unknown
+ddca_e[u],Dodecanoate (n-C12:0),C12H23O2,-1,Unknown
+asp__L_m[u],L-Aspartate,C4H6NO4,-1,Unknown
+cit_x[u],Citrate,C6H5O7,-3,Unknown
+asp__L_n[u],L-Aspartate,C4H6NO4,-1,Unknown
+ddca_x[u],Dodecanoate (n-C12:0),C12H23O2,-1,Unknown
+citr__L_c[u],L-Citrulline,C6H13N3O3,0,Unknown
+ddcacoa_c[u],Dodecanoyl-CoA (n-C12:0CoA),C33H54N7O17P3S,-4,Unknown
+asp__L_v[u],L-Aspartate,C4H6NO4,-1,Unknown
+clpn_SC_m[u],Cardiolipin  yeast specific C7380H13688O1700P200,C7380H13688O1700P200,-200,Unknown
+asp__L_x[u],L-Aspartate,C4H6NO4,-1,Unknown
+ddcacoa_x[u],Dodecanoyl-CoA (n-C12:0CoA),C33H54N7O17P3S,-4,Unknown
+cmaphis_c[u],2 3 Carboxy 3  methylammonio propyl L histidine C11H18N4O4,C11H18N4O4,0,Unknown
+dgdp_c[u],DGDP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+aspsa_c[u],L-Aspartate 4-semialdehyde,C4H7NO3,0,Unknown
+cmp_c[u],CMP C9H12N3O8P,C9H12N3O8P,-2,Unknown
+asptrna_c[u],L-Aspartyl-tRNA(Asp),C4H5NO3R,0,Unknown
+dgdp_n[u],DGDP C10H12N5O10P2,C10H12N5O10P2,-3,Unknown
+asptrna_m[u],L-Aspartyl-tRNA(Asp),C4H5NO3R,0,Unknown
+cmp_m[u],CMP C9H12N3O8P,C9H12N3O8P,-2,Unknown
+athr__L_c[u],L-Allo-threonine,C4H9NO3,0,Unknown
+dgmp_c[u],DGMP C10H12N5O7P,C10H12N5O7P,-2,Unknown
+dgsn_c[u],Deoxyguanosine,C10H13N5O4,0,Unknown
+cmusa_c[u],2 Amino 3 carboxymuconate semialdehyde C7H6NO5,C7H6NO5,-1,Unknown
+dgsn_e[u],Deoxyguanosine,C10H13N5O4,0,Unknown
+atp_c[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+co2_c[u],CO2 CO2,CO2,0,Unknown
+atp_g[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+dgtp_c[u],DGTP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+co2_e[u],CO2 CO2,CO2,0,Unknown
+dha_c[u],Dihydroxyacetone,C3H6O3,0,Unknown
+atp_m[u],ATP C10H12N5O13P3,C10H12N5O13P3,-4,Unknown
+co2_g[u],CO2 CO2,CO2,0,Unknown
+dhap_c[u],Dihydroxyacetone phosphate,C3H5O6P,-2,Unknown
+co2_m[u],CO2 CO2,CO2,0,Unknown
+dhap_m[u],Dihydroxyacetone phosphate,C3H5O6P,-2,Unknown
+co2_n[u],CO2 CO2,CO2,0,Unknown
+dhf_c[u],"7,8-Dihydrofolate",C19H19N7O6,-2,Unknown
+co2_v[u],CO2 CO2,CO2,0,Unknown
+dhf_m[u],"7,8-Dihydrofolate",C19H19N7O6,-2,Unknown
+dhlam_m[u],Dihydrolipoamide C8H17NOS2,C8H17NOS2,0,Unknown
+f1p_c[u],D-Fructose 1-phosphate,C6H11O9P,-2,Unknown
+co2_x[u],CO2 CO2,CO2,0,Unknown
+dhlpro_m[u],Dihydrolipolprotein H2S2X,H2S2X,0,Unknown
+coa_c[u],Coenzyme A,C21H32N7O16P3S,-4,Unknown
+coa_m[u],Coenzyme A,C21H32N7O16P3S,-4,Unknown
+dhnpt_c[u],Dihydroneopterin,C9H13N5O4,0,Unknown
+dhnpt_m[u],Dihydroneopterin,C9H13N5O4,0,Unknown
+coa_n[u],Coenzyme A,C21H32N7O16P3S,-4,Unknown
+coa_r[u],Coenzyme A,C21H32N7O16P3S,-4,Unknown
+dhor__S_c[u],(S)-Dihydroorotate,C5H5N2O4,-1,Unknown
+dhpmp_c[u],Dihydroneopterin monophosphate,C9H12N5O7P,-2,Unknown
+coa_x[u],Coenzyme A,C21H32N7O16P3S,-4,Unknown
+dhpt_c[u],Dihydropteroate,C14H13N6O3,-1,Unknown
+f26bp_c[u],D Fructose 2 6 bisphosphate C6H10O12P2,C6H10O12P2,-4,Unknown
+coucoa_m[u],P coumaroyl CoA C30H38N7O18P3S1,C30H38N7O18P3S1,-4,Unknown
+dhpt_m[u],Dihydropteroate,C14H13N6O3,-1,Unknown
+cpppg3_c[u],Coproporphyrinogen III,C36H40N4O8,-4,Unknown
+din_c[u],Deoxyinosine,C10H12N4O4,0,Unknown
+f6p_c[u],D-Fructose 6-phosphate,C6H11O9P,-2,Unknown
+fad_c[u],Flavin adenine dinucleotide oxidized,C27H31N9O15P2,-2,Unknown
+crn_c[u],L-Carnitine,C7H15NO3,0,Unknown
+fad_m[u],Flavin adenine dinucleotide oxidized,C27H31N9O15P2,-2,Unknown
+din_e[u],Deoxyinosine,C10H12N4O4,0,Unknown
+crn_e[u],L-Carnitine,C7H15NO3,0,Unknown
+dkmpp_c[u],"2,3-diketo-5-methylthio-1-phosphopentane",C6H9O6PS,-2,Unknown
+fadh2_m[u],Flavin adenine dinucleotide reduced,C27H33N9O15P2,-2,Unknown
+crn_m[u],L-Carnitine,C7H15NO3,0,Unknown
+fald_c[u],Formaldehyde,CH2O,0,Unknown
+dmlz_c[u],"6,7-Dimethyl-8-(1-D-ribityl)lumazine",C13H18N4O6,0,Unknown
+crn_x[u],L-Carnitine,C7H15NO3,0,Unknown
+dmpp_c[u],Dimethylallyl diphosphate,C5H9O7P2,-3,Unknown
+fdp_c[u],"D-Fructose 1,6-bisphosphate",C6H10O12P2,-4,Unknown
+dnad_c[u],Deamino-NAD+,C21H24N6O15P2,-2,Unknown
+csn_c[u],Cytosine,C4H5N3O,0,Unknown
+dnad_m[u],Deamino-NAD+,C21H24N6O15P2,-2,Unknown
+fe2_c[u],Fe2+ mitochondria,None,2,Unknown
+csn_e[u],Cytosine,C4H5N3O,0,Unknown
+fe2_e[u],Fe2+ mitochondria,None,2,Unknown
+dnad_n[u],Deamino-NAD+,C21H24N6O15P2,-2,Unknown
+ctp_c[u],CTP C9H12N3O14P3,C9H12N3O14P3,-4,Unknown
+dolichol_c[u],Dolichol C15H28O,C15H28O,0,Unknown
+fe2_m[u],Fe2+ mitochondria,None,2,Unknown
+ctp_m[u],CTP C9H12N3O14P3,C9H12N3O14P3,-4,Unknown
+fecost_c[u],Fecosterol C28H46O,C28H46O,0,Unknown
+dolmanp_r[u],Dolichyl phosphate D mannose C21H38O9P,C21H38O9P,-1,Unknown
+cys__L_c[u],L-Cysteine,C3H7NO2S,0,Unknown
+dolp_c[u],Dolichol phosphate C15H27O4P,C15H27O4P,-2,Unknown
+dolp_r[u],Dolichol phosphate C15H27O4P,C15H27O4P,-2,Unknown
+fecost_e[u],Fecosterol C28H46O,C28H46O,0,Unknown
+cys__L_e[u],L-Cysteine,C3H7NO2S,0,Unknown
+fecostest_SC_c[u],Fecosterol ester  yeast specific C1695H2995O101,C1695H2995O101,0,Unknown
+dpcoa_c[u],Dephospho-CoA,C21H33N7O13P2S,-2,Unknown
+cyst__L_c[u],L-Cystathionine,C7H14N2O4S,0,Unknown
+dpcoa_m[u],Dephospho-CoA,C21H33N7O13P2S,-2,Unknown
+fecostest_SC_e[u],Fecosterol ester  yeast specific C1695H2995O101,C1695H2995O101,0,Unknown
+fgam_c[u],N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide,C8H13N2O9P,-2,Unknown
+cyst__L_x[u],L-Cystathionine,C7H14N2O4S,0,Unknown
+ficytc_m[u],Ferricytochrome c C42H52FeN8O6S2,None,1,Unknown
+drib_c[u],Deoxyribose C5H10O4,C5H10O4,0,Unknown
+cystrna_c[u],L-Cysteinyl-tRNA(Cys),C3H6NOSR,1,Unknown
+dscl_c[u],Dihydrosirohydrochlorin,C42H41N4O16,-7,Unknown
+fmettrna_m[u],N-Formylmethionyl-tRNA,C6H9NO2SR,0,Unknown
+cytd_c[u],Cytidine,C9H13N3O5,0,Unknown
+fmn_c[u],FMN C17H19N4O9P,C17H19N4O9P,-2,Unknown
+dtbt_c[u],Dethiobiotin,C10H17N2O3,-1,Unknown
+dtdp_c[u],DTDP C10H13N2O11P2,C10H13N2O11P2,-3,Unknown
+cytd_e[u],Cytidine,C9H13N3O5,0,Unknown
+dtmp_c[u],DTMP C10H13N2O8P,C10H13N2O8P,-2,Unknown
+fmn_e[u],FMN C17H19N4O9P,C17H19N4O9P,-2,Unknown
+dad_2_c[u],Deoxyadenosine,C10H13N5O3,0,Unknown
+fmn_m[u],FMN C17H19N4O9P,C17H19N4O9P,-2,Unknown
+dttp_c[u],DTTP C10H13N2O14P3,C10H13N2O14P3,-4,Unknown
+fmnh2_c[u],Reduced FMN,C17H21N4O9P,-2,Unknown
+dad_2_e[u],Deoxyadenosine,C10H13N5O3,0,Unknown
+focytc_m[u],Ferrocytochrome c C42H53FeN8O6S2,None,1,Unknown
+dttp_e[u],DTTP C10H13N2O14P3,C10H13N2O14P3,-4,Unknown
+dadp_c[u],DADP C10H12N5O9P2,C10H12N5O9P2,-3,Unknown
+dudp_c[u],DUDP C9H11N2O11P2,C9H11N2O11P2,-3,Unknown
+for_c[u],Formate,CH1O2,-1,Unknown
+dadp_n[u],DADP C10H12N5O9P2,C10H12N5O9P2,-3,Unknown
+for_e[u],Formate,CH1O2,-1,Unknown
+dudp_n[u],DUDP C9H11N2O11P2,C9H11N2O11P2,-3,Unknown
+dump_c[u],DUMP C9H11N2O8P,C9H11N2O8P,-2,Unknown
+dagpy_SC_c[u],Diacylglycerol pyrophosphate  yeast specific C3540H6544O1100P200,C3540H6544O1100P200,-300,Unknown
+dump_n[u],DUMP C9H11N2O8P,C9H11N2O8P,-2,Unknown
+for_m[u],Formate,CH1O2,-1,Unknown
+damp_c[u],DAMP C10H12N5O6P,C10H12N5O6P,-2,Unknown
+fpram_c[u],2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine,C8H15N3O8P,-1,Unknown
+fprica_c[u],5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide,C10H13N4O9P,-2,Unknown
+duri_c[u],Deoxyuridine,C9H12N2O5,0,Unknown
+dann_c[u],"7,8-Diaminononanoate",C9H21N2O2,1,Unknown
+duri_e[u],Deoxyuridine,C9H12N2O5,0,Unknown
+frdp_c[u],Farnesyl diphosphate,C15H25O7P2,-3,Unknown
+dann_e[u],"7,8-Diaminononanoate",C9H21N2O2,1,Unknown
+dutp_c[u],DUTP C9H11N2O14P3,C9H11N2O14P3,-4,Unknown
+datp_c[u],DATP C10H12N5O12P3,C10H12N5O12P3,-4,Unknown
+e4hglu_c[u],L erythro 4 Hydroxyglutamate C5H8NO5,C5H8NO5,-1,Unknown
+db4p_c[u],"3,4-dihydroxy-2-butanone 4-phosphate",C4H7O6P,-2,Unknown
+e4hglu_m[u],L erythro 4 Hydroxyglutamate C5H8NO5,C5H8NO5,-1,Unknown
+frdp_m[u],Farnesyl diphosphate,C15H25O7P2,-3,Unknown
+e4hglu_x[u],L erythro 4 Hydroxyglutamate C5H8NO5,C5H8NO5,-1,Unknown
+dc2coa_x[u],Trans-Dec-2-enoyl-CoA,C31H48N7O17P3S,-4,Unknown
+e4p_c[u],D-Erythrose 4-phosphate,C4H7O7P,-2,Unknown
+fru_c[u],D-Fructose,C6H12O6,0,Unknown
+fru_e[u],D-Fructose,C6H12O6,0,Unknown
+dcaACP_m[u],Decanoyl-ACP (n-C10:0ACP),C21H39N2O8PRS,-1,Unknown
+fum_c[u],Fumarate,C4H2O4,-2,Unknown
+e4p_m[u],D-Erythrose 4-phosphate,C4H7O7P,-2,Unknown
+dca_c[u],Decanoate (n-C10:0),C10H19O2,-1,Unknown
+eig3p_c[u],D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate,C6H9N2O6P,-2,Unknown
+epist_c[u],Episterol C28H46O,C28H46O,0,Unknown
+epist_e[u],Episterol C28H46O,C28H46O,0,Unknown
+fum_e[u],Fumarate,C4H2O4,-2,Unknown
+fum_m[u],Fumarate,C4H2O4,-2,Unknown
+g1p_c[u],D-Glucose 1-phosphate,C6H11O9P,-2,Unknown
+glyc3p_c[u],Glycerol 3-phosphate,C3H7O6P,-2,Unknown
+g3p_c[u],Glyceraldehyde 3-phosphate,C3H5O6P,-2,Unknown
+g3pc_c[u],Sn-Glycero-3-phosphocholine,C8H20NO6P,0,Unknown
+g3pc_e[u],Sn-Glycero-3-phosphocholine,C8H20NO6P,0,Unknown
+epistest_SC_c[u],Episterol ester  yeast specific C1695H2995O101,C1695H2995O101,0,Unknown
+epistest_SC_e[u],Episterol ester  yeast specific C1695H2995O101,C1695H2995O101,0,Unknown
+epm_c[u],Epimelibiose C12H22O11,C12H22O11,0,Unknown
+glyc3p_m[u],Glycerol 3-phosphate,C3H7O6P,-2,Unknown
+ergst3glc_c[u],Ergosterol 3 beta D glucoside C34H54O6,C34H54O6,0,Unknown
+g3pi_c[u],Sn-Glycero-3-phospho-1-inositol,C9H18O11P,-1,Unknown
+ergst_c[u],Ergosterol C28H44O,C28H44O,0,Unknown
+glyc_c[u],Glycerol,C3H8O3,0,Unknown
+ergst_e[u],Ergosterol C28H44O,C28H44O,0,Unknown
+g3pi_e[u],Sn-Glycero-3-phospho-1-inositol,C9H18O11P,-1,Unknown
+g6p_B_c[u],Beta D glucose 6 phosphate C6H11O9P,C6H11O9P,-2,Unknown
+glyc_e[u],Glycerol,C3H8O3,0,Unknown
+g6p_c[u],D-Glucose 6-phosphate,C6H11O9P,-2,Unknown
+ergst_r[u],Ergosterol C28H44O,C28H44O,0,Unknown
+ergstest_SC_c[u],Ergosterol ester  yeast specific C1695H2993O101,C1695H2993O101,0,Unknown
+g6p_r[u],D-Glucose 6-phosphate,C6H11O9P,-2,Unknown
+glycogen_c[u],Glycogen C6H10O5,C6H10O5,0,Unknown
+ergstest_SC_e[u],Ergosterol ester  yeast specific C1695H2993O101,C1695H2993O101,0,Unknown
+glycogen_v[u],Glycogen C6H10O5,C6H10O5,0,Unknown
+ergtetrol_c[u],Ergosta 5 7 22 24  28  tetraen 3beta ol C28H42O,C28H42O,0,Unknown
+gal1p_c[u],Alpha-D-Galactose 1-phosphate,C6H11O9P,-2,Unknown
+glytrna_c[u],Glycyl-tRNA(Gly),C2H4NOR,1,Unknown
+gal_c[u],D-Galactose,C6H12O6,0,Unknown
+gal_e[u],D-Galactose,C6H12O6,0,Unknown
+ergtetrol_r[u],Ergosta 5 7 22 24  28  tetraen 3beta ol C28H42O,C28H42O,0,Unknown
+ergtrol_c[u],Ergosta 5 7 24 28  trienol C28H44O,C28H44O,0,Unknown
+gmp_c[u],GMP C10H12N5O8P,C10H12N5O8P,-2,Unknown
+ertascb__D_c[u],D erythro Ascorbate C5H6O5,C5H6O5,0,Unknown
+gmp_g[u],GMP C10H12N5O8P,C10H12N5O8P,-2,Unknown
+etha_c[u],Ethanolamine,C2H8NO,1,Unknown
+galur_e[u],D-Galacturonate,C6H9O7,-1,Unknown
+gp4g_c[u],"P1,P4-Bis(5'-guanosyl) tetraphosphate",C20H24N10O21P4,-4,Unknown
+gam1p_c[u],D-Glucosamine 1-phosphate,C6H13NO8P,-1,Unknown
+etha_e[u],Ethanolamine,C2H8NO,1,Unknown
+grdp_c[u],Geranyl diphosphate,C10H17O7P2,-3,Unknown
+ethamp_c[u],Ethanolamine phosphate C2H7NO4P,C2H7NO4P,-1,Unknown
+gam6p_c[u],D-Glucosamine 6-phosphate,C6H13NO8P,-1,Unknown
+gam6p_e[u],D-Glucosamine 6-phosphate,C6H13NO8P,-1,Unknown
+etoh_c[u],Ethanol,C2H6O,0,Unknown
+gsn_c[u],Guanosine,C10H13N5O5,0,Unknown
+etoh_e[u],Ethanol,C2H6O,0,Unknown
+etoh_m[u],Ethanol,C2H6O,0,Unknown
+gar_c[u],N1-(5-Phospho-D-ribosyl)glycinamide,C7H14N2O8P,-1,Unknown
+gcald_c[u],Glycolaldehyde,C2H4O2,0,Unknown
+gsn_e[u],Guanosine,C10H13N5O5,0,Unknown
+gcald_e[u],Glycolaldehyde,C2H4O2,0,Unknown
+gsn_m[u],Guanosine,C10H13N5O5,0,Unknown
+gcald_m[u],Glycolaldehyde,C2H4O2,0,Unknown
+gthox_c[u],Oxidized glutathione,C20H30N6O12S2,-2,Unknown
+gdp_c[u],GDP C10H12N5O11P2,C10H12N5O11P2,-3,Unknown
+gthox_e[u],Oxidized glutathione,C20H30N6O12S2,-2,Unknown
+gdp_g[u],GDP C10H12N5O11P2,C10H12N5O11P2,-3,Unknown
+gthox_m[u],Oxidized glutathione,C20H30N6O12S2,-2,Unknown
+gdp_m[u],GDP C10H12N5O11P2,C10H12N5O11P2,-3,Unknown
+gthrd_c[u],Reduced glutathione,C10H16N3O6S,-1,Unknown
+gdp_n[u],GDP C10H12N5O11P2,C10H12N5O11P2,-3,Unknown
+hxc2coa_x[u],Trans Hexacos 2 enoyl CoA C47H80N7O17P3S,C47H80N7O17P3S,-4,Unknown
+gdpmann_c[u],GDP-D-mannose,C16H23N5O16P2,-2,Unknown
+gthrd_e[u],Reduced glutathione,C10H16N3O6S,-1,Unknown
+gdpmann_g[u],GDP-D-mannose,C16H23N5O16P2,-2,Unknown
+hxdcal_c[u],Hexadecanal C16H32O,C16H32O,0,Unknown
+gthrd_m[u],Reduced glutathione,C10H16N3O6S,-1,Unknown
+iad_c[u],Indole 3 acetamide C10H10N2O,C10H10N2O,0,Unknown
+iamac_c[u],Isoamyl acetate C7H14O2,C7H14O2,0,Unknown
+ggdp_c[u],Geranylgeranyl diphosphate C20H33O7P2,C20H33O7P2,-3,Unknown
+gthrd_v[u],Reduced glutathione,C10H16N3O6S,-1,Unknown
+ggl_c[u],Galactosylglycerol C9H18O8,C9H18O8,0,Unknown
+iamac_e[u],Isoamyl acetate C7H14O2,C7H14O2,0,Unknown
+gtp_c[u],GTP C10H12N5O14P3,C10H12N5O14P3,-4,Unknown
+iamoh_c[u],Isoamyl alcohol C5H12O,C5H12O,0,Unknown
+glc__D_c[u],D-Glucose,C6H12O6,0,Unknown
+gtp_m[u],GTP C10H12N5O14P3,C10H12N5O14P3,-4,Unknown
+glc__D_e[u],D-Glucose,C6H12O6,0,Unknown
+iamoh_e[u],Isoamyl alcohol C5H12O,C5H12O,0,Unknown
+gua_c[u],Guanine,C5H5N5O,0,Unknown
+iamoh_m[u],Isoamyl alcohol C5H12O,C5H12O,0,Unknown
+glc__D_v[u],D-Glucose,C6H12O6,0,Unknown
+gua_e[u],Guanine,C5H5N5O,0,Unknown
+gln__L_c[u],L-Glutamine,C5H10N2O3,0,Unknown
+gln__L_e[u],L-Glutamine,C5H10N2O3,0,Unknown
+iasp_c[u],Iminoaspartate,C4H3NO4,-2,Unknown
+gua_m[u],Guanine,C5H5N5O,0,Unknown
+ibutac_c[u],Isobutyl acetate C6H12O2,C6H12O2,0,Unknown
+gln__L_n[u],L-Glutamine,C5H10N2O3,0,Unknown
+h2o2_c[u],Hydrogen peroxide,H2O2,0,Unknown
+gln__L_v[u],L-Glutamine,C5H10N2O3,0,Unknown
+ibutac_e[u],Isobutyl acetate C6H12O2,C6H12O2,0,Unknown
+h2o2_m[u],Hydrogen peroxide,H2O2,0,Unknown
+ibutoh_c[u],Isobutyl alcohol C4H10O,C4H10O,0,Unknown
+glntrna_c[u],L-Glutaminyl-tRNA(Gln),C5H9N2O2R,1,Unknown
+h2o2_n[u],Hydrogen peroxide,H2O2,0,Unknown
+glp_c[u],Glycylpeptide C4H7N2O3R,C4H7N2O3R,0,Unknown
+ibutoh_e[u],Isobutyl alcohol C4H10O,C4H10O,0,Unknown
+ibutoh_m[u],Isobutyl alcohol C4H10O,C4H10O,0,Unknown
+h2o2_x[u],Hydrogen peroxide,H2O2,0,Unknown
+icit_c[u],Isocitrate,C6H5O7,-3,Unknown
+glu5p_c[u],L-Glutamate 5-phosphate,C5H8NO7P,-2,Unknown
+glu5sa_c[u],L-Glutamate 5-semialdehyde,C5H9NO3,0,Unknown
+h2o_c[u],H2O H2O,H2O,0,Unknown
+glu5sa_m[u],L-Glutamate 5-semialdehyde,C5H9NO3,0,Unknown
+icit_m[u],Isocitrate,C6H5O7,-3,Unknown
+icit_x[u],Isocitrate,C6H5O7,-3,Unknown
+id3acald_c[u],Indole 3 acetaldehyde C10H9NO,C10H9NO,0,Unknown
+glu__L_c[u],L-Glutamate,C5H8NO4,-1,Unknown
+glu__L_e[u],L-Glutamate,C5H8NO4,-1,Unknown
+h2o_e[u],H2O H2O,H2O,0,Unknown
+glu__L_m[u],L-Glutamate,C5H8NO4,-1,Unknown
+id3acald_e[u],Indole 3 acetaldehyde C10H9NO,C10H9NO,0,Unknown
+id3acald_m[u],Indole 3 acetaldehyde C10H9NO,C10H9NO,0,Unknown
+h2o_g[u],H2O H2O,H2O,0,Unknown
+idp_c[u],IDP C10H11N4O11P2,C10H11N4O11P2,-3,Unknown
+glu__L_n[u],L-Glutamate,C5H8NO4,-1,Unknown
+h2o_m[u],H2O H2O,H2O,0,Unknown
+glu__L_v[u],L-Glutamate,C5H8NO4,-1,Unknown
+glu__L_x[u],L-Glutamate,C5H8NO4,-1,Unknown
+idp_m[u],IDP C10H11N4O11P2,C10H11N4O11P2,-3,Unknown
+h2o_n[u],H2O H2O,H2O,0,Unknown
+ile__L_c[u],L-Isoleucine,C6H13NO2,0,Unknown
+gluala_c[u],5 L Glutamyl L alanine C8H13N2O5,C8H13N2O5,-1,Unknown
+h2o_r[u],H2O H2O,H2O,0,Unknown
+glucys_c[u],Gamma-L-Glutamyl-L-cysteine,C8H13N2O5S,-1,Unknown
+ile__L_e[u],L-Isoleucine,C6H13NO2,0,Unknown
+h2o_v[u],H2O H2O,H2O,0,Unknown
+ile__L_m[u],L-Isoleucine,C6H13NO2,0,Unknown
+glutrna_c[u],L-Glutamyl-tRNA(Glu),C5H7NO3R,0,Unknown
+h2o_x[u],H2O H2O,H2O,0,Unknown
+glutrna_m[u],L-Glutamyl-tRNA(Glu),C5H7NO3R,0,Unknown
+glx_c[u],Glyoxylate,C2H1O3,-1,Unknown
+ile__L_v[u],L-Isoleucine,C6H13NO2,0,Unknown
+iletrna_c[u],L-Isoleucyl-tRNA(Ile),C6H12NOR,1,Unknown
+h2s_c[u],Hydrogen sulfide,H2S,0,Unknown
+iletrna_m[u],L-Isoleucyl-tRNA(Ile),C6H12NOR,1,Unknown
+glx_e[u],Glyoxylate,C2H1O3,-1,Unknown
+hLkynr_c[u],3 Hydroxy L kynurenine C10H12N2O4,C10H12N2O4,0,Unknown
+glx_x[u],Glyoxylate,C2H1O3,-1,Unknown
+imacp_c[u],3-(Imidazol-4-yl)-2-oxopropyl phosphate,C6H7N2O5P,-2,Unknown
+h_c[u],H+,H,1,Unknown
+imp_c[u],IMP C10H11N4O8P,C10H11N4O8P,-2,Unknown
+gly_c[u],Glycine,C2H5NO2,0,Unknown
+h_e[u],H+,H,1,Unknown
+gly_e[u],Glycine,C2H5NO2,0,Unknown
+ind3ac_c[u],Indole 3 acetate C10H8NO2,C10H8NO2,-1,Unknown
+h_g[u],H+,H,1,Unknown
+ind3ac_m[u],Indole 3 acetate C10H8NO2,C10H8NO2,-1,Unknown
+ind3acnl_c[u],Indole 3 acetonitrile C10H8N2,C10H8N2,0,Unknown
+gly_m[u],Glycine,C2H5NO2,0,Unknown
+glyald_c[u],D-Glyceraldehyde,C3H6O3,0,Unknown
+h_m[u],H+,H,1,Unknown
+ind3eth_c[u],Indole 3 ethanol C10H11NO,C10H11NO,0,Unknown
+h_n[u],H+,H,1,Unknown
+ind3eth_e[u],Indole 3 ethanol C10H11NO,C10H11NO,0,Unknown
+h_r[u],H+,H,1,Unknown
+ind3eth_m[u],Indole 3 ethanol C10H11NO,C10H11NO,0,Unknown
+h_v[u],H+,H,1,Unknown
+indpyr_c[u],Indolepyruvate C11H8NO3,C11H8NO3,-1,Unknown
+mal__L_x[u],L-Malate,C4H4O5,-2,Unknown
+h_x[u],H+,H,1,Unknown
+inost_c[u],Myo-Inositol,C6H12O6,0,Unknown
+hcit_m[u],2 Hydroxybutane 1 2 4 tricarboxylate C7H7O7,C7H7O7,-3,Unknown
+inost_e[u],Myo-Inositol,C6H12O6,0,Unknown
+malcoa_c[u],Malonyl CoA C24H33N7O19P3S,C24H33N7O19P3S,-5,Unknown
+hcit_n[u],2 Hydroxybutane 1 2 4 tricarboxylate C7H7O7,C7H7O7,-3,Unknown
+malcoa_m[u],Malonyl CoA C24H33N7O19P3S,C24H33N7O19P3S,-5,Unknown
+ins_c[u],Inosine,C10H12N4O5,0,Unknown
+hco3_c[u],Bicarbonate,CHO3,-1,Unknown
+ins_e[u],Inosine,C10H12N4O5,0,Unknown
+ipc124_SC_c[u],Inositol phosphorylceramide  ceramide 1  24C   yeast specific C4800H9500N100O1100P100,C4800H9500N100O1100P100,-100,Unknown
+malt_c[u],Maltose C12H22O11,C12H22O11,0,Unknown
+hco3_m[u],Bicarbonate,CHO3,-1,Unknown
+malt_e[u],Maltose C12H22O11,C12H22O11,0,Unknown
+ipc126_SC_c[u],Inositol phosphorylceramide  ceramide 1  26C   yeast specific C5000H9900N100O1100P100,C5000H9900N100O1100P100,-100,Unknown
+hco3_n[u],Bicarbonate,CHO3,-1,Unknown
+ipc224_SC_c[u],Inositol phosphorylceramide  ceramide 2  24C   yeast specific C4800H9500N100O1200P100,C4800H9500N100O1200P100,-100,Unknown
+man1p_c[u],D-Mannose 1-phosphate,C6H11O9P,-2,Unknown
+hcys__L_c[u],L-Homocysteine,C4H9NO2S,0,Unknown
+man2mi1p__D_c[u],Mannose  inositol P 2 C18H31O22P2,C18H31O22P2,-3,Unknown
+ipc226_SC_c[u],Inositol phosphorylceramide  ceramide 2  26C   yeast specific C5000H9900N100O1200P100,C5000H9900N100O1200P100,-100,Unknown
+hcys__L_x[u],L-Homocysteine,C4H9NO2S,0,Unknown
+ipc324_SC_c[u],Inositol phosphorylceramide  ceramide 3  24C   yeast specific C4800H9500N100O1300P100,C4800H9500N100O1300P100,-100,Unknown
+man6p_c[u],D-Mannose 6-phosphate,C6H11O9P,-2,Unknown
+hdca_c[u],Hexadecanoate (n-C16:0),C16H31O2,-1,Unknown
+man_c[u],D-Mannose,C6H12O6,0,Unknown
+ipc326_SC_c[u],Inositol phosphorylceramide  ceramide 3  26C   yeast specific C5000H9900N100O1300P100,C5000H9900N100O1300P100,-100,Unknown
+hdca_e[u],Hexadecanoate (n-C16:0),C16H31O2,-1,Unknown
+ipdp_c[u],Isopentenyl diphosphate,C5H9O7P2,-3,Unknown
+man_e[u],D-Mannose,C6H12O6,0,Unknown
+hdca_x[u],Hexadecanoate (n-C16:0),C16H31O2,-1,Unknown
+manmi1p__D_c[u],Mannose 1D myo Inositol 1 phosphate C12H21O14P1,C12H21O14P1,-2,Unknown
+mannan_c[u],Mannan C6H10O5,C6H10O5,0,Unknown
+ipdp_m[u],Isopentenyl diphosphate,C5H9O7P2,-3,Unknown
+itaccoa_m[u],Itaconyl CoA C26H35N7O19P3S,C26H35N7O19P3S,-5,Unknown
+hdcea_c[u],Hexadecenoate (n-C16:1),C16H29O2,-1,Unknown
+itacon_m[u],Itaconate C5H4O4,C5H4O4,-2,Unknown
+mannan_r[u],Mannan C6H10O5,C6H10O5,0,Unknown
+hdcea_e[u],Hexadecenoate (n-C16:1),C16H29O2,-1,Unknown
+melib_c[u],Melibiose C12H22O11,C12H22O11,0,Unknown
+itp_c[u],ITP C10H11N4O14P3,C10H11N4O14P3,-4,Unknown
+hdcea_x[u],Hexadecenoate (n-C16:1),C16H29O2,-1,Unknown
+itp_m[u],ITP C10H11N4O14P3,C10H11N4O14P3,-4,Unknown
+melib_e[u],Melibiose C12H22O11,C12H22O11,0,Unknown
+hdcoa_c[u],Hexadecenoyl-CoA (n-C16:1CoA),C37H60N7O17P3S,-4,Unknown
+melt_c[u],Melibiitol C12H24O11,C12H24O11,0,Unknown
+k_c[u],Potassium,K,1,Unknown
+hdcoa_x[u],Hexadecenoyl-CoA (n-C16:1CoA),C37H60N7O17P3S,-4,Unknown
+k_e[u],Potassium,K,1,Unknown
+met__L_c[u],L-Methionine,C5H11NO2S,0,Unknown
+met__L_e[u],L-Methionine,C5H11NO2S,0,Unknown
+hdd2coa_x[u],Trans-Hexadec-2-enoyl-CoA,C37H60N7O17P3S,-4,Unknown
+lac__D_c[u],D-Lactate,C3H5O3,-1,Unknown
+hdeACP_c[u],Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1),C27H49N2O8PRS,-1,Unknown
+lac__D_e[u],D-Lactate,C3H5O3,-1,Unknown
+met__L_m[u],L-Methionine,C5H11NO2S,0,Unknown
+methf_c[u],"5,10-Methenyltetrahydrofolate",C20H20N7O6,-1,Unknown
+lac__D_m[u],D-Lactate,C3H5O3,-1,Unknown
+lac__L_c[u],L-Lactate,C3H5O3,-1,Unknown
+methf_m[u],"5,10-Methenyltetrahydrofolate",C20H20N7O6,-1,Unknown
+hdeACP_m[u],Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1),C27H49N2O8PRS,-1,Unknown
+mettrna_c[u],L-Methionyl-tRNA (Met),C5H10NOSR,1,Unknown
+lac__L_e[u],L-Lactate,C3H5O3,-1,Unknown
+lac__L_m[u],L-Lactate,C3H5O3,-1,Unknown
+hemeA_m[u],Heme A C49H55FeN4O6,None,-3,Unknown
+lald__L_c[u],L-Lactaldehyde,C3H6O2,0,Unknown
+mettrna_m[u],L-Methionyl-tRNA (Met),C5H10NOSR,1,Unknown
+hemeO_m[u],Heme O C49H56FeN4O5,None,-2,Unknown
+lanost_c[u],Lanosterol C30H50O,C30H50O,0,Unknown
+mev__R_c[u], R  Mevalonate C6H11O4,C6H11O4,-1,Unknown
+hexc_c[u],Hexacosanoate  n C260  C26H51O2,C26H51O2,-1,Unknown
+mhpglu_c[u],5 Methyltetrahydropteroyltri L glutamate C25H36N8O12,C25H36N8O12,0,Unknown
+lanost_e[u],Lanosterol C30H50O,C30H50O,0,Unknown
+hexc_e[u],Hexacosanoate  n C260  C26H51O2,C26H51O2,-1,Unknown
+lanostest_SC_c[u],Lanosterol ester  yeast specific C1697H2999O101,C1697H2999O101,0,Unknown
+mi13456p_c[u],1D myo Inositol 1 3 4 5 6 pentakisphosphate C6H7O21P5,C6H7O21P5,-10,Unknown
+hexc_x[u],Hexacosanoate  n C260  C26H51O2,C26H51O2,-1,Unknown
+mi13456p_n[u],1D myo Inositol 1 3 4 5 6 pentakisphosphate C6H7O21P5,C6H7O21P5,-10,Unknown
+lanostest_SC_e[u],Lanosterol ester  yeast specific C1697H2999O101,C1697H2999O101,0,Unknown
+hexccoa_c[u],Hexacosanoyl CoA  n C260CoA  C47H82N7O17P3S,C47H82N7O17P3S,-4,Unknown
+leu__L_c[u],L-Leucine,C6H13NO2,0,Unknown
+leu__L_e[u],L-Leucine,C6H13NO2,0,Unknown
+mi1345p_n[u],1D myo Inositol 1 3 4 5 tetrakisphosphate C6H8O18P4,C6H8O18P4,-8,Unknown
+mi1456p_n[u],1D myo Inositol 1 4 5 6 tetrakisphosphate C6H8O18P4,C6H8O18P4,-8,Unknown
+hexccoa_r[u],Hexacosanoyl CoA  n C260CoA  C47H82N7O17P3S,C47H82N7O17P3S,-4,Unknown
+mi145p_c[u],1D myo Inositol 1 4 5 trisphosphate C6H9O15P3,C6H9O15P3,-6,Unknown
+leu__L_m[u],L-Leucine,C6H13NO2,0,Unknown
+hexccoa_x[u],Hexacosanoyl CoA  n C260CoA  C47H82N7O17P3S,C47H82N7O17P3S,-4,Unknown
+leu__L_v[u],L-Leucine,C6H13NO2,0,Unknown
+mi145p_n[u],1D myo Inositol 1 4 5 trisphosphate C6H9O15P3,C6H9O15P3,-6,Unknown
+hexdp_c[u],All trans Hexaprenyl diphosphate C30H49O7P2,C30H49O7P2,-3,Unknown
+mi1p__D_c[u],1D-myo-Inositol 1-phosphate,C6H11O9P,-2,Unknown
+leutrna_c[u],L-Leucyl-tRNA(Leu),C6H12NOR,1,Unknown
+hexdp_m[u],All trans Hexaprenyl diphosphate C30H49O7P2,C30H49O7P2,-3,Unknown
+leutrna_m[u],L-Leucyl-tRNA(Leu),C6H12NOR,1,Unknown
+micit_m[u],Methylisocitrate,C7H7O7,-3,Unknown
+lgt__S_c[u],(R)-S-Lactoylglutathione,C13H20N3O8S,-1,Unknown
+hgentis_c[u],Homogentisate C8H7O4,C8H7O4,-1,Unknown
+lgt__S_m[u],(R)-S-Lactoylglutathione,C13H20N3O8S,-1,Unknown
+minohp_c[u],Myo-Inositol hexakisphosphate,C6H6O24P6,-12,Unknown
+hicit_m[u],Homoisocitrate C7H7O7,C7H7O7,-3,Unknown
+lpam_m[u],Lipoamide C8H15NOS2,C8H15NOS2,0,Unknown
+his__L_c[u],L-Histidine,C6H9N3O2,0,Unknown
+lpro_m[u],Lipoylprotein S2X,S2X,0,Unknown
+minohp_n[u],Myo-Inositol hexakisphosphate,C6H6O24P6,-12,Unknown
+his__L_e[u],L-Histidine,C6H9N3O2,0,Unknown
+mip2c124_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 1  24C   yeast specific C6000H11500N100O2400P200,C6000H11500N100O2400P200,-200,Unknown
+lys__L_c[u],L-Lysine,C6H15N2O2,1,Unknown
+his__L_m[u],L-Histidine,C6H9N3O2,0,Unknown
+lys__L_e[u],L-Lysine,C6H15N2O2,1,Unknown
+mip2c126_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 1  26C   yeast specific C6200H11900N100O2400P200,C6200H11900N100O2400P200,-200,Unknown
+mip2c224_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 2  24C   yeast specific C6000H11500N100O2500P200,C6000H11500N100O2500P200,-200,Unknown
+his__L_v[u],L-Histidine,C6H9N3O2,0,Unknown
+mip2c226_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 2  26C   yeast specific C6200H11900N100O2500P200,C6200H11900N100O2500P200,-200,Unknown
+lys__L_m[u],L-Lysine,C6H15N2O2,1,Unknown
+lys__L_v[u],L-Lysine,C6H15N2O2,1,Unknown
+hisp_c[u],L-Histidinol phosphate,C6H11N3O4P,-1,Unknown
+lystrna_c[u],L-Lysine-tRNA (Lys),C6H14N2OR,2,Unknown
+mip2c324_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 3  24C   yeast specific C6000H11500N100O2600P200,C6000H11500N100O2600P200,-200,Unknown
+histd_c[u],L-Histidinol,C6H12N3O,1,Unknown
+mip2c326_SC_c[u],Mannose  inositol P 2 ceramide  ceramide 3  26C   yeast specific C6200H11900N100O2600P200,C6200H11900N100O2600P200,-200,Unknown
+lystrna_m[u],L-Lysine-tRNA (Lys),C6H14N2OR,2,Unknown
+histrna_c[u],L-Histidyl-tRNA(His),C6H8N3OR,1,Unknown
+m1macchitppdol_g[u],Alpha D mannosyl beta D mannosyl diacylchitobiosyldiphosphodolichol C43H74N2O27P2,C43H74N2O27P2,-2,Unknown
+mipc124_SC_c[u],Mannose inositol phosphorylceramide  ceramide 1  24C   yeast specific C5400H10500N100O1600P100,C5400H10500N100O1600P100,-100,Unknown
+mipc126_SC_c[u],Mannose inositol phosphorylceramide  ceramide 1  26C   yeast specific C5600H10900N100O1600P100,C5600H10900N100O1600P100,-100,Unknown
+histrna_m[u],L-Histidyl-tRNA(His),C6H8N3OR,1,Unknown
+mipc224_SC_c[u],Mannose inositol phosphorylceramide  ceramide 2  24C   yeast specific C5400H10500N100O1700P100,C5400H10500N100O1700P100,-100,Unknown
+m2macchitppdol_g[u], alpha D mannosyl 2 beta D mannosyl diacetylchitobiosyldiphosphodolichol C49H84N2O32P2,C49H84N2O32P2,-2,Unknown
+hmbil_c[u],Hydroxymethylbilane,C40H38N4O17,-8,Unknown
+m3macchitppdol_g[u], alpha D mannosyl 3 beta D mannosyl diacetylchitodiphosphodolichol C55H94N2O37P2,C55H94N2O37P2,-2,Unknown
+m4macchitppdol_g[u], alpha D Mannosyl 4 beta D mannosyl diacetylchitobiosyldiphosphodolichol C61H104N2O42P2,C61H104N2O42P2,-2,Unknown
+mipc226_SC_c[u],Mannose inositol phosphorylceramide  ceramide 2  26C   yeast specific C5600H10900N100O1700P100,C5600H10900N100O1700P100,-100,Unknown
+hmgcoa_c[u],Hydroxymethylglutaryl CoA C27H39N7O20P3S,C27H39N7O20P3S,-5,Unknown
+mipc324_SC_c[u],Mannose inositol phosphorylceramide  ceramide 3  24C   yeast specific C5400H10500N100O1800P100,C5400H10500N100O1800P100,-100,Unknown
+macchitppdol_g[u],Beta D Mannosyldiacetylchitobiosyldiphosphodolichol C37H64N2O22P2,C37H64N2O22P2,-2,Unknown
+hmgcoa_m[u],Hydroxymethylglutaryl CoA C27H39N7O20P3S,C27H39N7O20P3S,-5,Unknown
+malACP_c[u],Malonyl-[acyl-carrier protein],C14H22N2O10PRS,-2,Unknown
+mipc326_SC_c[u],Mannose inositol phosphorylceramide  ceramide 3  26C  C5600H10900N100O1800P100,C5600H10900N100O1800P100,-100,Unknown
+mlthf_c[u],"5,10-Methylenetetrahydrofolate",C20H21N7O6,-2,Unknown
+mlthf_m[u],"5,10-Methylenetetrahydrofolate",C20H21N7O6,-2,Unknown
+malACP_m[u],Malonyl-[acyl-carrier protein],C14H22N2O10PRS,-2,Unknown
+mal__L_c[u],L-Malate,C4H4O5,-2,Unknown
+hom__L_c[u],L-Homoserine,C4H9NO3,0,Unknown
+mal__L_e[u],L-Malate,C4H4O5,-2,Unknown
+mmet_c[u],S-Methyl-L-methionine,C6H14NO2S,1,Unknown
+mmet_e[u],S-Methyl-L-methionine,C6H14NO2S,1,Unknown
+mal__L_m[u],L-Malate,C4H4O5,-2,Unknown
+hpglu_c[u],Tetrahydropteroyltri L glutamate C24H34N8O12,C24H34N8O12,0,Unknown
+mthgxl_c[u],Methylglyoxal,C3H4O2,0,Unknown
+hxan_c[u],Hypoxanthine,C5H4N4O,0,Unknown
+myrsACP_c[u],Myristoyl-ACP (n-C14:0ACP),C25H47N2O8PRS,-1,Unknown
+hxan_e[u],Hypoxanthine,C5H4N4O,0,Unknown
+myrsACP_m[u],Myristoyl-ACP (n-C14:0ACP),C25H47N2O8PRS,-1,Unknown
+pi_v[u],Phosphate,HO4P,-2,Unknown
+n4abutn_c[u],N4 Acetylaminobutanal C6H11NO2,C6H11NO2,0,Unknown
+na1_c[u],Sodium,None,1,Unknown
+o2_m[u],O2 O2,O2,0,Unknown
+o2_r[u],O2 O2,O2,0,Unknown
+pi_x[u],Phosphate,HO4P,-2,Unknown
+o2_x[u],O2 O2,O2,0,Unknown
+oaa_c[u],Oxaloacetate,C4H2O5,-2,Unknown
+na1_e[u],Sodium,None,1,Unknown
+nac_c[u],Nicotinate,C6H4NO2,-1,Unknown
+nac_e[u],Nicotinate,C6H4NO2,-1,Unknown
+pmtcoa_c[u],Palmitoyl-CoA (n-C16:0CoA),C37H62N7O17P3S,-4,Unknown
+nac_m[u],Nicotinate,C6H4NO2,-1,Unknown
+oaa_e[u],Oxaloacetate,C4H2O5,-2,Unknown
+pmtcoa_x[u],Palmitoyl-CoA (n-C16:0CoA),C37H62N7O17P3S,-4,Unknown
+oaa_m[u],Oxaloacetate,C4H2O5,-2,Unknown
+nad_c[u],Nicotinamide adenine dinucleotide,C21H26N7O14P2,-1,Unknown
+nad_m[u],Nicotinamide adenine dinucleotide,C21H26N7O14P2,-1,Unknown
+pnto__R_c[u],(R)-Pantothenate,C9H16NO5,-1,Unknown
+nad_n[u],Nicotinamide adenine dinucleotide,C21H26N7O14P2,-1,Unknown
+oaa_x[u],Oxaloacetate,C4H2O5,-2,Unknown
+ocACP_m[u],Octanoyl-ACP (n-C8:0ACP),C19H35N2O8PRS,-1,Unknown
+nad_r[u],Nicotinamide adenine dinucleotide,C21H26N7O14P2,-1,Unknown
+pnto__R_e[u],(R)-Pantothenate,C9H16NO5,-1,Unknown
+nad_x[u],Nicotinamide adenine dinucleotide,C21H26N7O14P2,-1,Unknown
+occoa_c[u],Octanoyl-CoA (n-C8:0CoA),C29H46N7O17P3S,-4,Unknown
+occoa_x[u],Octanoyl-CoA (n-C8:0CoA),C29H46N7O17P3S,-4,Unknown
+ppbng_c[u],Porphobilinogen,C10H13N2O4,-1,Unknown
+ocdcaACP_c[u],Octadecanoyl-ACP (n-C18:0ACP),C29H55N2O8PRS,-1,Unknown
+nadh_c[u],Nicotinamide adenine dinucleotide - reduced,C21H27N7O14P2,-2,Unknown
+ppcoa_m[u],Propanoyl-CoA,C24H36N7O17P3S,-4,Unknown
+nadh_m[u],Nicotinamide adenine dinucleotide - reduced,C21H27N7O14P2,-2,Unknown
+ocdcaACP_m[u],Octadecanoyl-ACP (n-C18:0ACP),C29H55N2O8PRS,-1,Unknown
+ocdca_c[u],Octadecanoate (n-C18:0),C18H35O2,-1,Unknown
+pphn_c[u],Prephenate,C10H8O6,-2,Unknown
+nadh_r[u],Nicotinamide adenine dinucleotide - reduced,C21H27N7O14P2,-2,Unknown
+nadh_x[u],Nicotinamide adenine dinucleotide - reduced,C21H27N7O14P2,-2,Unknown
+ocdca_e[u],Octadecanoate (n-C18:0),C18H35O2,-1,Unknown
+ppi_c[u],Diphosphate,HO7P2,-3,Unknown
+ocdca_x[u],Octadecanoate (n-C18:0),C18H35O2,-1,Unknown
+nadp_c[u],Nicotinamide adenine dinucleotide phosphate,C21H25N7O17P3,-3,Unknown
+ppi_m[u],Diphosphate,HO7P2,-3,Unknown
+nadp_e[u],Nicotinamide adenine dinucleotide phosphate,C21H25N7O17P3,-3,Unknown
+ocdcea_c[u],Octadecenoate (n-C18:1),C18H33O2,-1,Unknown
+ppi_n[u],Diphosphate,HO7P2,-3,Unknown
+nadp_m[u],Nicotinamide adenine dinucleotide phosphate,C21H25N7O17P3,-3,Unknown
+ppi_x[u],Diphosphate,HO7P2,-3,Unknown
+nadp_r[u],Nicotinamide adenine dinucleotide phosphate,C21H25N7O17P3,-3,Unknown
+ocdcea_e[u],Octadecenoate (n-C18:1),C18H33O2,-1,Unknown
+ocdcyaACP_c[u],Octadecynoyl ACP  n C182ACP  C29H51N2O8PRS,C29H51N2O8PRS,-1,Unknown
+nadp_x[u],Nicotinamide adenine dinucleotide phosphate,C21H25N7O17P3,-3,Unknown
+ppmi12346p_c[u],5 Diphosphoinositol pentakisphosphate C6H6O27P7,C6H6O27P7,-13,Unknown
+nadph_c[u],Nicotinamide adenine dinucleotide phosphate - reduced,C21H26N7O17P3,-4,Unknown
+ocdcyaACP_m[u],Octadecynoyl ACP  n C182ACP  C29H51N2O8PRS,C29H51N2O8PRS,-1,Unknown
+ppmi1346p_c[u],Diphosphoinositol tetrakisphosphate C6H7O24P6,C6H7O24P6,-11,Unknown
+ocdcya_c[u],Octadecadienoate  n C182  C18H31O2,C18H31O2,-1,Unknown
+nadph_m[u],Nicotinamide adenine dinucleotide phosphate - reduced,C21H26N7O17P3,-4,Unknown
+ppp9_m[u],Protoporphyrin,C34H32N4O4,-2,Unknown
+nadph_r[u],Nicotinamide adenine dinucleotide phosphate - reduced,C21H26N7O17P3,-4,Unknown
+ocdcya_e[u],Octadecadienoate  n C182  C18H31O2,C18H31O2,-1,Unknown
+pppg9_c[u],Protoporphyrinogen IX,C34H38N4O4,-2,Unknown
+ocdycacoa_c[u],Octadecynoyl CoA  n C182CoA  C39H62N7O17P3S,C39H62N7O17P3S,-4,Unknown
+ocdycacoa_x[u],Octadecynoyl CoA  n C182CoA  C39H62N7O17P3S,C39H62N7O17P3S,-4,Unknown
+nadph_x[u],Nicotinamide adenine dinucleotide phosphate - reduced,C21H26N7O17P3,-4,Unknown
+ncam_c[u],Nicotinamide,C6H6N2O,0,Unknown
+pppg9_m[u],Protoporphyrinogen IX,C34H38N4O4,-2,Unknown
+ncam_m[u],Nicotinamide,C6H6N2O,0,Unknown
+octa_c[u],Octanoate (n-C8:0),C8H15O2,-1,Unknown
+pram_c[u],5-Phospho-beta-D-ribosylamine,C5H11NO7P,-1,Unknown
+octa_x[u],Octanoate (n-C8:0),C8H15O2,-1,Unknown
+nh4_c[u],Ammonium,H4N,1,Unknown
+pran_c[u],N-(5-Phospho-D-ribosyl)anthranilate,C12H13NO9P,-3,Unknown
+nh4_e[u],Ammonium,H4N,1,Unknown
+octeACP_c[u],Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1),C29H53N2O8PRS,-1,Unknown
+prbamp_c[u],1-(5-Phosphoribosyl)-AMP,C15H19N5O14P2,-4,Unknown
+octeACP_m[u],Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1),C29H53N2O8PRS,-1,Unknown
+nh4_m[u],Ammonium,H4N,1,Unknown
+prbatp_c[u],1-(5-Phosphoribosyl)-ATP,C15H19N5O20P4,-6,Unknown
+nh4_n[u],Ammonium,H4N,1,Unknown
+nh4_x[u],Ammonium,H4N,1,Unknown
+od2coa_x[u],Trans-Octadec-2-enoyl-CoA,C39H64N7O17P3S,-4,Unknown
+prfp_c[u],1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide,C15H21N5O15P2,-4,Unknown
+odecoa_c[u],Octadecenoyl-CoA (n-C18:1CoA),C39H64N7O17P3S,-4,Unknown
+nicrnt_c[u],Nicotinate D-ribonucleotide,C11H12NO9P,-2,Unknown
+odecoa_x[u],Octadecenoyl-CoA (n-C18:1CoA),C39H64N7O17P3S,-4,Unknown
+prlp_c[u],5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide,C15H21N5O15P2,-4,Unknown
+oh1_c[u],Hydroxide ion HO,HO,-1,Unknown
+oh1_m[u],Hydroxide ion HO,HO,-1,Unknown
+nicrnt_m[u],Nicotinate D-ribonucleotide,C11H12NO9P,-2,Unknown
+nmn_c[u],NMN C11H14N2O8P,C11H14N2O8P,-1,Unknown
+nmn_e[u],NMN C11H14N2O8P,C11H14N2O8P,-1,Unknown
+ohpb_c[u],2-Oxo-3-hydroxy-4-phosphobutanoate,C4H4O8P,-3,Unknown
+pro__L_c[u],L-Proline,C5H9NO2,0,Unknown
+orn_c[u],Ornithine,C5H13N2O2,1,Unknown
+nmn_m[u],NMN C11H14N2O8P,C11H14N2O8P,-1,Unknown
+nmn_x[u],NMN C11H14N2O8P,C11H14N2O8P,-1,Unknown
+pro__L_e[u],L-Proline,C5H9NO2,0,Unknown
+orn_e[u],Ornithine,C5H13N2O2,1,Unknown
+pro__L_m[u],L-Proline,C5H9NO2,0,Unknown
+orn_m[u],Ornithine,C5H13N2O2,1,Unknown
+orot5p_c[u],Orotidine 5'-phosphate,C10H10N2O11P,-3,Unknown
+o2_c[u],O2 O2,O2,0,Unknown
+o2_e[u],O2 O2,O2,0,Unknown
+protrna_c[u],L-Prolyl-tRNA(Pro),C5H8NOR,1,Unknown
+orot_c[u],Orotate C5H3N2O4,C5H3N2O4,-1,Unknown
+prpp_c[u],5-Phospho-alpha-D-ribose 1-diphosphate,C5H8O14P3,-5,Unknown
+oxag_c[u],Oxaloglutarate C7H5O7,C7H5O7,-3,Unknown
+prpp_m[u],5-Phospho-alpha-D-ribose 1-diphosphate,C5H8O14P3,-5,Unknown
+oxag_m[u],Oxaloglutarate C7H5O7,C7H5O7,-3,Unknown
+ps_SC_c[u],Phosphatidylserine  yeast specific C3840H7144N100O1000P100,C3840H7144N100O1000P100,-100,Unknown
+pa_SC_c[u],Phosphatidate  yeast specific C3540H6544O800P100,C3540H6544O800P100,-200,Unknown
+ps_SC_g[u],Phosphatidylserine  yeast specific C3840H7144N100O1000P100,C3840H7144N100O1000P100,-100,Unknown
+pa_SC_m[u],Phosphatidate  yeast specific C3540H6544O800P100,C3540H6544O800P100,-200,Unknown
+skm_c[u],Shikimate,C7H9O5,-1,Unknown
+so3_c[u],Sulfite,O3S,-2,Unknown
+ps_SC_m[u],Phosphatidylserine  yeast specific C3840H7144N100O1000P100,C3840H7144N100O1000P100,-100,Unknown
+pac_c[u],Phenylacetic acid,C8H7O2,-1,Unknown
+ps_SC_v[u],Phosphatidylserine  yeast specific C3840H7144N100O1000P100,C3840H7144N100O1000P100,-100,Unknown
+pacald_c[u],Phenylacetaldehyde,C8H8O,0,Unknown
+so3_e[u],Sulfite,O3S,-2,Unknown
+psd5p_c[u],Pseudouridine 5  phosphate C9H11N2O9P,C9H11N2O9P,-2,Unknown
+so4_c[u],Sulfate,O4S,-2,Unknown
+pacald_e[u],Phenylacetaldehyde,C8H8O,0,Unknown
+pacald_m[u],Phenylacetaldehyde,C8H8O,0,Unknown
+so4_e[u],Sulfate,O4S,-2,Unknown
+pser__L_c[u],O-Phospho-L-serine,C3H6NO6P,-2,Unknown
+pad_c[u],2 Phenylacetamide C8H9NO,C8H9NO,0,Unknown
+psph1p_c[u],Phytosphingosine 1 phosphate C18H39NO6P,C18H39NO6P,-1,Unknown
+palmACP_c[u],Palmitoyl-ACP (n-C16:0ACP),C27H51N2O8PRS,-1,Unknown
+psph1p_r[u],Phytosphingosine 1 phosphate C18H39NO6P,C18H39NO6P,-1,Unknown
+palmACP_m[u],Palmitoyl-ACP (n-C16:0ACP),C27H51N2O8PRS,-1,Unknown
+sph1p_c[u],Sphinganine 1 phosphate C18H39NO5P,C18H39NO5P,-1,Unknown
+sph1p_r[u],Sphinganine 1 phosphate C18H39NO5P,C18H39NO5P,-1,Unknown
+psphings_c[u],Phytosphingosine C18H40NO3,C18H40NO3,1,Unknown
+sphgn_c[u],Sphinganine C18H40NO2,C18H40NO2,1,Unknown
+pan4p_c[u],Pantetheine 4'-phosphate,C11H21N2O7PS,-2,Unknown
+psphings_r[u],Phytosphingosine C18H40NO3,C18H40NO3,1,Unknown
+pan4p_m[u],Pantetheine 4'-phosphate,C11H21N2O7PS,-2,Unknown
+pan4p_x[u],Pantetheine 4'-phosphate,C11H21N2O7PS,-2,Unknown
+sphgn_r[u],Sphinganine C18H40NO2,C18H40NO2,1,Unknown
+ptd134bp_SC_c[u],Phosphatidyl 1D myo inositol 3 4 bisphosphate  yeast specific C4140H7444O1900P300,C4140H7444O1900P300,-500,Unknown
+spmd_c[u],Spermidine,C7H22N3,3,Unknown
+pant__R_c[u],(R)-Pantoate,C6H11O4,-1,Unknown
+ptd135bp_SC_c[u],1 Phosphatidyl D myo inositol 3 5 bisphosphate  yeast specific C4140H7444O1900P300,C4140H7444O1900P300,-500,Unknown
+pant__R_m[u],(R)-Pantoate,C6H11O4,-1,Unknown
+spmd_e[u],Spermidine,C7H22N3,3,Unknown
+ptd145bp_SC_c[u],1 Phosphatidyl D myo inositol 4 5 bisphosphate  yeast specific C4140H7444O1900P300,C4140H7444O1900P300,-500,Unknown
+sprm_c[u],Spermine C10H30N4,C10H30N4,4,Unknown
+sprm_e[u],Spermine C10H30N4,C10H30N4,4,Unknown
+pap_c[u],"Adenosine 3',5'-bisphosphate",C10H11N5O10P2,-4,Unknown
+ptd1ino_SC_c[u],Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100,C4140H7644O1300P100,-100,Unknown
+pap_e[u],"Adenosine 3',5'-bisphosphate",C10H11N5O10P2,-4,Unknown
+pap_m[u],"Adenosine 3',5'-bisphosphate",C10H11N5O10P2,-4,Unknown
+sql_c[u],Squalene C30H50,C30H50,0,Unknown
+ptd1ino_SC_e[u],Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100,C4140H7644O1300P100,-100,Unknown
+sql_r[u],Squalene C30H50,C30H50,0,Unknown
+pap_x[u],"Adenosine 3',5'-bisphosphate",C10H11N5O10P2,-4,Unknown
+ptd1ino_SC_n[u],Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100,C4140H7644O1300P100,-100,Unknown
+paps_c[u],3'-Phosphoadenylyl sulfate,C10H11N5O13P2S,-4,Unknown
+srb__L_c[u],L Sorbose C6H12O6,C6H12O6,0,Unknown
+ptd2meeta_SC_c[u],Phosphatidyl N dimethylethanolamine C3940H7644N100O800P100,C3940H7644N100O800P100,0,Unknown
+srb__L_e[u],L Sorbose C6H12O6,C6H12O6,0,Unknown
+stcoa_c[u],Stearoyl-CoA (n-C18:0CoA),C39H66N7O17P3S,-4,Unknown
+pc_SC_c[u],Phosphatidylcholine  yeast specific C4040H7844N100O800P100,C4040H7844N100O800P100,0,Unknown
+ptd3ino_SC_c[u],Phosphatidyl 1D myo 3 inositol  yeast specific C4140H7544O1600P200,C4140H7544O1600P200,-300,Unknown
+pc_SC_e[u],Phosphatidylcholine  yeast specific C4040H7844N100O800P100,C4040H7844N100O800P100,0,Unknown
+stcoa_x[u],Stearoyl-CoA (n-C18:0CoA),C39H66N7O17P3S,-4,Unknown
+ptd4ino_SC_c[u],Phosphatidyl 1D myo 4 inositol  yeast specific C4140H7544O1600P200,C4140H7544O1600P200,-300,Unknown
+succ_c[u],Succinate,C4H4O4,-2,Unknown
+pdx5p_c[u],Pyridoxine 5'-phosphate,C8H10NO6P,-2,Unknown
+pe_SC_c[u],Phosphatidylethanolamine  yeast specific C3740H7244N100O800P100,C3740H7244N100O800P100,0,Unknown
+ptd4ino_SC_n[u],Phosphatidyl 1D myo 4 inositol  yeast specific C4140H7544O1600P200,C4140H7544O1600P200,-300,Unknown
+pe_SC_g[u],Phosphatidylethanolamine  yeast specific C3740H7244N100O800P100,C3740H7244N100O800P100,0,Unknown
+succ_e[u],Succinate,C4H4O4,-2,Unknown
+ptdmeeta_SC_c[u],Phosphatidyl N methylethanolamine  yeast specific C3840H7444N100O800P100,C3840H7444N100O800P100,0,Unknown
+succ_m[u],Succinate,C4H4O4,-2,Unknown
+succoa_m[u],Succinyl-CoA,C25H35N7O19P3S,-5,Unknown
+pe_SC_m[u],Phosphatidylethanolamine  yeast specific C3740H7244N100O800P100,C3740H7244N100O800P100,0,Unknown
+ptrc_c[u],Putrescine,C4H14N2,2,Unknown
+pe_SC_v[u],Phosphatidylethanolamine  yeast specific C3740H7244N100O800P100,C3740H7244N100O800P100,0,Unknown
+pectin_e[u],Pectin C6H7O6,C6H7O6,-1,Unknown
+pendp_c[u],All trans Pentaprenyl diphosphate C25H41O7P2,C25H41O7P2,-3,Unknown
+suchms_c[u],O-Succinyl-L-homoserine,C8H12NO6,-1,Unknown
+sucr_c[u],Sucrose C12H22O11,C12H22O11,0,Unknown
+sucr_e[u],Sucrose C12H22O11,C12H22O11,0,Unknown
+pendp_m[u],All trans Pentaprenyl diphosphate C25H41O7P2,C25H41O7P2,-3,Unknown
+ptrc_e[u],Putrescine,C4H14N2,2,Unknown
+pep_c[u],Phosphoenolpyruvate,C3H2O6P,-3,Unknown
+sucsal_c[u],Succinic semialdehyde,C4H5O3,-1,Unknown
+pyam5p_c[u],Pyridoxamine 5'-phosphate,C8H12N2O5P,-1,Unknown
+tag6p__D_c[u],D-Tagatose 6-phosphate,C6H11O9P,-2,Unknown
+pep_m[u],Phosphoenolpyruvate,C3H2O6P,-3,Unknown
+tagdp__D_c[u],"D-Tagatose 1,6-biphosphate",C6H10O12P2,-4,Unknown
+pydam_c[u],Pyridoxamine,C8H13N2O2,1,Unknown
+pepd_c[u],Peptide C2H4NO2RC2H2NOR,C2H4NO2RC2H2NOR,0,Unknown
+pepd_e[u],Peptide C2H4NO2RC2H2NOR,C2H4NO2RC2H2NOR,0,Unknown
+taur_c[u],Taurine C2H7NO3S,C2H7NO3S,0,Unknown
+pydx5p_c[u],Pyridoxal 5'-phosphate,C8H8NO6P,-2,Unknown
+taur_e[u],Taurine C2H7NO3S,C2H7NO3S,0,Unknown
+pg_SC_m[u],Phosphatidylglycerol  yeast specific C3840H7244O1000P100,C3840H7244O1000P100,-100,Unknown
+pydx_c[u],Pyridoxal,C8H9NO3,0,Unknown
+pgp_SC_m[u],Phosphatidylglycerophosphate  yeast specific C3840H7144O1300P200,C3840H7144O1300P200,-300,Unknown
+tchola_c[u],Taurocholic acid C26H45NO7S,C26H45NO7S,0,Unknown
+pydxn_c[u],Pyridoxine,C8H11NO3,0,Unknown
+tchola_v[u],Taurocholic acid C26H45NO7S,C26H45NO7S,0,Unknown
+phe__L_c[u],L-Phenylalanine,C9H11NO2,0,Unknown
+pyr_c[u],Pyruvate,C3H3O3,-1,Unknown
+phe__L_e[u],L-Phenylalanine,C9H11NO2,0,Unknown
+td2coa_x[u],Trans-Tetradec-2-enoyl-CoA,C35H56N7O17P3S,-4,Unknown
+pyr_e[u],Pyruvate,C3H3O3,-1,Unknown
+tdcoa_c[u],Tetradecanoyl-CoA (n-C14:0CoA),C35H58N7O17P3S,-4,Unknown
+phe__L_m[u],L-Phenylalanine,C9H11NO2,0,Unknown
+pyr_m[u],Pyruvate,C3H3O3,-1,Unknown
+pheac_c[u],Phenethyl acetate C10H12O2,C10H12O2,0,Unknown
+pheac_e[u],Phenethyl acetate C10H12O2,C10H12O2,0,Unknown
+tdcoa_x[u],Tetradecanoyl-CoA (n-C14:0CoA),C35H58N7O17P3S,-4,Unknown
+tdeACP_c[u],Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1),C25H45N2O8PRS,-1,Unknown
+pyr_x[u],Pyruvate,C3H3O3,-1,Unknown
+tdeACP_m[u],Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1),C25H45N2O8PRS,-1,Unknown
+pheme_m[u],Protoheme C34H30FeN4O4,None,-2,Unknown
+q6_m[u],Ubiquinone 6 C39H58O4,C39H58O4,0,Unknown
+phetrna_c[u],L-Phenylalanyl-tRNA(Phe),C9H10NOR,1,Unknown
+tdecoa_c[u],Tetradecenoyl-CoA (n-C14:1CoA),C35H56N7O17P3S,-4,Unknown
+q6h2_m[u],Ubiquinol 6 C39H60O4,C39H60O4,0,Unknown
+tdecoa_x[u],Tetradecenoyl-CoA (n-C14:1CoA),C35H56N7O17P3S,-4,Unknown
+phetrna_m[u],L-Phenylalanyl-tRNA(Phe),C9H10NOR,1,Unknown
+quln_c[u],Quinolinate,C7H3NO4,-2,Unknown
+phom_c[u],O-Phospho-L-homoserine,C4H8NO6P,-2,Unknown
+phpyr_c[u],Phenylpyruvate,C9H7O3,-1,Unknown
+tglp_c[u],N Tetradecanoylglycylpeptide C18H32N2O4R,C18H32N2O4R,0,Unknown
+quln_m[u],Quinolinate,C7H3NO4,-2,Unknown
+thf_c[u],"5,6,7,8-Tetrahydrofolate",C19H21N7O6,-2,Unknown
+phthr_c[u],O-Phospho-4-hydroxy-L-threonine,C4H8NO7P,-2,Unknown
+r1p_c[u],Alpha-D-Ribose 1-phosphate,C5H9O8P,-2,Unknown
+pi_c[u],Phosphate,HO4P,-2,Unknown
+thf_m[u],"5,6,7,8-Tetrahydrofolate",C19H21N7O6,-2,Unknown
+thfglu_c[u],Tetrahydrofolyl Glu 2  C24H27N8O9,C24H27N8O9,-3,Unknown
+r1p_m[u],Alpha-D-Ribose 1-phosphate,C5H9O8P,-2,Unknown
+thm_c[u],Thiamin,C12H17N4OS,1,Unknown
+pi_e[u],Phosphate,HO4P,-2,Unknown
+r5p_c[u],Alpha-D-Ribose 5-phosphate,C5H9O8P,-2,Unknown
+pi_g[u],Phosphate,HO4P,-2,Unknown
+thm_e[u],Thiamin,C12H17N4OS,1,Unknown
+raffin_c[u],Raffinose C18H32O16,C18H32O16,0,Unknown
+thmmp_c[u],Thiamin monophosphate,C12H16N4O4PS,-1,Unknown
+pi_m[u],Phosphate,HO4P,-2,Unknown
+pi_n[u],Phosphate,HO4P,-2,Unknown
+rib__D_c[u],D-Ribose,C5H10O5,0,Unknown
+pi_r[u],Phosphate,HO4P,-2,Unknown
+thmmp_e[u],Thiamin monophosphate,C12H16N4O4PS,-1,Unknown
+rib__D_e[u],D-Ribose,C5H10O5,0,Unknown
+thmpp_c[u],Thiamine diphosphate,C12H16N4O7P2S,-2,Unknown
+ribflv_c[u],Riboflavin C17H20N4O6,C17H20N4O6,0,Unknown
+thmpp_e[u],Thiamine diphosphate,C12H16N4O7P2S,-2,Unknown
+thmpp_m[u],Thiamine diphosphate,C12H16N4O7P2S,-2,Unknown
+ribflv_e[u],Riboflavin C17H20N4O6,C17H20N4O6,0,Unknown
+thmtp_c[u],Thiamin triphosphate C12H16N4O10P3S,C12H16N4O10P3S,-3,Unknown
+ribflv_m[u],Riboflavin C17H20N4O6,C17H20N4O6,0,Unknown
+thr__L_c[u],L-Threonine,C4H9NO3,0,Unknown
+trnalys_c[u],TRNA(Lys),R,0,Unknown
+rnam_c[u],N Ribosylnicotinamide C11H15N2O5,C11H15N2O5,1,Unknown
+trnalys_m[u],TRNA(Lys),R,0,Unknown
+thr__L_e[u],L-Threonine,C4H9NO3,0,Unknown
+ru5p__D_c[u],D-Ribulose 5-phosphate,C5H9O8P,-2,Unknown
+thr__L_m[u],L-Threonine,C4H9NO3,0,Unknown
+trnamet_c[u],TRNA(Met),R,0,Unknown
+s17bp_c[u],"Sedoheptulose 1,7-bisphosphate",C7H12O13P2,-4,Unknown
+trnamet_m[u],TRNA(Met),R,0,Unknown
+thrtrna_c[u],L-Threonyl-tRNA(Thr),C4H8NO2R,1,Unknown
+s7p_c[u],Sedoheptulose 7-phosphate,C7H13O10P,-2,Unknown
+thrtrna_m[u],L-Threonyl-tRNA(Thr),C4H8NO2R,1,Unknown
+trnaphe_c[u],TRNA(Phe),R,0,Unknown
+s_c[u],Sulfur,S,0,Unknown
+trnaphe_m[u],TRNA(Phe),R,0,Unknown
+thym_c[u],Thymine C5H6N2O2,C5H6N2O2,0,Unknown
+saccrp__L_c[u],L Saccharopine C11H19N2O6,C11H19N2O6,-1,Unknown
+thym_e[u],Thymine C5H6N2O2,C5H6N2O2,0,Unknown
+thymd_c[u],Thymidine C10H14N2O5,C10H14N2O5,0,Unknown
+trnapro_c[u],TRNA(Pro),R,0,Unknown
+trnaser_c[u],TRNA(Ser),R,0,Unknown
+sbt__D_c[u],D-Sorbitol,C6H14O6,0,Unknown
+trnathr_c[u],TRNA(Thr),R,0,Unknown
+thymd_e[u],Thymidine C10H14N2O5,C10H14N2O5,0,Unknown
+sbt__D_e[u],D-Sorbitol,C6H14O6,0,Unknown
+trdox_c[u],Oxidized thioredoxin,X,0,Unknown
+trnathr_m[u],TRNA(Thr),R,0,Unknown
+sbt__L_c[u],L Sorbitol C6H14O6,C6H14O6,0,Unknown
+trnatrp_c[u],TRNA(Trp),R,0,Unknown
+trdox_m[u],Oxidized thioredoxin,X,0,Unknown
+sbt__L_e[u],L Sorbitol C6H14O6,C6H14O6,0,Unknown
+trdox_n[u],Oxidized thioredoxin,X,0,Unknown
+trdox_x[u],Oxidized thioredoxin,X,0,Unknown
+trnatrp_m[u],TRNA(Trp),R,0,Unknown
+trnatyr_c[u],TRNA(Tyr),R,0,Unknown
+trnatyr_m[u],TRNA(Tyr),R,0,Unknown
+trdrd_c[u],Reduced thioredoxin,XH2,0,Unknown
+scl_c[u],Sirohydrochlorin,C42H39N4O16,-7,Unknown
+trdrd_m[u],Reduced thioredoxin,XH2,0,Unknown
+trnaval_c[u],TRNA(Val),R,0,Unknown
+trnaval_m[u],TRNA(Val),R,0,Unknown
+sdhlam_m[u],S Succinyldihydrolipoamide C12H20NO4S2,C12H20NO4S2,-1,Unknown
+trp__L_c[u],L-Tryptophan,C11H12N2O2,0,Unknown
+trdrd_n[u],Reduced thioredoxin,XH2,0,Unknown
+trdrd_x[u],Reduced thioredoxin,XH2,0,Unknown
+ser__L_c[u],L-Serine,C3H7NO3,0,Unknown
+tre6p_c[u],"Alpha,alpha'-Trehalose 6-phosphate",C12H21O14P,-2,Unknown
+trp__L_e[u],L-Tryptophan,C11H12N2O2,0,Unknown
+ser__L_e[u],L-Serine,C3H7NO3,0,Unknown
+trp__L_m[u],L-Tryptophan,C11H12N2O2,0,Unknown
+tre_c[u],Trehalose,C12H22O11,0,Unknown
+ser__L_m[u],L-Serine,C3H7NO3,0,Unknown
+tre_e[u],Trehalose,C12H22O11,0,Unknown
+trptrna_c[u],L-Tryptophanyl-tRNA(Trp),C11H11N2OR,1,Unknown
+trptrna_m[u],L-Tryptophanyl-tRNA(Trp),C11H11N2OR,1,Unknown
+sertrna_c[u],L-Seryl-tRNA(Ser),C3H6NO2R,1,Unknown
+tre_v[u],Trehalose,C12H22O11,0,Unknown
+sheme_c[u],Siroheme C42H36FeN4O16,None,-8,Unknown
+triglyc_SC_c[u],Triglyceride  yeast specific C5160H9566O600,C5160H9566O600,0,Unknown
+trnaala_c[u],TRNA(Ala),R,0,Unknown
+ttc_c[u],Tetracosanoate  n C240  C24H47O2,C24H47O2,-1,Unknown
+skm5p_c[u],Shikimate 5-phosphate,C7H8O8P,-3,Unknown
+ttc_x[u],Tetracosanoate  n C240  C24H47O2,C24H47O2,-1,Unknown
+trnaarg_c[u],TRNA(Arg),R,0,Unknown
+trnaarg_m[u],TRNA(Arg),R,0,Unknown
+trnaasn_c[u],TRNA Asn  C10H17O10PR2,C10H17O10PR2,0,Unknown
+trnaasn_m[u],TRNA Asn  C10H17O10PR2,C10H17O10PR2,0,Unknown
+trnaasp_c[u],TRNA(Asp),R,0,Unknown
+trnaasp_m[u],TRNA(Asp),R,0,Unknown
+trnacys_c[u],TRNA(Cys),R,0,Unknown
+trnagln_c[u],TRNA(Gln),R,0,Unknown
+trnaglu_c[u],TRNA (Glu),R,0,Unknown
+trnaglu_m[u],TRNA (Glu),R,0,Unknown
+trnagly_c[u],TRNA(Gly),R,0,Unknown
+trnahis_c[u],TRNA(His),R,0,Unknown
+trnahis_m[u],TRNA(His),R,0,Unknown
+trnaile_c[u],TRNA(Ile),R,0,Unknown
+trnaile_m[u],TRNA(Ile),R,0,Unknown
+trnaleu_c[u],TRNA(Leu),R,0,Unknown
+trnaleu_m[u],TRNA(Leu),R,0,Unknown
+ttccoa_c[u],Tetracosanoyl CoA   n C240CoA  C45H78N7O17P3S,C45H78N7O17P3S,-4,Unknown
+ttccoa_r[u],Tetracosanoyl CoA   n C240CoA  C45H78N7O17P3S,C45H78N7O17P3S,-4,Unknown
+ttccoa_x[u],Tetracosanoyl CoA   n C240CoA  C45H78N7O17P3S,C45H78N7O17P3S,-4,Unknown
+ttdca_c[u],Tetradecanoate (n-C14:0),C14H27O2,-1,Unknown
+ttdca_e[u],Tetradecanoate (n-C14:0),C14H27O2,-1,Unknown
+ttdca_x[u],Tetradecanoate (n-C14:0),C14H27O2,-1,Unknown
+ttdcea_c[u],Tetradecenoate (n-C14:1),C14H25O2,-1,Unknown
+ttdcea_x[u],Tetradecenoate (n-C14:1),C14H25O2,-1,Unknown
+tyr__L_c[u],L-Tyrosine,C9H11NO3,0,Unknown
+tyr__L_e[u],L-Tyrosine,C9H11NO3,0,Unknown
+tyr__L_m[u],L-Tyrosine,C9H11NO3,0,Unknown
+tyr__L_v[u],L-Tyrosine,C9H11NO3,0,Unknown
+tyr__L_x[u],L-Tyrosine,C9H11NO3,0,Unknown
+tyrtrna_c[u],L-Tyrosyl-tRNA(Tyr),C9H10NO2R,1,Unknown
+tyrtrna_m[u],L-Tyrosyl-tRNA(Tyr),C9H10NO2R,1,Unknown
+udp_c[u],UDP C9H11N2O12P2,C9H11N2O12P2,-3,Unknown
+udp_n[u],UDP C9H11N2O12P2,C9H11N2O12P2,-3,Unknown
+udpacgal_c[u],UDP-N-acetyl-D-galactosamine,C17H25N3O17P2,-2,Unknown
+udpg_c[u],UDPglucose,C15H22N2O17P2,-2,Unknown
+udpgal_c[u],UDPgalactose,C15H22N2O17P2,-2,Unknown
+udpgal_g[u],UDPgalactose,C15H22N2O17P2,-2,Unknown
+ump_c[u],UMP C9H11N2O9P,C9H11N2O9P,-2,Unknown
+ump_m[u],UMP C9H11N2O9P,C9H11N2O9P,-2,Unknown
+ump_n[u],UMP C9H11N2O9P,C9H11N2O9P,-2,Unknown
+uppg3_c[u],Uroporphyrinogen III,C40H36N4O16,-8,Unknown
+ura_c[u],Uracil,C4H4N2O2,0,Unknown
+ura_e[u],Uracil,C4H4N2O2,0,Unknown
+urdglyc_c[u],(-)-Ureidoglycolate,C3H5N2O4,-1,Unknown
+urea_c[u],Urea CH4N2O,CH4N2O,0,Unknown
+urea_e[u],Urea CH4N2O,CH4N2O,0,Unknown
+uri_c[u],Uridine,C9H12N2O6,0,Unknown
+uri_e[u],Uridine,C9H12N2O6,0,Unknown
+utp_c[u],UTP C9H11N2O15P3,C9H11N2O15P3,-4,Unknown
+utp_m[u],UTP C9H11N2O15P3,C9H11N2O15P3,-4,Unknown
+val__L_c[u],L-Valine,C5H11NO2,0,Unknown
+val__L_e[u],L-Valine,C5H11NO2,0,Unknown
+val__L_m[u],L-Valine,C5H11NO2,0,Unknown
+valtrna_c[u],L-Valyl-tRNA(Val),C5H10NOR,1,Unknown
+valtrna_m[u],L-Valyl-tRNA(Val),C5H10NOR,1,Unknown
+xan_c[u],Xanthine,C5H4N4O2,0,Unknown
+xan_e[u],Xanthine,C5H4N4O2,0,Unknown
+xmp_c[u],Xanthosine 5'-phosphate,C10H11N4O9P,-2,Unknown
+xtsn_c[u],Xanthosine,C10H12N4O6,0,Unknown
+xtsn_e[u],Xanthosine,C10H12N4O6,0,Unknown
+xu5p__D_c[u],D-Xylulose 5-phosphate,C5H9O8P,-2,Unknown
+xyl__D_c[u],D-Xylose,C5H10O5,0,Unknown
+xyl__D_e[u],D-Xylose,C5H10O5,0,Unknown
+xylt_c[u],Xylitol C5H12O5,C5H12O5,0,Unknown
+xylt_e[u],Xylitol C5H12O5,C5H12O5,0,Unknown
+xylu__D_c[u],D-Xylulose,C5H10O5,0,Unknown
+zym_int1_c[u],Zymosterol intermediate 1 C28H44O3,C28H44O3,0,Unknown
+zym_int2_c[u],Zymosterol intermediate 2 C27H42O,C27H42O,0,Unknown
+zymst_c[u],Zymosterol C27H44O,C27H44O,0,Unknown
+zymst_e[u],Zymosterol C27H44O,C27H44O,0,Unknown
+zymstest_SC_c[u],Zymosterol ester  yeast specific C1694H2993O101,C1694H2993O101,0,Unknown
+zymstest_SC_e[u],Zymosterol ester  yeast specific C1694H2993O101,C1694H2993O101,0,Unknown

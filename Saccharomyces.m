@@ -1,10 +1,10 @@
 % Saccharomyces cerevisiae
-
+changeCobraSolver('glpk','all');
 % Leer modelo
 sacc_model = readCbModel('iMM904.mat');
 
 % exportar xls de modelo base
-% outmodel = writeCbModel(sacc_model, 'xls','sacc_model.xls');
+%outmodel = writeCbModel(sacc_model, 'xls','sacc_model.xls');
 
 % condiciones iniciales: -100 glucosa y -1000 oxigeno
 sacc_model_b = changeRxnBounds(sacc_model, 'EX_glc__D_e',-100,'l');

@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.5 biomass, 5 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: PIt2m TRDOXtp PYK 
+Obj: 10.034538
+Biomass: 4.726285
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.340301
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACALDtm MDH PIt2m 
+Obj: 10.057486
+Biomass: 4.726285
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.279487
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: E4Ptm FORt 
+Obj: 14.303566
+Biomass: 4.726285
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

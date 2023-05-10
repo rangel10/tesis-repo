@@ -38,10 +38,10 @@ model_02_01 = addFixedRxns(model_02_01,'1');
 
 
 % parametros
-threshold = 25;
-numDel = 2;
-percent = 0.6;
-minObj = 2;
+threshold = 5;
+numDel = 3;
+percent = 0.5;
+minObj = 10;
 
 model_test = model_01_01;
 fba = optimizeCbModel(model_test,'max');
@@ -53,7 +53,7 @@ exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')
 rxns = setdiff(model_test.rxns, exchangeRxns);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_0101_2D_60P_25TH_2MO.txt','w');
+fid = fopen('optknock results/result_0101_3D_50P_5TH_10MO.txt','w');
 
 % Optknock
 fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs, %g min objective********************\n\n',numDel, percent, threshold, minObj);

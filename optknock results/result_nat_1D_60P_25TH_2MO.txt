@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.6 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS 
+Obj: 4.191503
+Biomass: 8.204156
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: FBA3 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: NH4ti 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled

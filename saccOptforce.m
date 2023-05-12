@@ -17,6 +17,9 @@ glucose = 'EX_glc__D_e';
 model_b = changeRxnBounds(model_b, glucose, -100, 'l');
 model_b = changeRxnBounds(model_b, o2, -1000, 'l');
 
+% ruta real
+
+
 % ruta 01_01
 model_01_01 = addReaction(model_b, 'added_3dhsk_34dhbz','3dhsk_c -> 34dhbz_c + h2o_c');
 model_01_01 = addReaction(model_01_01, 'added_34dhbz_34dhbald','34dhbz_c + atp_c + nadph_c + h_c <=> 34dhbald_c + amp_c + nadp_c + ppi_c');

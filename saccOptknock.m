@@ -33,17 +33,27 @@ model_02_01 = addReaction(model_b,'added_4hbz_34dhbz','4hbz_c + nadph_c + o2_c +
 model_02_01 = addReaction(model_02_01,'added_34dhbz_34dhbald','34dhbz_c + atp_c + nadph_c + h_c <=> 34dhbald_c + amp_c + nadp_c + ppi_c');
 model_02_01 = addFixedRxns(model_02_01,'1');
 
+% ruta nativa
+model_nat = addReaction(model_b, 'added_phe__L_cinnm', 'phe__L_c -> cinnm_c + nh4_c');
+model_nat = addReaction(model_nat, 'added_cinnm_T4hcinnm', 'cinnm_c + nadph_c + o2_c -> T4hcinnm_c + nadp_c + h2o_c');
+model_nat = addReaction(model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+model_nat = addReaction(model_nat,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+model_nat = addReaction(model_nat,'added_aux_fad','fad_m <=> fad_c');
+model_nat = addReaction(model_nat,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
+model_nat = addReaction(model_nat,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
+model_nat = addFixedRxns(model_nat, '1');
+
 
 %model_01_01 = changeRxnBounds(model_01_01,'added_EX_4omet_e',0,'l');
 
 
 % parametros
-threshold = 5;
-numDel = 3;
-percent = 0.5;
-minObj = 10;
+threshold = 25;
+numDel = 2;
+percent = 0.9;
+minObj = 5;
 
-model_test = model_01_01;
+model_test = model_nat;
 fba = optimizeCbModel(model_test,'max');
 fluxb = fba.f;
 %rxns = model_test.rxns;
@@ -53,7 +63,7 @@ exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')
 rxns = setdiff(model_test.rxns, exchangeRxns);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_0101_3D_50P_5TH_10MO.txt','w');
+fid = fopen('optknock results/result_nat_2D_90P_25TH_5MO.txt','w');
 
 % Optknock
 fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs, %g min objective********************\n\n',numDel, percent, threshold, minObj);

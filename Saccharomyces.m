@@ -10,10 +10,6 @@ sacc_model = readCbModel('iMM904.mat');
 sacc_model_b = changeRxnBounds(sacc_model, 'EX_glc__D_e',-100,'l');
 sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 
-% ATP Maintenance
-% sacc_model_b = changeRxnBounds(sacc_model_b,'ATPM',0.1,'l');
-% sacc_model_b = changeRxnBounds(sacc_model_b,'ATPM',0.1,'u');
-
 % Exportar xls de modelo con condiciones iniciales
 % outmodel = writeCbModel(sacc_model_a, 'xls','sacc_model_a.xls');
 
@@ -21,6 +17,48 @@ sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 % Analisis modelo base con condiciones iniciales
 FBAsolution_b = optimizeCbModel(sacc_model_b,'max');
 F_b = FBAsolution_b.f;
+
+% Analisis para ruta nativa
+% Real. 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> phpyr -> cinnm -> 4cou -> 4hbald -> 34dhbald
+% 
+% * 2dda7p_c -> 3dhq_c + pi_c
+% * 3dhq_c <=> 3dhsk_c + h2o_c     // ->
+% * 3dhsk_c + h_c + nadph_c -> nadp_c + skm_c
+% * atp_c + skm_c -> adp_c + h_c + skm3p_c     // skm5p=skm3p 
+% * pep_c + skm3p_c <=> 3psme_c + pi_c     // ->
+% * 3psme_c -> chor_c + pi_c
+% * chor_c <=> pphn_c     // ->
+% * h_c + pphn_c -> co2_c + h2o_c + phpyr_c
+% * phpyr_c + glu__L_c <=> phe__L_c + akg_c 
+% * phe__L_c -> cinnm_c + nh4_c     // No esta en modelo
+% * cinnm_c + nadph_c + o2_c -> T4hcinnm_c + nadp_c + h2o_c     // No esta en modelo
+% * T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c     // No esta en modelo
+% * 34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c    // No esta en modelo (?)
+% * caffcoa_c + h2o_c -> 34dhbald_c + accoa_c     // No esta en modelo
+
+% Agregar o modificar reacciones faltantes
+
+% Nativa
+sacc_model_nat = addReaction(sacc_model_b, 'added_phe__L_cinnm', 'phe__L_c -> cinnm_c + nh4_c');
+sacc_model_nat = addReaction(sacc_model_nat, 'added_cinnm_T4hcinnm', 'cinnm_c + nadph_c + o2_c -> T4hcinnm_c + nadp_c + h2o_c');
+sacc_model_nat = addReaction(sacc_model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_nat = addReaction(sacc_model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+
+%sacc_model_nat = addReaction(sacc_model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + nadph_c + o2_c -> 34dhcinm_c + nadp_c + h2o_c');
+
+% aux?
+sacc_model_nat = addReaction(sacc_model_nat,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_nat = addReaction(sacc_model_nat,'added_aux_fad','fad_m <=> fad_c');
+
+sacc_model_nat = addReaction(sacc_model_nat,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
+sacc_model_nat = addReaction(sacc_model_nat,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
+
+% finales
+sacc_model_nat = addFixedRxns(sacc_model_nat, '1');
+
+% FBA
+FBAsolution_nat = optimizeCbModel(sacc_model_nat,'max');
+F_nat = FBAsolution_nat.f;
 
 % Analisis para ruta 2.1/3.1 - 01_01
 

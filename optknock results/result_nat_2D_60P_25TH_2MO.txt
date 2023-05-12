@@ -1,0 +1,205 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.6 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS IPPSm 
+Obj: 9.860532
+Biomass: 5.655967
+Max prod: 6.030418
+Min prod: 6.030418
+Max growth: 7.469860
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS 3C3HMPtm 
+Obj: 6.172267
+Biomass: 7.419052
+Max prod: 6.030418
+Min prod: 6.030418
+Max growth: 7.469860
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACS TRDRDtp 
+Obj: 5.032648
+Biomass: 7.860416
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ACS COAtim 
+Obj: 5.866853
+Biomass: 7.461055
+Max prod: 4.455553
+Min prod: 4.455553
+Max growth: 8.093648
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ACS ACACT1m 
+Obj: 4.645452
+Biomass: 8.023971
+Max prod: 4.455553
+Min prod: 4.455553
+Max growth: 8.093648
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: ACS HMGCOAtm 
+Obj: 5.165130
+Biomass: 7.800379
+Max prod: 4.455553
+Min prod: 4.455553
+Max growth: 8.093648
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: AHCYStm ACS 
+Obj: 4.528247
+Biomass: 5.655967
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 8------------------------
+Rxns: PGK 
+Obj: 5.768950
+Biomass: 5.655967
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.561096
+Type: growth coupled
+---------------------Resultado 9------------------------
+Rxns: ACS HMGCOASm 
+Obj: 4.504376
+Biomass: 8.079863
+Max prod: 4.455553
+Min prod: 4.455553
+Max growth: 8.093648
+Type: growth coupled
+---------------------Resultado 10------------------------
+Rxns: ACS HDCEAt 
+Obj: 4.348422
+Biomass: 8.141968
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 11------------------------
+Rxns: ACCOACrm ACS 
+Obj: 4.191503
+Biomass: 8.204156
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 12------------------------
+Rxns: ACS CSNATm 
+Obj: 4.191503
+Biomass: 8.204156
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 13------------------------
+Rxns: ACS MTRI 
+Obj: 4.750343
+Biomass: 7.955037
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 14------------------------
+Rxns: ACS H2Otp 
+Obj: 4.191504
+Biomass: 8.204156
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 15------------------------
+Rxns: PPBNGS 
+Obj: 10.600847
+Biomass: 5.655967
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 16------------------------
+Rxns: ACS H2Otm 
+Obj: 4.191503
+Biomass: 8.204156
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 17------------------------
+Rxns: GALUi MTHFC 
+Obj: 8.749757
+Biomass: 5.655967
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.333901
+Type: growth coupled
+---------------------Resultado 18------------------------
+Rxns: ACS MDHp 
+Obj: 4.260757
+Biomass: 8.176712
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 19------------------------
+Rxns: ACS 
+Obj: 5.807497
+Biomass: 7.563505
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 20------------------------
+Rxns: ACtm ALDD2y 
+Obj: 3.974023
+Biomass: 8.282940
+Max prod: 3.790375
+Min prod: 3.790375
+Max growth: 8.356207
+Type: growth coupled
+---------------------Resultado 21------------------------
+Rxns: CYTK1 PIt2m 
+Obj: 2.042220
+Biomass: 8.307746
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.662204
+Type: growth coupled
+---------------------Resultado 22------------------------
+Rxns: ALDD2y FTHFLi 
+Obj: 2.060737
+Biomass: 9.028381
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.421890
+Type: growth coupled
+---------------------Resultado 23------------------------
+Rxns: NDPK5 PIt2m 
+Obj: 7.589730
+Biomass: 5.655967
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.664423
+Type: growth coupled
+---------------------Resultado 24------------------------
+Rxns: FACOAL181 
+Obj: 2.449144
+Biomass: 5.655967
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 25------------------------
+Rxns: 5AOPtm PIt2m 
+Obj: 2.252378
+Biomass: 8.234108
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.664423
+Type: growth coupled

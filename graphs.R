@@ -29,8 +29,8 @@ extract_value <- function(s) {
   return(value)
 }
 
-for (f in files_01_2d) {
-  filename <- paste(model_01_2d_path, f, sep = "/")
+for (f in files_01_1d) {
+  filename <- paste(model_01_1d_path, f, sep = "/")
   con <- file(filename, open = 'r',encoding = "UTF-8")
   lines <- readLines(con)
   for (line in lines) {
@@ -45,8 +45,8 @@ for (f in files_01_2d) {
   close(con)
 }
 
-for (f in files_nat_2d) {
-  filename <- paste(model_nat_2d_path, f, sep = "/")
+for (f in files_nat_1d) {
+  filename <- paste(model_nat_1d_path, f, sep = "/")
   con <- file(filename, open = 'r',encoding = "UTF-8")
   lines <- readLines(con)
   for (line in lines) {
@@ -65,6 +65,7 @@ percent_01 <- function(x){ x/bm_flux_01*100}
 percent_nat <- function(x){ x/bm_flux_nat*100}
 biomass_01 <- lapply(biomass_01, percent_01)
 biomass_nat <- lapply(biomass_nat, percent_nat)
-plot(objs_01,biomass_01,main = "4'-O-methylnorbelladine fluxes by biomass percentage with 2 knockouts", xlab = "4'-O-methylnorbelladine flux", ylab = "Biomass %", pch=17, col="blue", cex = 1.15 )
+plot(objs_01,biomass_01,main = "4'-O-methylnorbelladine fluxes by biomass percentage with 1 knockout", xlab = "4'-O-methylnorbelladine flux",
+     ylab = "Biomass %", pch=17, col="blue", cex = 1.15 )
 points(objs_nat, biomass_nat, col="red",pch=19, cex = 1.15)
 legend("topright", legend = c("01_01","NAT"), pch = c(17,19), col=c("blue","red"), cex = 2, horiz = TRUE)

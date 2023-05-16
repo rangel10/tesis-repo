@@ -11,3 +11,4 @@ Max prod: 1.000000
 Min prod: 1.000000
 Max growth: 9.452571
 Type: growth coupled
+

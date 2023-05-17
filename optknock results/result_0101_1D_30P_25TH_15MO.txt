@@ -1,0 +1,13 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.3 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: FA140ACPHi 
+Obj: 15.000000
+Biomass: 4.485431
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

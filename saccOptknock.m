@@ -50,10 +50,10 @@ model_nat = addFixedRxns(model_nat, '1');
 % parametros
 threshold = 25;
 numDel = 2;
-percent = 0.9;
-minObj = 5;
+percent = 0.3;
+minObj = 2;
 
-model_test = model_nat;
+model_test = model_01_01;
 fba = optimizeCbModel(model_test,'max');
 fluxb = fba.f;
 %rxns = model_test.rxns;
@@ -63,7 +63,7 @@ exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')
 rxns = setdiff(model_test.rxns, exchangeRxns);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_nat_2D_90P_25TH_5MO.txt','w');
+fid = fopen('optknock results/result_0101_2D_30P_25TH_2MO.txt','w');
 
 % Optknock
 fprintf(fid,'\n\n**********************Resultados 01_01: %i deletions, %g biomass, %i runs, %g min objective********************\n\n',numDel, percent, threshold, minObj);
@@ -99,4 +99,5 @@ end
 %singleProductionEnvelope(model_test,result.rxnList,'added_EX_4omet_e',biomass,showPlot=true);
 
 % cerrar archivo de resultados
+fprintf(fid,'\n');
 fclose(fid);

@@ -1,0 +1,21 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.7 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: UMPKn 
+Obj: 5.001925
+Biomass: 7.965245
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CSNATp 
+Obj: 5.000349
+Biomass: 7.965843
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

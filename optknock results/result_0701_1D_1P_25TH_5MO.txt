@@ -1,0 +1,13 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.01 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ATPS3m 
+Obj: 5.000000
+Biomass: 3.114062
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 4.047519
+Type: growth coupled

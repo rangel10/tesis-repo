@@ -49,9 +49,9 @@ model_nat = addFixedRxns(model_nat, '1');
 
 % parametros
 threshold = 25;
-numDel = 2;
-percent = 0.1;
-minObj = 2;
+numDel = 1;
+percent = 0.01;
+minObj = 25;
 
 model_test = model_nat;
 fba = optimizeCbModel(model_test,'max');
@@ -63,7 +63,7 @@ exchangeRxns = model_test.rxns(cellfun(@isempty, strfind(model_test.rxns, 'EX_')
 rxns = setdiff(model_test.rxns, exchangeRxns);
 
 % abrir archivo de resultados
-fid = fopen('optknock results/result_nat_2D_10P_25TH_2MO.txt','w');
+fid = fopen('optknock results/result_nat_1D_1P_25TH_25MO.txt','w');
 
 % Optknock
 fprintf(fid,'\n\n**********************Resultados nat: %i deletions, %g biomass, %i runs, %g min objective********************\n\n',numDel, percent, threshold, minObj);

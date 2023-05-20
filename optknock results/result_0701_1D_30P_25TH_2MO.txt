@@ -1,0 +1,69 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.3 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS 
+Obj: 4.220990
+Biomass: 8.261872
+Max prod: 4.218606
+Min prod: 4.218606
+Max growth: 8.257204
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: PYRDC 
+Obj: 2.000000
+Biomass: 9.079923
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.434861
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: DAGPYP_SC 
+Obj: 2.000054
+Biomass: 9.083141
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.438872
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: VALt2m 
+Obj: 2.000000
+Biomass: 9.083852
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: PIt2m 
+Obj: 2.000000
+Biomass: 8.342304
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.673304
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: NH4ti 
+Obj: 2.000000
+Biomass: 9.083852
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: GAPD 
+Obj: 2.000000
+Biomass: 7.204944
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.575003
+Type: growth coupled
+---------------------Resultado 8------------------------
+Rxns: GLUt5m 
+Obj: 2.000000
+Biomass: 9.083852
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

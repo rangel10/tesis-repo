@@ -1,0 +1,85 @@
+
+
+**********************Resultados nat: 2 deletions, 0.4 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: CSND H2Otp 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: H2Otp FMNAT 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: COAtim GTPCI 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.422486
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: MALtm MDHm 
+Obj: 15.062868
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.032436
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: H2Otp 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: ALASm ADCS 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: ACtr PPA 
+Obj: 15.033056
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.315857
+Type: growth coupled
+---------------------Resultado 8------------------------
+Rxns: ADHAPR_SC PPA 
+Obj: 15.033056
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.315857
+Type: growth coupled
+---------------------Resultado 9------------------------
+Rxns: AMETtm MDRPD 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 10------------------------
+Rxns: HACD6p THZPSN1_SC 
+Obj: 15.336327
+Biomass: 3.770645
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled

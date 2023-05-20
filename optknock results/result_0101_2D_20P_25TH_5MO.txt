@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.2 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: DDPA 
+Obj: 5.019149
+Biomass: 8.039337
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CHOLK HMGCOAS 
+Obj: 6.028443
+Biomass: 7.681321
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: CO2t GLCtv 
+Obj: 5.003333
+Biomass: 4.089081
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 5.308726
+Type: growth coupled

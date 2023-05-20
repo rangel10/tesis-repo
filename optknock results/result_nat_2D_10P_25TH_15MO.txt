@@ -1,0 +1,13 @@
+
+
+**********************Resultados nat: 2 deletions, 0.1 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: PLBP1I_SCe PPBNGS 
+Obj: 15.003084
+Biomass: 3.903318
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled

@@ -1,0 +1,45 @@
+
+
+**********************Resultados nat: 3 deletions, 0.5 biomass, 5 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS PC TRDRDtp 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS PC UPP3S 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACS H2Otp PC 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ACS GTPCI PC 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ACS PC ZYMSTt 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled

@@ -1,0 +1,85 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.1 biomass, 25 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS PC 
+Obj: 12.540804
+Biomass: 5.068425
+Max prod: 12.533719
+Min prod: 12.533719
+Max growth: 5.065562
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CHLPCTD NDPK3 
+Obj: 10.000000
+Biomass: 6.053532
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.430129
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACCOACrm GLUt7m 
+Obj: 10.034116
+Biomass: 5.971407
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.350634
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ATPS3m 
+Obj: 13.996931
+Biomass: 0.943959
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 4.047519
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ACACT6p GLUt7m 
+Obj: 10.034116
+Biomass: 5.971407
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.350634
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: H2Otp FRTT 
+Obj: 10.220079
+Biomass: 5.975592
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: ASPt2m UNK3 
+Obj: 10.089336
+Biomass: 6.025691
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 8------------------------
+Rxns: FRTT MTRI 
+Obj: 10.000016
+Biomass: 6.059749
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 9------------------------
+Rxns: DHFS 5AOPtm 
+Obj: 11.911682
+Biomass: 5.330163
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 10------------------------
+Rxns: FBA FDH 
+Obj: 10.000057
+Biomass: 6.059766
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

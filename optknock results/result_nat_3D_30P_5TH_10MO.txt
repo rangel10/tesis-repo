@@ -1,0 +1,45 @@
+
+
+**********************Resultados nat: 3 deletions, 0.3 biomass, 5 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ADA G6PI RBK 
+Obj: 17.294226
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS 3C3HMPtm PC 
+Obj: 17.676785
+Biomass: 2.827983
+Max prod: 12.980520
+Min prod: 12.980520
+Max growth: 4.684924
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACS IPPSm PC 
+Obj: 17.304481
+Biomass: 2.827983
+Max prod: 12.980520
+Min prod: 12.980520
+Max growth: 4.684924
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ACS BPNT PC 
+Obj: 17.586032
+Biomass: 2.827983
+Max prod: 12.210290
+Min prod: 12.210290
+Max growth: 4.934846
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: ACS HMGCOAtm PC 
+Obj: 17.676590
+Biomass: 2.827983
+Max prod: 12.375637
+Min prod: 12.375637
+Max growth: 4.922883
+Type: growth coupled

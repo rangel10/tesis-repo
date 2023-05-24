@@ -79,8 +79,8 @@ read_files <- function(path, bm_base) {
 }
 
 # Data
-data_01 <- read_files(model_01_2d_path, bm_flux_01)
-data_nat <- read_files(model_nat_2d_path, bm_flux_nat)
+data_01 <- read_files(model_01_3d_path, bm_flux_01)
+data_nat <- read_files(model_nat_3d_path, bm_flux_nat)
 data_07 <- read_files(model_07_2d_path, bm_flux_07)
 
 objs_01 <- data_01[1][[1]]
@@ -134,4 +134,5 @@ R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=3))
 #        col=c("blue","red","blue","red"), cex=1.25, lty=c(-1,-1,1,1), ncol=2, lwd=2)
 
 # Frequency
-barplot(rxns_01.top10$Frequency, names.arg = rxns_01.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3")
+barplot(rxns_01.top10$Frequency, names.arg = rxns_01.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3", 
+        main = "Most frequent reactions knocked out in pathway 01_1 with 3 deletions constraint")

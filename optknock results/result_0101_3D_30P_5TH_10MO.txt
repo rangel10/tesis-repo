@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.3 biomass, 5 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: AHSERL2 PPBNGS PSERS_SC 
+Obj: 16.839764
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.446353
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ADCL DGK1 TRDOXtp 
+Obj: 13.701500
+Biomass: 4.947923
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452440
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: NH4tm PStm_SC PYRDC 
+Obj: 10.008639
+Biomass: 6.007333
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.434810
+Type: growth coupled

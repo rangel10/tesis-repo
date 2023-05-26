@@ -1,0 +1,29 @@
+
+
+**********************Resultados nat: 3 deletions, 0.3 biomass, 5 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS LNS14DMx PC 
+Obj: 17.676739
+Biomass: 2.827983
+Max prod: 12.277031
+Min prod: 12.277031
+Max growth: 4.961820
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS 3C3HMPtm PC 
+Obj: 14.350437
+Biomass: 4.147252
+Max prod: 12.980520
+Min prod: 12.980520
+Max growth: 4.684924
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: ACS IPPSm PC 
+Obj: 17.674570
+Biomass: 2.827983
+Max prod: 12.980520
+Min prod: 12.980520
+Max growth: 4.684924
+Type: growth coupled

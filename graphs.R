@@ -107,21 +107,21 @@ df_07 <- data.frame(objs_07, biomass_07)
 lm_01 <- lm(biomass_01~objs_01, df_01)
 lm_nat <- lm(biomass_nat~objs_nat, df_nat)
 lm_07 <- lm(biomass_07~objs_07, df_07)
-R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=3))
-R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=3))
-R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=3))
+R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=4))
+R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=4))
+R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
 
 # Plot
-# plot(objs_01, biomass_01, main = "4'-O-methylnorbelladine fluxes by biomass percentage with 3 knockouts", xlab = "4'-O-methylnorbelladine flux",
-#      ylab = "Biomass %", pch=20, col="blue", cex = 1.25, xlim = c(2,26), ylim = c(10,100))
-# points(objs_nat, biomass_nat, col="red",pch=20, cex = 1.25)
+plot(objs_01, biomass_01, main = "4'-O-methylnorbelladine fluxes by biomass percentage with 3 knockouts", xlab = "4'-O-methylnorbelladine flux",
+     ylab = "Biomass %", pch=20, col="blue", cex = 1.25, xlim = c(2,26), ylim = c(10,100))
+points(objs_nat, biomass_nat, col="red",pch=20, cex = 1.25)
 # points(objs_07, biomass_07, col="darkgreen", pch=20, cex=1.25)
-# axis(side=2,at=seq(10,100,10))
-# axis(side=1,at=c(2,5,10,15,20,25))
-# abline(lm_01, col="blue", lwd=2)
-# text(23, 70, R2_01, col="blue", cex=1)
-# abline(lm_nat, col="red", lwd=2)
-# text(23, 65, R2_nat, col="red", cex=1)
+axis(side=2,at=seq(10,100,10))
+axis(side=1,at=c(2,5,10,15,20,25))
+abline(lm_01, col="blue", lwd=2)
+text(23, 70, R2_01, col="blue", cex=1)
+abline(lm_nat, col="red", lwd=2)
+text(23, 65, R2_nat, col="red", cex=1)
 # abline(lm_07, col="darkgreen", lwd=2)
 # text(23, 60, R2_07, col="darkgreen", cex=1)
 
@@ -130,9 +130,9 @@ R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=3))
 #      col=c("blue","red","darkgreen","blue","red","darkgreen"), cex=1.25, lty=c(-1,-1,-1,1,1,1), ncol=2, lwd=2)
 
 # 3 deletions
-# legend("topright", legend = c("01_1","NAT","01_1","NAT"), pch = c(20,20,-1,-1), 
-#        col=c("blue","red","blue","red"), cex=1.25, lty=c(-1,-1,1,1), ncol=2, lwd=2)
+legend("topright", legend = c("01_1","NAT","01_1","NAT"), pch = c(20,20,-1,-1),
+       col=c("blue","red","blue","red"), cex=1.25, lty=c(-1,-1,1,1), ncol=2, lwd=2)
 
 # Frequency
-barplot(rxns_01.top10$Frequency, names.arg = rxns_01.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3", 
-        main = "Most frequent reactions knocked out in pathway 01_1 with 3 deletions constraint")
+# barplot(rxns_01.top10$Frequency, names.arg = rxns_01.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3", 
+#         main = "Most frequent reactions knocked out in pathway 01_1 with 3 deletions constraint")

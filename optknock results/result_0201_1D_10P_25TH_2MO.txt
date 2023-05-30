@@ -1,0 +1,29 @@
+
+
+**********************Resultados 02_01: 1 deletions, 0.1 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: 3C3HMPtm 
+Obj: 2.000000
+Biomass: 9.033746
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.399927
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: FA182ACPtm 
+Obj: 2.000000
+Biomass: 9.060612
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.428054
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: MTHFD 
+Obj: 2.000000
+Biomass: 9.056783
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.428054
+Type: growth coupled

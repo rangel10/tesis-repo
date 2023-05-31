@@ -1,0 +1,37 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.1 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ASPTAm TYRt2m 
+Obj: 15.098535
+Biomass: 4.113849
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: G3PDm NADK 
+Obj: 15.002398
+Biomass: 4.150135
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: AMETtm 
+Obj: 17.895452
+Biomass: 3.014543
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: PPYRDC SUCD1m 
+Obj: 17.522430
+Biomass: 3.014543
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

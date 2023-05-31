@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.7 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: HMGCOAS 
+Obj: 5.000000
+Biomass: 7.883766
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: HACD10p 
+Obj: 5.000000
+Biomass: 7.883766
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: AHSERL2 
+Obj: 5.000000
+Biomass: 7.878245
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.420742
+Type: growth coupled

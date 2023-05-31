@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.3 biomass, 5 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ATPtp_H PLBPC_SCe TRDRDtp 
+Obj: 19.606326
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACtm GLUDy PYK 
+Obj: 15.001149
+Biomass: 3.480112
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.726307
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: 4MOPDC G6PI3 TRDOXtp 
+Obj: 19.413892
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: FACOAL120p HACD8p SSALy 
+Obj: 19.630955
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: FA182ACPH H2Otp NADH2_u6cm 
+Obj: 19.630955
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled

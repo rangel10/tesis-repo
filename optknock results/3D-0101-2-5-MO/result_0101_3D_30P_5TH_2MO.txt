@@ -1,0 +1,29 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.3 biomass, 5 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: CATp DASYN_SC PIt2m 
+Obj: 2.974083
+Biomass: 7.123301
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.770112
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CITtam MTHFC PC 
+Obj: 2.286173
+Biomass: 7.225807
+Max prod: 2.284828
+Min prod: 2.284828
+Max growth: 7.221556
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: GLUt7m PSERDm_SC 
+Obj: 2.310860
+Biomass: 8.907531
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.363105
+Type: growth coupled

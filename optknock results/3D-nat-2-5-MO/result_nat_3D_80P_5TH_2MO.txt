@@ -1,0 +1,45 @@
+
+
+**********************Resultados nat: 3 deletions, 0.8 biomass, 5 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS CRNCARtp CRNtp 
+Obj: 5.864234
+Biomass: 7.541289
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS ADMDC ACACT1m 
+Obj: 5.863534
+Biomass: 7.541289
+Max prod: 4.455553
+Min prod: 4.455553
+Max growth: 8.093648
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: GLYAT H2Otp NADPPPSm 
+Obj: 5.864227
+Biomass: 7.541289
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ACS HCO3tn THIORDXp 
+Obj: 5.864234
+Biomass: 7.541289
+Max prod: 4.189135
+Min prod: 4.189135
+Max growth: 8.199521
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: CATp 3MOPDC GF6PTA 
+Obj: 5.864234
+Biomass: 7.541289
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled

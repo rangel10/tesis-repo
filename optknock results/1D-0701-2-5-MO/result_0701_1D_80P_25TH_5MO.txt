@@ -1,0 +1,13 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.8 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: BPNT 
+Obj: 5.000675
+Biomass: 7.880029
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.339515
+Type: growth coupled

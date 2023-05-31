@@ -1,0 +1,61 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.9 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ALATA_L 
+Obj: 2.000000
+Biomass: 9.048950
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.420378
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CATp 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: TRDOXtp 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: SRB_Lt 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: PC 
+Obj: 2.000000
+Biomass: 8.857252
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.217803
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: NH4ti 
+Obj: 2.000000
+Biomass: 9.054713
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: GHMT2r 
+Obj: 2.000000
+Biomass: 8.859642
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.270056
+Type: growth coupled

@@ -1,0 +1,37 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.5 biomass, 5 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: AHSERL2 CATp MTRI 
+Obj: 6.247486
+Biomass: 7.572933
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.446685
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ALAtmi G3PT H2Otp 
+Obj: 4.163010
+Biomass: 8.345834
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: MDRPD PIt2m PSERS_SC 
+Obj: 10.207134
+Biomass: 4.726285
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.769556
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: GAPD HCO3E MTHFD2i 
+Obj: 2.726363
+Biomass: 6.986421
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.595089
+Type: growth coupled

@@ -1,0 +1,21 @@
+
+
+**********************Resultados 01_01: 2 deletions, 0.1 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: AHCYStm GTPCI 
+Obj: 15.020359
+Biomass: 4.477724
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ATPS3m FACOAL161 
+Obj: 15.000000
+Biomass: 1.015443
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 4.047519
+Type: growth coupled

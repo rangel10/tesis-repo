@@ -1,0 +1,45 @@
+
+
+**********************Resultados 01_01: 3 deletions, 0.3 biomass, 5 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: GTHS MEVK1 MEVK2 
+Obj: 5.035564
+Biomass: 8.027743
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: CTPtm MDHm PIt2m 
+Obj: 11.686998
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 5.486957
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: H2Otp FMNAT PGM 
+Obj: 11.007444
+Biomass: 2.835771
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.508028
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: ALATA_Lm FAS140COA PYK 
+Obj: 10.750756
+Biomass: 5.421798
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.597656
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: KYN FUMm PGM 
+Obj: 5.030478
+Biomass: 6.702862
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.170589
+Type: growth coupled

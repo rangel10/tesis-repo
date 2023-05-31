@@ -1,0 +1,45 @@
+
+
+**********************Resultados nat: 3 deletions, 0.3 biomass, 5 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: GALUi HBZOPT6m TRDRDtp 
+Obj: 17.702777
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: COAtim 4MOPDC GTHS 
+Obj: 17.704068
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.422486
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: 3MOPDC 5AOPtm PIt2p 
+Obj: 17.704068
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: COAtim NDPK5 RNDR2 
+Obj: 17.703972
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.422355
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: CHLSTI ERGSTESTH_SCe MDRPD 
+Obj: 17.703985
+Biomass: 2.827983
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426526
+Type: growth coupled

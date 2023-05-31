@@ -1,0 +1,13 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.1 biomass, 25 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: TRDOXtp 
+Obj: 10.001516
+Biomass: 6.059209
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

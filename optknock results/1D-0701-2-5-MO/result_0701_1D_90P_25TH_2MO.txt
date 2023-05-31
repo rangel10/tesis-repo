@@ -1,0 +1,13 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.9 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: D_LACtm 
+Obj: 2.000000
+Biomass: 9.083852
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

@@ -1,0 +1,101 @@
+
+
+**********************Resultados 07_01: 2 deletions, 0.6 biomass, 25 runs, 10 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: FAS160COA 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: DPCOAK NTD10 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: GCALDt THIORDXp 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: EHGLATm 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: GLUDy PPA 
+Obj: 10.069018
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.061503
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: ATPtp_H PIN4K_SC 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 7------------------------
+Rxns: AKGDbm PPA 
+Obj: 10.026670
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.888521
+Type: growth coupled
+---------------------Resultado 8------------------------
+Rxns: FUMm PPA 
+Obj: 10.045405
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.888521
+Type: growth coupled
+---------------------Resultado 9------------------------
+Rxns: ADMDC E4Ptm 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 10------------------------
+Rxns: PPA SUCOASm 
+Obj: 10.045405
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.888521
+Type: growth coupled
+---------------------Resultado 11------------------------
+Rxns: HACD8p RBFKm 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled
+---------------------Resultado 12------------------------
+Rxns: TRPTA TYRNFT 
+Obj: 11.037643
+Biomass: 5.663755
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.439591
+Type: growth coupled

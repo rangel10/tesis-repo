@@ -1,0 +1,30 @@
+
+
+**********************Resultados 01_01: 1 deletions, 0.7 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: FACOAL161 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: 4HGLSDm 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: NH4ti 
+Obj: 2.000000
+Biomass: 9.109811
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.452571
+Type: growth coupled
+

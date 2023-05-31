@@ -1,0 +1,13 @@
+
+
+**********************Resultados nat: 1 deletions, 0.2 biomass, 25 runs, 15 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: GAPD 
+Obj: 15.001058
+Biomass: 1.889243
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.561096
+Type: growth coupled

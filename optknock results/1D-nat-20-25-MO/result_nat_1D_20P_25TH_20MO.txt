@@ -1,0 +1,13 @@
+
+
+**********************Resultados nat: 1 deletions, 0.2 biomass, 25 runs, 20 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: SERt2m 
+Obj: 20.002085
+Biomass: 1.885322
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.425913
+Type: growth coupled

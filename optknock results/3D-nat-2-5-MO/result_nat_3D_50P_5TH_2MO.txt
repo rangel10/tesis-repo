@@ -1,0 +1,21 @@
+
+
+**********************Resultados nat: 3 deletions, 0.5 biomass, 5 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS GPDDA1 PC 
+Obj: 12.922495
+Biomass: 4.713306
+Max prod: 12.277111
+Min prod: 12.277111
+Max growth: 4.961852
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: ACS COAtim PC 
+Obj: 12.922058
+Biomass: 4.713306
+Max prod: 12.375637
+Min prod: 12.375637
+Max growth: 4.922883
+Type: growth coupled

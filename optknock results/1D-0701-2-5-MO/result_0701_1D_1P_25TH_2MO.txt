@@ -1,0 +1,53 @@
+
+
+**********************Resultados 07_01: 1 deletions, 0.01 biomass, 25 runs, 2 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: ACS 
+Obj: 4.220990
+Biomass: 8.261872
+Max prod: 4.218606
+Min prod: 4.218606
+Max growth: 8.257204
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: BPNT 
+Obj: 2.018383
+Biomass: 8.980972
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.339515
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: DAGPYP_SC 
+Obj: 2.017977
+Biomass: 9.076662
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.438872
+Type: growth coupled
+---------------------Resultado 4------------------------
+Rxns: AKGDbm 
+Obj: 2.019177
+Biomass: 8.649026
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.003003
+Type: growth coupled
+---------------------Resultado 5------------------------
+Rxns: PYK 
+Obj: 2.000000
+Biomass: 8.267483
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 8.595487
+Type: growth coupled
+---------------------Resultado 6------------------------
+Rxns: ALDD2y 
+Obj: 2.018205
+Biomass: 9.074245
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.434861
+Type: growth coupled

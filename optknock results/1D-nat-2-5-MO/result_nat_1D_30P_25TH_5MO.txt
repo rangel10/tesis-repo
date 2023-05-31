@@ -1,0 +1,29 @@
+
+
+**********************Resultados nat: 1 deletions, 0.3 biomass, 25 runs, 5 min objective********************
+
+
+---------------------Resultado 1------------------------
+Rxns: FAS140 
+Obj: 5.001826
+Biomass: 7.883043
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 2------------------------
+Rxns: GLCtv 
+Obj: 5.001898
+Biomass: 7.883014
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 9.426611
+Type: growth coupled
+---------------------Resultado 3------------------------
+Rxns: GAPD 
+Obj: 5.000000
+Biomass: 5.982852
+Max prod: 1.000000
+Min prod: 1.000000
+Max growth: 7.561096
+Type: growth coupled

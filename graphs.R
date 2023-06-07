@@ -116,8 +116,8 @@ read_files <- function(path, bm_base) {
 }
 
 # Data
-data_01 <- read_files(model_01_3d_path, bm_flux_01)
-data_nat <- read_files(model_nat_3d_path, bm_flux_nat)
+data_01 <- read_files(model_01_2d_path, bm_flux_01)
+data_nat <- read_files(model_nat_2d_path, bm_flux_nat)
 data_07 <- read_files(model_07_2d_path, bm_flux_07)
 
 objs_01 <- data_01$Objs
@@ -156,8 +156,8 @@ df_07_hig_bm <- subset(data_07, Biomass >= bm_flux_07*0.7)
 
 # Apply filters
 data_01 <- df_01_hig_objs
-data_nat <- df_nat_hig_bm
-data_07 <- df_07_hig_bm
+data_nat <- df_nat_hig_objs
+data_07 <- df_07_hig_objs
 
 # Top ranked
 rxns_01 <- get_frequencies(data_01)
@@ -169,36 +169,36 @@ rxns_nat.top10 <- rxns_nat[order(rxns_nat$Frequency, decreasing=TRUE),][1:10,]
 rxns_07.top10 <- rxns_07[order(rxns_07$Frequency, decreasing=TRUE),][1:10,]
 
 # Linear Regression
-formula <- Objs~Biomass
-# lm_01 <- lm(formula, data_01)
-# lm_nat <- lm(formula, data_nat)
-# lm_07 <- lm(formula, data_07)
-# R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=4))
-# R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=4))
-# R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
+formula <- Biomass~Objs
+lm_01 <- lm(formula, data_01)
+lm_nat <- lm(formula, data_nat)
+lm_07 <- lm(formula, data_07)
+R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=4))
+R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=4))
+R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
 
 # Plot
-# plot( data_01$Biomass, data_01$Objs, main = "Biomass flux by 4'-O-methylnorbelladine flux with 3 knockouts", ylab = "4'-O-methylnorbelladine flux",
-#      xlab = "Biomass flux", pch=20, col="blue", cex = 1.25, ylim = c(2,26), xlim = c(0,10))
-# points( data_nat$Biomass, data_nat$Objs, col="red",pch=20, cex = 1.25)
-# points( data_07$Objs, data_07$Biomass,  col="darkgreen", pch=20, cex=1.25)
+# plot( data_01$Objs, data_01$Biomass, main = "4'-O-methylnorbelladine flux by Biomass flux with 3 knockouts", xlab = "4'-O-methylnorbelladine flux",
+#      ylab = "Biomass flux", pch=20, col="blue", cex = 1.5, xlim = c(2,26), ylim = c(0,10), cex.main=2, cex.lab=1.4, cex.axis=1.3)
+# points( data_nat$Objs,data_nat$Biomass,  col="red",pch=20, cex = 1.5)
+# points( data_07$Objs, data_07$Biomass,  col="darkgreen", pch=20, cex=1.5)
 # # axis(side=2,at=seq(10,100,10))
 # # axis(side=1,at=c(2,5,10,15,20,25))
 # abline(lm_01, col="blue", lwd=2)
-# text(9, 15, R2_01, col="blue", cex=1)
+# text(23, 6, R2_01, col="blue", cex=1.25)
 # abline(lm_nat, col="red", lwd=2)
-# text(9, 14, R2_nat, col="red", cex=1)
+# text(23, 5, R2_nat, col="red", cex=1.25)
 # abline(lm_07, col="darkgreen", lwd=2)
-# text(23, 5, R2_07, col="darkgreen", cex=1)
+# text(23, 4, R2_07, col="darkgreen", cex=1.25)
 
 # 2 and 1 deletions
 # legend("topright", legend = c("01_1","NAT","07_1","01_1","NAT","07_1"), pch = c(20,20,20,-1,-1,-1),
-#      col=c("blue","red","darkgreen","blue","red","darkgreen"), cex=1.25, lty=c(-1,-1,-1,1,1,1), ncol=2, lwd=2)
+#      col=c("blue","red","darkgreen","blue","red","darkgreen"), cex=1.5, lty=c(-1,-1,-1,1,1,1), ncol=2, lwd=2)
 
 # 3 deletions
 # legend("topright", legend = c("01_1","NAT","01_1","NAT"), pch = c(20,20,-1,-1),
-#        col=c("blue","red","blue","red"), cex=1.25, lty=c(-1,-1,1,1), ncol=2, lwd=2)
+#        col=c("blue","red","blue","red"), cex=1.5, lty=c(-1,-1,1,1), ncol=2, lwd=2)
 
 # Frequency
 barplot(rxns_07.top10$Frequency, names.arg = rxns_07.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3",
-        main = "Most frequent reactions knocked out in pathway 07_1 with 2 deletions constraint")
+        main = "Most frequent knocked reactions in pathway 07_1 with 2 deletions constraint", cex.main=2, cex.lab=1.4, cex.axis=1.3)

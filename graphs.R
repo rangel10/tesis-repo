@@ -155,9 +155,9 @@ df_07_med_bm <- subset(data_07, Biomass >= bm_flux_07*0.3 & Biomass < bm_flux_07
 df_07_hig_bm <- subset(data_07, Biomass >= bm_flux_07*0.7)
 
 # Apply filters
-data_01 <- df_01_hig_objs
-data_nat <- df_nat_hig_objs
-data_07 <- df_07_hig_objs
+data_01 <- df_01_low_objs
+data_nat <- df_nat_low_objs
+data_07 <- df_07_low_objs
 
 # Top ranked
 rxns_01 <- get_frequencies(data_01)
@@ -200,5 +200,6 @@ R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
 #        col=c("blue","red","blue","red"), cex=1.5, lty=c(-1,-1,1,1), ncol=2, lwd=2)
 
 # Frequency
-barplot(rxns_07.top10$Frequency, names.arg = rxns_07.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3",
-        main = "Most frequent knocked reactions in pathway 07_1 with 2 deletions constraint", cex.main=2, cex.lab=1.4, cex.axis=1.3)
+barplot(rxns_nat.top10$Frequency, names.arg = rxns_nat.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3",
+        main = "Most frequent knockouts for low objective flux for NAT pathway",
+        cex.main=2, cex.lab=1.4, cex.axis=1.3)

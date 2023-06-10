@@ -12,7 +12,7 @@ sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 
 % Exportar xls de modelo con condiciones iniciales
 % outmodel = writeCbModel(sacc_model_b, 'xls','sacc_model_a.xls');
-outmodel = writeCbModel(sacc_model_b, 'sbml','sacc_model_a.xml');
+% outmodel = writeCbModel(sacc_model_b, 'sbml','sacc_model_a.xml');
 
 
 % Analisis modelo base con condiciones iniciales
@@ -60,6 +60,29 @@ sacc_model_nat = addFixedRxns(sacc_model_nat, '1');
 % FBA
 FBAsolution_nat = optimizeCbModel(sacc_model_nat,'max');
 F_nat = FBAsolution_nat.f;
+
+% Nativa 2
+sacc_model_nat2 = addReaction(sacc_model_b, 'added_Largn_phe__L', 'Largn_c + h_c -> co2_c + phe__L_c + h2o_c');
+sacc_model_nat2 = addReaction(sacc_model_nat2, 'added_phe__L_cinnm', 'phe__L_c -> cinnm_c + nh4_c');
+sacc_model_nat2 = addReaction(sacc_model_nat2, 'added_cinnm_T4hcinnm', 'cinnm_c + nadph_c + o2_c -> T4hcinnm_c + nadp_c + h2o_c');
+sacc_model_nat2 = addReaction(sacc_model_nat2,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_c + o2_c -> 34dhcinm_c + fad_c + h2o_c + h_c');
+%sacc_model_nat = addReaction(sacc_model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + fadh2_m + o2_c -> 34dhcinm_c + fad_m + h2o_c + h_c');
+
+%sacc_model_nat = addReaction(sacc_model_nat,'added_T4hcinnm_34dhcinm','T4hcinnm_c + nadph_c + o2_c -> 34dhcinm_c + nadp_c + h2o_c');
+
+% aux?
+sacc_model_nat2 = addReaction(sacc_model_nat2,'added_aux_fadh2','fadh2_m <=> fadh2_c');
+sacc_model_nat2 = addReaction(sacc_model_nat2,'added_aux_fad','fad_m <=> fad_c');
+
+sacc_model_nat2 = addReaction(sacc_model_nat2,'added_34dhcinm_caffcoa','34dhcinm_c + atp_c + coa_c -> caffcoa_c + amp_c + ppi_c');
+sacc_model_nat2 = addReaction(sacc_model_nat2,'added_caffcoa_34dhbald','caffcoa_c + h2o_c -> 34dhbald_c + accoa_c');
+
+% finales
+sacc_model_nat2 = addFixedRxns(sacc_model_nat2, '2');
+
+% FBA
+FBAsolution_nat2 = optimizeCbModel(sacc_model_nat2,'max');
+F_nat2 = FBAsolution_nat2.f;
 
 % Analisis para ruta 2.1/3.1 - 01_01
 

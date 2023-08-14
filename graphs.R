@@ -1,5 +1,6 @@
 # Load Libraries
-# library(dplyr)
+library(ggplot2)
+library(dplyr)
 
 # Paths
 model_01_1d_path <- "/home/tato/Documentos/GitHub/tesis-repo/optknock results/1D-0101"
@@ -42,6 +43,16 @@ model_07_2d_20_25_MO_path <- "/home/tato/Documentos/GitHub/tesis-repo/optknock r
 bm_flux_01 <- 9.4526
 bm_flux_nat <- 9.4266
 bm_flux_07 <- 9.4396
+bm_fluc_avg <- 9.4396
+
+bmf_01_res <- c(bm_flux_01*0.1, bm_flux_01*0.2, bm_flux_01*0.3, bm_flux_01*0.4, bm_flux_01*0.5, bm_flux_01*0.6, bm_flux_01*0.7, bm_flux_01*0.8, bm_flux_01*0.9)
+bmf_07_res <- c(bm_flux_07*0.1, bm_flux_07*0.2, bm_flux_07*0.3, bm_flux_07*0.4, bm_flux_07*0.5, bm_flux_07*0.6, bm_flux_07*0.7, bm_flux_07*0.8, bm_flux_07*0.9)
+bmf_nat_res <- c(bm_flux_nat*0.1, bm_flux_nat*0.2, bm_flux_nat*0.3, bm_flux_nat*0.4, bm_flux_nat*0.5, bm_flux_nat*0.6, bm_flux_nat*0.7, bm_flux_nat*0.8, bm_flux_nat*0.9)
+
+bmf_01_res3 <- c(bm_flux_01*0.3, bm_flux_01*0.5, bm_flux_01*0.8)
+bmf_07_res3 <- c(bm_flux_07*0.3, bm_flux_07*0.5, bm_flux_07*0.8)
+bmf_nat_res3 <- c(bm_flux_nat*0.3, bm_flux_nat*0.5, bm_flux_nat*0.8)
+
 
 # Colors
 # const_01_2 <- "#0E0091"
@@ -106,12 +117,12 @@ read_files <- function(path, bm_base) {
         df_data[nrow(df_data), "Objs"] <- value
       } else if (startsWith(line, "Biomass")) {
         value <- extract_value(line)
+        value <- value/bm_base*100
         df_data[nrow(df_data), "Biomass"] <- value
       }
     }
     close(con)
   }
-  #biomass <- lapply(biomass, function(x){x/bm_base*100})
   return(df_data)
 }
 
@@ -131,59 +142,91 @@ biomass_07 <- data_07$Biomass
 
 # Filtered data
 df_01_low_objs <- subset(data_01, Objs < 10)
-df_01_med_objs <- subset(data_01, Objs >= 10 & Objs < 20)
+df_01_mod_objs <- subset(data_01, Objs >= 10 & Objs < 20)
 df_01_hig_objs <- subset(data_01, Objs >= 20)
 
 df_nat_low_objs <- subset(data_nat, Objs < 10)
-df_nat_med_objs <- subset(data_nat, Objs >= 10 & Objs < 20)
+df_nat_mod_objs <- subset(data_nat, Objs >= 10 & Objs < 20)
 df_nat_hig_objs <- subset(data_nat, Objs >= 20)
 
 df_07_low_objs <- subset(data_07, Objs < 10)
-df_07_med_objs <- subset(data_07, Objs >= 10 & Objs < 20)
+df_07_mod_objs <- subset(data_07, Objs >= 10 & Objs < 20)
 df_07_hig_objs <- subset(data_07, Objs >= 20)
 
 df_01_low_bm <- subset(data_01, Biomass < bm_flux_01*0.3)
-df_01_med_bm <- subset(data_01, Biomass >= bm_flux_01*0.3 & Biomass < bm_flux_01*0.7)
+df_01_mod_bm <- subset(data_01, Biomass >= bm_flux_01*0.3 & Biomass < bm_flux_01*0.7)
 df_01_hig_bm <- subset(data_01, Biomass >= bm_flux_01*0.7)
 
 df_nat_low_bm <- subset(data_nat, Biomass < bm_flux_nat*0.3)
-df_nat_med_bm <- subset(data_nat, Biomass >= bm_flux_nat*0.3 & Biomass < bm_flux_nat*0.7)
+df_nat_mod_bm <- subset(data_nat, Biomass >= bm_flux_nat*0.3 & Biomass < bm_flux_nat*0.7)
 df_nat_hig_bm <- subset(data_nat, Biomass >= bm_flux_nat*0.7)
 
 df_07_low_bm <- subset(data_07, Biomass < bm_flux_07*0.3)
-df_07_med_bm <- subset(data_07, Biomass >= bm_flux_07*0.3 & Biomass < bm_flux_07*0.7)
+df_07_mod_bm <- subset(data_07, Biomass >= bm_flux_07*0.3 & Biomass < bm_flux_07*0.7)
 df_07_hig_bm <- subset(data_07, Biomass >= bm_flux_07*0.7)
 
 # Apply filters
-data_01 <- df_01_low_objs
-data_nat <- df_nat_low_objs
-data_07 <- df_07_low_objs
 
 # Top ranked
-rxns_01 <- get_frequencies(data_01)
-rxns_nat <- get_frequencies(data_nat)
-rxns_07 <- get_frequencies(data_07)
+rxns_01_low <- get_frequencies(df_01_low_objs)
+rxns_01_mod <- get_frequencies(df_01_mod_objs)
+rxns_01_hig <- get_frequencies(df_01_hig_objs)
 
-rxns_01.top10 <- rxns_01[order(rxns_01$Frequency, decreasing=TRUE),][1:10,]
-rxns_nat.top10 <- rxns_nat[order(rxns_nat$Frequency, decreasing=TRUE),][1:10,]
-rxns_07.top10 <- rxns_07[order(rxns_07$Frequency, decreasing=TRUE),][1:10,]
+rxns_07_low <- get_frequencies(df_07_low_objs)
+rxns_07_mod <- get_frequencies(df_07_mod_objs)
+rxns_07_hig <- get_frequencies(df_07_hig_objs)
+
+rxns_nat_low <- get_frequencies(df_nat_low_objs)
+rxns_nat_mod <- get_frequencies(df_nat_mod_objs)
+rxns_nat_hig <- get_frequencies(df_nat_hig_objs)
+
+rxns_01_low.top10 <- rxns_01_low[order(rxns_01_low$Frequency, decreasing=TRUE),][1:10,]
+rxns_01_mod.top10 <- rxns_01_mod[order(rxns_01_mod$Frequency, decreasing=TRUE),][1:10,]
+rxns_01_hig.top10 <- rxns_01_hig[order(rxns_01_hig$Frequency, decreasing=TRUE),][1:10,]
+
+rxns_07_low.top10 <- rxns_07_low[order(rxns_07_low$Frequency, decreasing=TRUE),][1:10,]
+rxns_07_mod.top10 <- rxns_07_mod[order(rxns_07_mod$Frequency, decreasing=TRUE),][1:10,]
+rxns_07_hig.top10 <- rxns_07_hig[order(rxns_07_hig$Frequency, decreasing=TRUE),][1:10,]
+
+rxns_nat_low.top10 <- rxns_nat_low[order(rxns_nat_low$Frequency, decreasing=TRUE),][1:10,]
+rxns_nat_mod.top10 <- rxns_nat_mod[order(rxns_nat_mod$Frequency, decreasing=TRUE),][1:10,]
+rxns_nat_hig.top10 <- rxns_nat_hig[order(rxns_nat_hig$Frequency, decreasing=TRUE),][1:10,]
+
+lowCategory <- sample('Low',10,replace=TRUE)
+modCategory <- sample('Moderate',10,replace=TRUE)
+higCategory <- sample('High',10,replace=TRUE)
+
+rxns_01_low.top10$Category <- lowCategory
+rxns_01_mod.top10$Category <- modCategory
+rxns_01_hig.top10$Category <- higCategory
+
+rxns_07_low.top10$Category <- lowCategory
+rxns_07_mod.top10$Category <- modCategory
+rxns_07_hig.top10$Category <- higCategory
+
+rxns_nat_low.top10$Category <- lowCategory
+rxns_nat_mod.top10$Category <- modCategory
+rxns_nat_hig.top10$Category <- higCategory
 
 # Linear Regression
-formula <- Biomass~Objs
-lm_01 <- lm(formula, data_01)
-lm_nat <- lm(formula, data_nat)
-lm_07 <- lm(formula, data_07)
-R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=4))
-R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=4))
-R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
+# formula <- Biomass~Objs
+# lm_01 <- lm(formula, data_01)
+# lm_nat <- lm(formula, data_nat)
+# lm_07 <- lm(formula, data_07)
+# R2_01 <- paste0("01_1  R² = ", signif(summary(lm_01)$r.squared, digits=4))
+# R2_nat <- paste0("NAT   R² = ", signif(summary(lm_nat)$r.squared, digits=4))
+# R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
 
 # Plot
-# plot( data_01$Objs, data_01$Biomass, main = "4'-O-methylnorbelladine flux by Biomass flux with 3 knockouts", xlab = "4'-O-methylnorbelladine flux",
-#      ylab = "Biomass flux", pch=20, col="blue", cex = 1.5, xlim = c(2,26), ylim = c(0,10), cex.main=2, cex.lab=1.4, cex.axis=1.3)
+# plot( x=0, main = "4OMET flux by Biomass flux percentage with 3 knockouts", xlab = "4OMET flux (mmol/gDW*hr)",
+#      ylab = "Biomass flux %", xlim = c(2,26), ylim = c(0,100), cex.main=2, cex.lab=1.4, cex.axis=1.3)
+# abline(v=c(2,5,10,15,20,25), col="#54e8ff", lty=3,lwd=2)  
+# abline(h=c(30,50,80), col="#54e8ff", lty=3, lwd=2)
+# points( data_01$Objs, data_01$Biomass,  col="blue", pch=20, cex=1.5)
+# #points( data_07$Objs, data_07$Biomass,  col="darkgreen", pch=20, cex=1.5)
 # points( data_nat$Objs,data_nat$Biomass,  col="red",pch=20, cex = 1.5)
-# points( data_07$Objs, data_07$Biomass,  col="darkgreen", pch=20, cex=1.5)
-# # axis(side=2,at=seq(10,100,10))
-# # axis(side=1,at=c(2,5,10,15,20,25))
+# axis(side=2,at=seq(10,100,10))
+# axis(side=1,at=c(2,5,10,15,20,25), cex.axis=1.3)
 # abline(lm_01, col="blue", lwd=2)
 # text(23, 6, R2_01, col="blue", cex=1.25)
 # abline(lm_nat, col="red", lwd=2)
@@ -191,15 +234,39 @@ R2_07 <- paste0("07_1  R² = ", signif(summary(lm_07)$r.squared, digits=4))
 # abline(lm_07, col="darkgreen", lwd=2)
 # text(23, 4, R2_07, col="darkgreen", cex=1.25)
 
+# abline(h=bmf_01_res, col="#34b7eb", lty=3,lwd=2)
+# abline(h=bmf_nat_res, col="#9649cc", lty=3,lwd=2)
+# abline(h=bmf_07_res, col="#a6a43c", lty=3,lwd=2)
+
 # 2 and 1 deletions
-# legend("topright", legend = c("01_1","NAT","07_1","01_1","NAT","07_1"), pch = c(20,20,20,-1,-1,-1),
-#      col=c("blue","red","darkgreen","blue","red","darkgreen"), cex=1.5, lty=c(-1,-1,-1,1,1,1), ncol=2, lwd=2)
+# legend("topright", legend = c("01_1","NAT"), pch = c(20,20,20),
+#      col=c("blue","red"), cex=1.5, lty=c(-1,-1,-1), ncol=1, lwd=2)
 
 # 3 deletions
 # legend("topright", legend = c("01_1","NAT","01_1","NAT"), pch = c(20,20,-1,-1),
 #        col=c("blue","red","blue","red"), cex=1.5, lty=c(-1,-1,1,1), ncol=2, lwd=2)
 
 # Frequency
-barplot(rxns_nat.top10$Frequency, names.arg = rxns_nat.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3",
-        main = "Most frequent knockouts for low objective flux for NAT pathway",
-        cex.main=2, cex.lab=1.4, cex.axis=1.3)
+# barplot(rxns_nat.top10$Frequency, names.arg = rxns_nat.top10$Reaction, xlab = "Reactions", ylab = "Frequency", col = "chartreuse3",
+#         main = "Most frequent knockouts in low objective flux for NAT",
+#         cex.main=2, cex.lab=1.4, cex.axis=1.3)
+
+categories <- c('Low', 'High','Moderate')
+
+# Merges
+rxns_01.top10 <- merge(rxns_01_hig.top10, rxns_01_low.top10, all=TRUE)
+rxns_01.top10 <- merge(rxns_01.top10, rxns_01_mod.top10, all=TRUE)
+
+rxns_07.top10 <- merge(rxns_07_hig.top10, rxns_07_low.top10, all=TRUE)
+rxns_07.top10 <- merge(rxns_07.top10, rxns_07_mod.top10, all=TRUE)
+
+rxns_nat.top10 <- merge(rxns_nat_hig.top10, rxns_nat_low.top10, all=TRUE)
+rxns_nat.top10 <- merge(rxns_nat.top10, rxns_nat_mod.top10, all=TRUE)
+
+formula_01 <- rxns_01.top10$Frequency ~ rxns_01.top10$Category
+formula_07 <- rxns_07.top10$Frequency ~ rxns_07.top10$Category
+formula_nat <- rxns_nat.top10$Frequency ~ rxns_nat.top10$Category
+
+stripchart(formula_01, pch=18, method='stack', jitter=0.3, vertical=TRUE, col=c('red','darkgreen','blue'), ylab='Frequency', main='Most frequent knockouts in 01_1',
+           cex.main=2, cex.lab=1.4, cex.axis=1.3, cex=1.5)
+

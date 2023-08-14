@@ -2,6 +2,8 @@
 changeCobraSolver('glpk','all');
 % Leer modelo
 sacc_model = readCbModel('iMM904.mat');
+ecoli_model1 = readCbModel('iECW_1372.mat');
+ecoli_model2 = readCbModel('iWFL_1372.mat');
 
 % exportar xls de modelo base
 %outmodel = writeCbModel(sacc_model, 'xls','sacc_model.xls');
@@ -13,7 +15,8 @@ sacc_model_b = changeRxnBounds(sacc_model_b,'EX_o2_e',-1000,'l');
 % Exportar xls de modelo con condiciones iniciales
 % outmodel = writeCbModel(sacc_model_b, 'xls','sacc_model_a.xls');
 % outmodel = writeCbModel(sacc_model_b, 'sbml','sacc_model_a.xml');
-
+outmodel_ecoli1 = writeCbModel(ecoli_model1, 'xls', 'ecoli_model_iECW.xls');
+outmodel_ecoli2 = writeCbModel(ecoli_model2, 'xls', 'ecoli_model_iWFL.xls');
 
 % Analisis modelo base con condiciones iniciales
 FBAsolution_b = optimizeCbModel(sacc_model_b,'max');

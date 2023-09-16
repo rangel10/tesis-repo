@@ -208,6 +208,18 @@ rxns_nat_low.top10$Category <- lowCategory
 rxns_nat_mod.top10$Category <- modCategory
 rxns_nat_hig.top10$Category <- higCategory
 
+rxns_01_low$Category <- sample('Low',length(rxns_01_low$Reaction),replace=TRUE)
+rxns_01_mod$Category <- sample('Moderate',length(rxns_01_mod$Reaction),replace=TRUE)
+rxns_01_hig$Category <- sample('High',length(rxns_01_hig$Reaction),replace=TRUE)
+
+rxns_07_low$Category <- sample('Low',length(rxns_07_low$Reaction),replace=TRUE)
+rxns_07_mod$Category <- sample('Moderate',length(rxns_07_mod$Reaction),replace=TRUE)
+rxns_07_hig$Category <- sample('High',length(rxns_07_hig$Reaction),replace=TRUE)
+
+rxns_nat_low$Category <- sample('Low',length(rxns_nat_low$Reaction),replace=TRUE)
+rxns_nat_mod$Category <- sample('Moderate',length(rxns_nat_mod$Reaction),replace=TRUE)
+rxns_nat_hig$Category <- sample('High',length(rxns_nat_hig$Reaction),replace=TRUE)
+
 # Linear Regression
 # formula <- Biomass~Objs
 # lm_01 <- lm(formula, data_01)
@@ -267,6 +279,19 @@ formula_01 <- rxns_01.top10$Frequency ~ rxns_01.top10$Category
 formula_07 <- rxns_07.top10$Frequency ~ rxns_07.top10$Category
 formula_nat <- rxns_nat.top10$Frequency ~ rxns_nat.top10$Category
 
-stripchart(formula_01, pch=18, method='stack', jitter=0.3, vertical=TRUE, col=c('red','darkgreen','blue'), ylab='Frequency', main='Most frequent knockouts in 01_1',
-           cex.main=2, cex.lab=1.4, cex.axis=1.3, cex=1.5)
+rxns_01 <- merge(rxns_01_hig, rxns_01_low, all=TRUE)
+rxns_01 <- merge(rxns_01, rxns_01_mod, all=TRUE)
+
+rxns_07 <- merge(rxns_07_hig, rxns_07_low, all=TRUE)
+rxns_07 <- merge(rxns_07, rxns_07_mod, all=TRUE)
+
+rxns_nat <- merge(rxns_nat_hig, rxns_nat_low, all=TRUE)
+rxns_nat <- merge(rxns_nat, rxns_nat_mod, all=TRUE)
+
+formula_01_all <- rxns_01$Frequency ~ rxns_01$Category
+formula_07_all <- rxns_07$Frequency ~ rxns_07$Category
+formula_nat_all <- rxns_nat$Frequency ~ rxns_nat$Category
+
+stripchart(formula_07_all, pch=18, method='jitter', jitter=0.4, vertical=TRUE, col=c('red','darkgreen','blue'), ylab='Frequency', 
+           main='Frequency of knocked out reactions in 07_1', cex.main=2, cex.lab=1.4, cex.axis=1.4, cex=1.5)
 

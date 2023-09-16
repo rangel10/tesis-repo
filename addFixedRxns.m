@@ -25,12 +25,12 @@ function [final_model] = addFixedRxns(model, tym_path)
     %
     % EX_4omet_e
     % * 4omet_e ->
-    final_model = addReaction(model,'added_tyr__L_tym', 'tyr__L_c + h_c -> tym_c + co2_c');
-    final_model = addReaction(final_model,'added_tym_34dhbald_norcrg','tym_c + 34dhbald_c -> norcrg_c + h2o_c + h_c');
-    final_model = addReaction(final_model,'added_norcrg_norbell','norcrg_c + nadph_c + h_c -> norbell_c + nadp_c');
-    final_model = addReaction(final_model,'added_norbell_4omet','amet_c + norbell_c -> 4omet_c + ahcys_c + h_c');
-    final_model = addReaction(final_model,'added_aux_4omet','4omet_c <=> 4omet_e');
-    final_model = addReaction(final_model,'added_EX_4omet_e','4omet_e -> ');
+    final_model = addReaction(model, 'added_tyr__L_tym', 'tyr__L_c + h_c -> tym_c + co2_c');
+    final_model = addReaction(final_model,'added_tym_34dhbald_norcrg', 'tym_c + 34dhbald_c -> norcrg_c + h2o_c + h_c');
+    final_model = addReaction(final_model,'added_norcrg_norbell', 'norcrg_c + nadph_c + h_c -> norbell_c + nadp_c');
+    final_model = addReaction(final_model,'added_norbell_4omet', 'amet_c + norbell_c -> 4omet_c + ahcys_c + h_c');
+    final_model = addReaction(final_model,'added_aux_4omet', '4omet_c <=> 4omet_e');
+    final_model = addReaction(final_model,'added_EX_4omet_e', '4omet_e -> ');
 
 % 3-(4-Hydroxyphenyl)pyruvate
         % 3.1) 2dda7p -> 3dhq <=> 3dhsk <=> skm -> skm3p <=> 3psme -> chor <=> pphn -> 34hpp <=> tyr__L -> tym

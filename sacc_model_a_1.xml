@@ -1240,6 +1240,13 @@
       <species metaid="M_zymst_e" id="M_zymst_e" name="Zymosterol C27H44O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C27H44O"/>
       <species metaid="M_zymstest_SC_c" id="M_zymstest_SC_c" name="Zymosterol ester  yeast specific C1694H2993O101" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1694H2993O101"/>
       <species metaid="M_zymstest_SC_e" id="M_zymstest_SC_e" name="Zymosterol ester  yeast specific C1694H2993O101" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1694H2993O101"/>
+      <species metaid="M_34dhbz_c" id="M_34dhbz_c" name="34dhbz_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_34dhbald_c" id="M_34dhbald_c" name="34dhbald_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_tym_c" id="M_tym_c" name="tym_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_norcrg_c" id="M_norcrg_c" name="norcrg_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_norbell_c" id="M_norbell_c" name="norbell_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_4omet_c" id="M_4omet_c" name="4omet_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_4omet_e" id="M_4omet_e" name="4omet_e" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000625" id="FB1N999999" value="-999999" constant="true"/>
@@ -22111,6 +22118,85 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="R_added_3dhsk_34dhbz" id="R_added_3dhsk_34dhbz" name="added_3dhsk_34dhbz" reversible="false" fast="false" fbc:lowerFluxBound="FB4N0" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_3dhsk_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_34dhbz_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_34dhbz_34dhbald" id="R_added_34dhbz_34dhbald" name="added_34dhbz_34dhbald" reversible="true" fast="false" fbc:lowerFluxBound="FB1N999999" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_34dhbz_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_34dhbald_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_tyr__L_tym" id="R_added_tyr__L_tym" name="added_tyr__L_tym" reversible="false" fast="false" fbc:lowerFluxBound="FB4N0" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tyr__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tym_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_tym_34dhbald_norcrg" id="R_added_tym_34dhbald_norcrg" name="added_tym_34dhbald_norcrg" reversible="false" fast="false" fbc:lowerFluxBound="FB4N0" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_34dhbald_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tym_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_norcrg_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_norcrg_norbell" id="R_added_norcrg_norbell" name="added_norcrg_norbell" reversible="false" fast="false" fbc:lowerFluxBound="FB4N0" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_norcrg_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_norbell_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_norbell_4omet" id="R_added_norbell_4omet" name="added_norbell_4omet" reversible="false" fast="false" fbc:lowerFluxBound="FB4N0" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_norbell_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_4omet_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_aux_4omet" id="R_added_aux_4omet" name="added_aux_4omet" reversible="true" fast="false" fbc:lowerFluxBound="FB1N999999" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_4omet_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_4omet_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_added_EX_4omet_e" id="R_added_EX_4omet_e" name="added_EX_4omet_e" reversible="false" fast="false" fbc:lowerFluxBound="FB5N1" fbc:upperFluxBound="FB6N999999">
+        <listOfReactants>
+          <speciesReference species="M_4omet_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -24842,6 +24928,18 @@
           <groups:member groups:idRef="R_TRPTRSm"/>
           <groups:member groups:idRef="R_TYRTRS"/>
           <groups:member groups:idRef="R_TYRTRSm"/>
+        </groups:listOfMembers>
+      </groups:group>
+      <groups:group sboTerm="SBO:0000633" groups:id="group61" groups:name="added" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_added_3dhsk_34dhbz"/>
+          <groups:member groups:idRef="R_added_34dhbz_34dhbald"/>
+          <groups:member groups:idRef="R_added_tyr__L_tym"/>
+          <groups:member groups:idRef="R_added_tym_34dhbald_norcrg"/>
+          <groups:member groups:idRef="R_added_norcrg_norbell"/>
+          <groups:member groups:idRef="R_added_norbell_4omet"/>
+          <groups:member groups:idRef="R_added_aux_4omet"/>
+          <groups:member groups:idRef="R_added_EX_4omet_e"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
